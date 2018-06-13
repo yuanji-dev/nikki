@@ -4,6 +4,7 @@ title = "熊ノ介のブログ"
 theme = "minimal"
 disqusShortname = "gimome" # delete this to disable disqus comments
 googleAnalytics = "UA-50840195-1"
+hasCJKLanguage = true
 
 [params]
     author = "熊ノ介"
