@@ -18,6 +18,7 @@ enableGitInfo = true
     highlight = true
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "python",]
+    ghrepo = "https://github.com/masakichi/nikki"
 
 [[menu.main]]
     url = "/"
@@ -44,12 +45,12 @@ enableGitInfo = true
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/masakichi/"
+    url = "https://github.com/masakichi"
     name = "github"
     weight = 2
 
 [[menu.icon]]
-    url = "https://twitter.com/gimo_me/"
+    url = "https://twitter.com/gimo_me"
     name = "twitter"
     weight = 3
 
@@ -59,6 +60,6 @@ enableGitInfo = true
     weight = 4
 
 [[menu.icon]]
-    url = "https://instagram.com/gimo_me/"
+    url = "https://instagram.com/gimo_me"
     name = "instagram"
     weight = 5
