@@ -1,16 +1,17 @@
 baseURL = "https://gimo.me/"
 languageCode = "en-us"
-title = "熊ノ介のブログ"
+title = "熊之介の日記"
 theme = "minimal"
 disqusShortname = "gimome" # delete this to disable disqus comments
 googleAnalytics = "UA-50840195-1"
 hasCJKLanguage = true
+enableGitInfo = true
 
 [params]
-    author = "熊ノ介"
+    author = "熊之介"
     description = "面白いことをたくさんしたい"
     githubUsername = "masakichi"
-    accent = "blue"
+    accent = "#6699CC"
     showBorder = true
     backgroundColor = "white"
     font = "Noto Serif" # should match the name on Google Fonts!
