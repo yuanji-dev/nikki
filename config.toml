@@ -1,6 +1,6 @@
 baseURL = "https://gimo.me/"
-languageCode = "en-us"
-title = "熊之介の日記"
+languageCode = "zh-cmn-Hans"
+title = "熊之介的日记"
 theme = "minimal"
 disqusShortname = "gimome" # delete this to disable disqus comments
 googleAnalytics = "UA-50840195-1"
@@ -9,7 +9,7 @@ enableGitInfo = true
 
 [params]
     author = "熊之介"
-    description = "面白いことをたくさんしたい"
+    description = ""
     githubUsername = "masakichi"
     accent = "#6699CC"
     showBorder = true
@@ -22,17 +22,17 @@ enableGitInfo = true
 
 [[menu.main]]
     url = "/"
-    name = "ホーム"
+    name = "主页"
     weight = 1
 
 [[menu.main]]
-    url = "/post/"
-    name = "日記"
+    url = "/posts/"
+    name = "日记"
     weight = 2
 
 [[menu.main]]
-    url = "/project/"
-    name = "プロジェクト"
+    url = "/projects/"
+    name = "项目"
     weight = 3
 
 # Social icons to be shown on the right-hand side of the navigation bar
