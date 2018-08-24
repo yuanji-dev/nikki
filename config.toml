@@ -19,6 +19,7 @@ enableGitInfo = true
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "python",]
     ghrepo = "https://github.com/masakichi/nikki"
+    dateFormat = "2006-01-02"
 
 [[menu.main]]
     url = "/"
@@ -63,3 +64,15 @@ enableGitInfo = true
     url = "https://instagram.com/gimo_me"
     name = "instagram"
     weight = 5
+
+[related]
+    threshold = 80
+
+[[related.indices]]
+    name  = "tags"
+    weight = 100
+
+[[related.indices]]
+    name  = "date"
+    weight = 10
+    pattern = "2006"
