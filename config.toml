@@ -7,6 +7,9 @@ googleAnalytics = "UA-50840195-1"
 hasCJKLanguage = true
 enableGitInfo = true
 
+[blackfriday]
+    hrefTargetBlank = true
+
 [params]
     author = "熊之介"
     description = ""
