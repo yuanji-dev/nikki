@@ -17,7 +17,6 @@ enableGitInfo = true
     accent = "#6699CC"
     showBorder = true
     backgroundColor = "white"
-    font = "Noto Serif" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "python",]
