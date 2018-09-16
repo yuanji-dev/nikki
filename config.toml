@@ -14,14 +14,13 @@ enableGitInfo = true
     author = "熊之介"
     description = ""
     githubUsername = "masakichi"
-    accent = "#6699CC"
     showBorder = true
-    backgroundColor = "white"
+    backgroundColor = "#F6F6F6"
     highlight = true
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "python",]
     ghrepo = "https://github.com/masakichi/nikki"
-    dateFormat = "2006-01-02"
+    dateFormat = "2006/01/02"
 
 [[menu.main]]
     url = "/"
