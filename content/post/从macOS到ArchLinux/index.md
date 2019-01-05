@@ -100,7 +100,7 @@ NotoColorEmoji.ttf: "Noto Color Emoji" "Regular"
 - 浏览器： `chromium`
 - 写代码： `neovim` & `visual-studio-code-bin`
 - 写文章： `typora ` & `hugo`
-- 及时通讯： `slack-desktop` & `telegram-desktop`
+- 即时通讯： `slack-desktop` & `telegram-desktop`
 - 文件管理：`pcmanfm` &  `dropbox` & `insync`
 - 密码管理： `enpass-bin`
 - 启动器： `rofi`
@@ -131,7 +131,7 @@ NotoColorEmoji.ttf: "Noto Color Emoji" "Regular"
 
 一般查 Arch 的 wiki 基本能找到解决方案，其他一些小问题的解决方案一般也能用搜索引擎找到。决定之后把遇到的问题和解决方案补充在这里，方便自查找。
 
-{{% admonition tip "安装盘在 MacBook Air 上没法用无线链接" %}}
+{{% admonition tip "安装盘在 MacBook Air 上没法用无线连接" %}}
 
 安装时用手机的 USB 热点给电脑用，然后安装 `broadcom-wl` 就行了。
 
