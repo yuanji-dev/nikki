@@ -24,9 +24,12 @@ url: "/post/from-macos-to-archlinux"
 
 其实过渡阶段用了一段时间 Manjaro 和 Antergos，因为日常还要工作所以决定尽快得先让系统能用起来，之后再进行配置。不过也从这两个系统中获取了不少有帮助的东西，主要是参考了一些 dotfiles 配置和软件的选择方面。
 
-不过最终还是换到 Arch Linux 上来了，Antergos 其实无非是个安装器加上一些官方源没有的软件而已，Manjaro 虽然对新手友好，但和 Arch 不同源这一点我觉得日后可能会造成不必要的麻烦。对我而言日常安装、使用熟练之后使用 Arch Linux 应该会减少更多出问题的风险。毕竟 Arch 丰富的 wiki 资源肯定和 Arch 系统自己最般配不是吗？包管理也非常好用，常用的软件官方几乎都有二进制包，另外还有 Arch Linux CN 的仓库可以用。没有二进制包的可以找或者自己写 PKGBUILD 自己编译，AUR 本身是 Arch 社区的产物，对 Arch 的支援应该是最好的，这也是我选择 Arch 而不是 Arch 派生的发行版的原因（其实主要还是觉得 Arch 的 LOGO 形状和颜色我很喜欢）。其实安装 Arch 一点儿也不麻烦，感觉经常被认为的麻烦不是说安装过程有多么复杂，而是选择困难带来的障碍。而 Antergos 也好、Manjaro 也好，不过是为用户做了这些选择而觉得方便而已。如果我们不直接用它们安装系统，而参考他们的配置和选择不就可以同时获得两方的好处了嘛。事实上，我现在用的 `i3-gaps` 的配置就是基于 Manjaro 社区的 i3 版本的配置修改的。
+不过最终还是换到 Arch Linux 上来了，Antergos 其实无非是个安装器加上一些官方源没有的软件而已，Manjaro 虽然对新手友好，但和 Arch 不同源这一点我觉得日后可能会造成不必要的麻烦。对我而言日常安装、使用熟练之后使用 Arch Linux 应该会减少更多出问题的风险。毕竟 Arch 丰富的 wiki 资源肯定和 Arch 系统自己最般配不是吗？包管理也非常好用，常用的软件官方几乎都有二进制包，另外还有 Arch Linux CN 的仓库可以用。没有二进制包的可以找或者自己写 PKGBUILD[^PKGBUILD] 自己编译，AUR[^AUR] 本身是 Arch 社区的产物，对 Arch 的支援应该是最好的，这也是我选择 Arch 而不是 Arch 派生的发行版的原因（其实主要还是觉得 Arch 的 LOGO 形状和颜色我很喜欢）。其实安装 Arch 一点儿也不麻烦，感觉经常被认为的麻烦不是说安装过程有多么复杂，而是选择困难带来的障碍。而 Antergos 也好、Manjaro 也好，不过是为用户做了这些选择而觉得方便而已。如果我们不直接用它们安装系统，而参考他们的配置和选择不就可以同时获得两方的好处了嘛。事实上，我现在用的 `i3-gaps` 的配置就是基于 Manjaro 社区的 i3 版本的配置修改的。
 
 基本上，从引导程序开始，到窗口管理，再到日常用的编辑器、浏览器等等每一样几乎都有好多种选择，从中选择自己喜欢的软件可以形成自己独一无二的风格，而这一点也是吸引我转向 Linux 的一个因素。当然啦，好奇心强的话一开始每种都试试会占用好多时间就是了。
+
+[^AUR]: [Arch User Repository](https://wiki.archlinux.org/index.php/Arch_User_Repository)
+[^PKGBUILD]: [PKGBUILD](https://wiki.archlinux.org/index.php/PKGBUILD)
 
 ## 配置系统
 
@@ -44,17 +47,17 @@ url: "/post/from-macos-to-archlinux"
 
 因为我只装 Arch Linux 系统也只需要支持启动 EFI 可执行程序。调查了一番，发现 systemd 自带一个，就毫不犹豫选择 `systemd-boot`。
 
-### DM[^1]
+### DM[^DM]
 
 选择了 `lightDM`。 倒也没有其他特别的原因，单纯感觉名字看起来的平衡感不错，也几乎是 0 配置的，搭配 Antergos 社区开发的那个主题 `lightdm-webkit-theme-archlinux` 就看起来还挺顺眼的。
 
-[^1]: [Display manager](https://wiki.archlinux.org/index.php/display_manager)
+[^DM]: [Display manager](https://wiki.archlinux.org/index.php/display_manager)
 
-### WM[^2]
+### WM[^WM]
 
 选择了 `i3-gaps`，之前也考虑过 KDE 或者 GNOME 等 DE，但感觉还是太重了，有很多自己不需要的功能。然后试了下 Manjaro 社区的 i3 版本，就感觉平铺的窗口管理还挺习惯，一方面可能也是我这个 11 寸的笔记本屏幕用平铺式的窗口管理比较合适。调整下快捷键的绑定搞成类 Vim 那一套就很符合直觉了，几天下来马上就接受了这个设定。刚上手时那种开个 terminal 只要 <kbd>Mod</kbd> + <kbd>Enter</kbd> 的感觉很不错。
 
-[^2]: [Window manager](https://wiki.archlinux.org/index.php/Window_manager)
+[^WM]: [Window manager](https://wiki.archlinux.org/index.php/Window_manager)
 
 ### 状态栏
 
