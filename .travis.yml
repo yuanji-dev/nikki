@@ -12,7 +12,12 @@ before_script:
   - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
   - sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
 
+git:
+  depth: false
+
 script:
+  # if not set quotepath false, hugo GitInfo feature will fail.
+  - git config core.quotepath false
   - hugo --minify
 
 deploy:
