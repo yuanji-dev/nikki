@@ -1,0 +1,29 @@
+language: go
+dist: xenial
+
+sudo: false
+
+env:
+  - HUGO_VERSION=0.53
+
+install: true
+
+before_script:
+  - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
+  - sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
+
+script:
+  - hugo --minify
+
+deploy:
+  provider: pages
+  local-dir: public
+  target-branch: gh-pages
+  committer-from-gh: true
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  fqdn: gimo.me
+  verbose: true
+  on:
+    branch: master

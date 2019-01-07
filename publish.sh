@@ -22,4 +22,4 @@ echo "Generating site"
 hugo --minify
 
 echo "Updating gh-pages branch"
-cd public && git add --all && git commit -m "Publishing to gh-pages"
+cd public && git add --all && git commit -m "Publishing to gh-pages" && cd ..
