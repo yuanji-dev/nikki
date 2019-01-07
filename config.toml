@@ -6,6 +6,7 @@ preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
 theme = "even"
+enableGitInfo = true
 
 # Syntax highlighting by Chroma. NOTE: Don't enable `highlightInClient` and `chroma` at the same time!
 pygmentsOptions = "linenos=table"
@@ -109,6 +110,8 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   #   (relative to /static/css and /static/js respectively)
   customCSS = []
   customJS = []
+
+  gitRepo = "https://github.com/masakichi/nikki"
 
   [params.publicCDN]        # load these files from public cdn                          # 启用公共CDN，需自行定义
     enable = true
