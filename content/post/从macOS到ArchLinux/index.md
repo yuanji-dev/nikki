@@ -176,6 +176,28 @@ ref: [VS Code messes with Linux places paths. VS Code is opened instead of syste
 
 {{% /admonition %}}
 
+{{% admonition tip "Enpass 二步验证同步出现问题" %}}
+
+查了下一般是系统时间没有自动同步导致的。直接 `timedatectl set-ntp true` 就行了。
+
+```shell
+$ timedatectl
+               Local time: Sun 2019-01-20 16:01:40 JST
+           Universal time: Sun 2019-01-20 07:01:40 UTC
+                 RTC time: Sun 2019-01-20 07:01:40
+                Time zone: Asia/Tokyo (JST, +0900)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no
+```
+
+ref:
+
+- [ OTP Sync MacOS, IOS and Windows failed for Windows](https://discussion.enpass.io/index.php?/topic/2126-otp-sync-macos-ios-and-windows-failed-for-windows/)
+- [systemd-timesyncd - ArchWiki](https://wiki.archlinux.org/index.php/systemd-timesyncd)
+
+{{% /admonition %}}
+
 {{% admonition warning "有没有一款较为完整地支持 EPUB 3.0 的阅读器。比如支持日语的縦書き" %}}
 
 **暂未找到**
