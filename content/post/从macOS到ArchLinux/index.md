@@ -198,6 +198,39 @@ ref:
 
 {{% /admonition %}}
 
+{{% admonition tip "MacBook Air 风扇一直转" %}}
+
+可以使用 `mbpfan-git` 这个包，然后配置 `/etc/mbpfan.conf`，我的配置如下，自带的注释有详细的设置方法。
+
+```ini
+[general]
+# see https://ineed.coffee/3838/a-beginners-tutorial-for-mbpfan-under-ubuntu for the values
+#
+# mbpfan will load the max / min speed of from the files produced by the applesmc driver. If these files are not found it will set all fans to the default of min_speed = 2000 and max_speed = 6200
+# by setting the values for the speeds in this config it will override whatever it finds in:
+# /sys/devices/platform/applesmc.768/fan*_min
+# /sys/devices/platform/applesmc.768/fan*_max
+# or the defaults.
+#
+# multiple fans can be configured by using the config key of min_fan*_speed and max_fan*_speed
+# the number used will correlate to the file number of the fan in the applesmc driver that are used to control the fan speed.
+#
+min_fan1_speed = 1200	# put the *lowest* value of "cat /sys/devices/platform/applesmc.768/fan*_min"
+max_fan1_speed = 6500	# put the *highest* value of "cat /sys/devices/platform/applesmc.768/fan*_max"
+low_temp = 63			# try ranges 55-63, default is 63
+high_temp = 66			# try ranges 58-66, default is 66
+max_temp = 100			# take highest number returned by "cat /sys/devices/platform/coretemp.*/hwmon/hwmon*/temp*_max", divide by 1000
+polling_interval = 7	# default is 1 seconds
+```
+
+最后让让这个服务跑起来就行了。
+
+```shell
+sudo systemctl enable --now mbpfan.service
+```
+
+{{% /admonition %}}
+
 {{% admonition warning "有没有一款较为完整地支持 EPUB 3.0 的阅读器。比如支持日语的縦書き" %}}
 
 **暂未找到**
