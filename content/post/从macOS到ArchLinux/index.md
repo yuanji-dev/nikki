@@ -77,21 +77,21 @@ url: "/post/from-macos-to-archlinux"
 $ fc-match -s serif | head -n 5
 SourceSerifPro-Regular.otf: "Source Serif Pro" "Regular"
 NotoColorEmoji.ttf: "Noto Color Emoji" "Regular"
-NotoSerifCJK-Regular.ttc: "Noto Serif CJK SC" "Regular"
-DejaVuSerif.ttf: "DejaVu Serif" "Book"
-DejaVuSerif-Bold.ttf: "DejaVu Serif" "Bold"
+NotoSerifCJK-Regular.ttc: "Noto Serif CJK JP" "Regular"
+NotoSerif-Regular.ttf: "Noto Serif" "Regular"
+SourceSansPro-Regular.otf: "Source Sans Pro" "Regular"
 $ fc-match -s sans-serif | head -n 5
 SourceSansPro-Regular.otf: "Source Sans Pro" "Regular"
 NotoColorEmoji.ttf: "Noto Color Emoji" "Regular"
-migu-1c-regular.ttf: "Migu 1C" "Regular"
-NotoSansCJK-Regular.ttc: "Noto Sans CJK SC" "Regular"
-DejaVuSans.ttf: "DejaVu Sans" "Book"
+SomcUDGothic-Regular.ttf: "ソニーモバイルUDゴシック Regular" "Regular"
+NotoSansCJK-Regular.ttc: "Noto Sans CJK JP" "Regular"
+NotoSans-Regular.ttf: "Noto Sans" "Regular"
 $ fc-match -s monospace | head -n 5
-Inconsolata-Regular.ttf: "Inconsolata" "Regular"
-migu-1c-regular.ttf: "Migu 1C" "Regular"
-Hack-Regular-Nerd-Font-Complete-Mono.ttf: "Hack Nerd Font Mono" "Regular"
-Hack-Italic-Nerd-Font-Complete-Mono.ttf: "Hack Nerd Font Mono" "Italic"
+InconsolataGo Nerd Font Complete Mono.ttf: "InconsolataGo Nerd Font Mono" "Regular"
+SomcUDGothic-Regular.ttf: "ソニーモバイルUDゴシック Regular" "Regular"
+NotoSansCJK-Regular.ttc: "Noto Sans Mono CJK JP" "Regular"
 NotoColorEmoji.ttf: "Noto Color Emoji" "Regular"
+NotoSansMono-Regular.ttf: "Noto Sans Mono" "Regular"
 ```
 
 {{% /admonition %}}
