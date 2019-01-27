@@ -60,8 +60,29 @@ AnkiConnect  是一个 Anki 插件，启动了一个本地服务器来对外暴�
 
 ## 电子阅读
 
-{{% admonition warning "之后补充" %}}
+简单地说就是在日本亚马逊买电子书，但不在 Kindle 里读。不仅不用 Kindle 阅读器读，也不用 Kindle 的 App。
 
-围绕 Kindle 去 DRM 展开
+{{% admonition question "为什么要这么做" %}}
+
+主要原因有两条
+
+1. Kindle 对版权限制太多（其实其他电子书平台也一样）。不能复制电子书里过多的文本，也不能导出过多的划线和批注。
+2. 只能用 Kindle 设备和软件阅读让人觉得限制太大，感觉不太灵活。我为什么不能用其他的阅读器阅读呢？我为什么不能本地保存一份电子书文本，以防哪天亚马逊不提供服务了我还能继续使用这本电子书？
 
 {{% /admonition %}}
+
+{{% admonition question "做得到吗" %}}
+
+调查了一圈，答案是肯定的。原理就是去 DRM[^DRM]（deDRM），就是把 Kindle 设备或者 Kindle App 自己下载的电子书文件去除 DRM，然后转成自己想要的通用格式，就可以在其他设备和软件上阅读了。其中如果有 Kindle 实体设备的话，deDRM 的过程应该是最简单的，装好 [Calibre](https://calibre-ebook.com/download) 和 [deDRM 插件](https://github.com/apprenticeharper/DeDRM_tools/tree/master/Obok_calibre_plugin)，配置好设备序列号，往 Calibre 里导入电子书的同时就直接吧 DRM 给去掉了，借助 Calibre 的电子书格式转换功能就能实现把通用格式的电子书保存在自己手里的愿望啦。[具体的教程](http://demikko-no-bibouroku.hatenablog.com/entry/2018/01/30/143650)想必互联网上有很多，稍微研究下应该就能实现。
+
+[^DRM]: [Digital rights management](https://en.wikipedia.org/wiki/Digital_rights_management)
+
+{{% /admonition %}}
+
+有了以上步骤，甚至可以把亚马逊上买来的电子书在 iBooks 里或者放在 Google 的 Play Books 里读啦。我自己的话选择转成了 EPUB 用 Play Books 来读，一来 [Google 可以免费提供存放 1000 本电子书的功能](https://support.google.com/googleplay/answer/3097151?hl=en-GB)（单本上限 100MB，支持 EPUB 和 PDF），二来在 Play Books 里阅读做的划线和批注甚至能生成一个 doc 放在 Google Drive 里，这样用浏览器打开再配合上文说到的 Yomichan 一键登录生词本。無敵だ！
+
+下面分别是上传到 Play Books 和存在本地的书目的部分截图，感觉还不赖吧。
+
+![play_books_overview](play_books_overview.png)
+
+![kindle_local_epubs](kindle_local_epubs.png)
