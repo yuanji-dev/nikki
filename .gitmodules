@@ -3,4 +3,4 @@
 	url = https://github.com/masakichi/minimal.git
 [submodule "themes/even"]
 	path = themes/even
-	url = https://github.com/masakichi/hugo-theme-even
+	url = https://github.com/olOwOlo/hugo-theme-even
