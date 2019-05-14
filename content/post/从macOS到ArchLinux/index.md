@@ -231,6 +231,31 @@ sudo systemctl enable --now mbpfan.service
 
 {{% /admonition %}}
 
+{{% admonition tip "Chromium 不定期卡死" %}}
+
+表现很奇怪，chromium 不定期会没法操作，如果在播放视频的话，声音还在继续。完全没法继续操作，我只能 `killall chromium`
+
+试了很多办法，换了 `google-chrome` 也是一样，最后把问题归结到 `xf86-video-intel` 这个包上面，让 `xorg-server` 使用 modesetting 驱动，就能解决问题了。
+不过这个问题只在我的 XPS 9370 上出现了，MacBook Air 没发现有这个问题，可能是我 XPS 的硬件（Intel(R) HD Graphics 620）比较新的缘故。
+
+解决方案直接删掉 `xf86-video-intel`，或者写个 X11 的配置文件，让 `xorg-server` 直接载入 modesetting 驱动即可。参考配置如下：
+
+```shell
+Section "Device"
+	Identifier 	"Intel Graphics"
+	Driver		"modesetting"
+	Option		"AccelMethod" "glamor"
+	Option		"DRI"	"3"
+EndSection
+```
+
+参考了下面两个 Issue 里提到的方法，虽然没有直接说是 Arch + Chromium，看描述应该是同一个问题。
+
+- [Videos freeze while audio continues to play in Chrome, Videos, etc. [$10] · Issue #121 · elementary/os](https://github.com/elementary/os/issues/121)
+- [Complete periodic freezes with intel graphics · Issue #4641 · qutebrowser/qutebrowser](https://github.com/qutebrowser/qutebrowser/issues/4641)
+
+{{% /admonition %}}
+
 {{% admonition warning "有没有一款较为完整地支持 EPUB 3.0 的阅读器。比如支持日语的縦書き" %}}
 
 **暂未找到**
