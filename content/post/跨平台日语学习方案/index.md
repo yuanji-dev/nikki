@@ -18,6 +18,8 @@ url: "/post/learning-japanese-cross-platform"
 - 生词本
 - 电子阅读
 
+<!--more-->
+
 ## 系统语言
 
 这个 Windows 也好 macOS 基本上都可以自己方便的选择，Linux 的情况一般把 `/etc/locale.gen` 里 `ja_JP.UTF-8 UTF-8` 前面的注释去掉，再次运行 `locale-gen` 重新生成再重启一下就行了。如果要把日语设成默认语言就把 `/etc/locale.gen` 里日语的优先顺位设成第一个就行了。
