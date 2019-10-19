@@ -37,11 +37,9 @@ url: "/post/from-macos-to-archlinux"
 
 先上一张 `neofetch` 输出的图好了。
 
-{{% center%}}
 
-![](neofetch.png)
+{{< figure src="neofetch.png" class="center" title="neofetch 输出" >}}
 
-{{% /center %}}
 
 ### 引导程序
 
@@ -128,7 +126,7 @@ NotoSansMono-Regular.ttf: "Noto Sans Mono" "Regular"
 
 附一张现在写这篇文章时候的截图。（写的时候其实会全屏 Typora）
 
-![](archlinux_desktop.png)
+{{< figure src="archlinux_desktop.png" class="center" title="Arch Linux 桌面截图" >}}
 
 ## 问题和解决
 
