@@ -1,7 +1,7 @@
 ---
 title: "Anki、最強の日本語暗記アプリ"
 date: 2019-03-17
-tags: ["日本語"]
+tags: ["日语"]
 isCJKLanguage: true
 draft: false
 url: "/post/anki-the-best-memory-app-for-learning-japanese"
