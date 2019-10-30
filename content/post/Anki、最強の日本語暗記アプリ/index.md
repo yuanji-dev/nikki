@@ -21,7 +21,7 @@ url: "/post/anki-the-best-memory-app-for-learning-japanese"
 
   <!--more-->
 
-![AnkiDroid](anki-android.png)
+{{< figure src="anki-android.png" class="center" title="AnkiDroid" >}}
 
 相对 Anki 为我们完成的事情，我们也有义务做一些事情。很显然，卡片不会凭空生成，需要我们提供。不过严格来说，我们提供的并不是卡片，而是类似**笔记**一样的东西。笔记是用来生成卡片的材料，这是一个非常优秀的理念，这比我们用纸和笔亲自做记忆卡片要高效和易于管理很多。拿我自己背日语单词来说的话，对于一个单词，我首先需要这个单词本身的数据（废话），其次是它的读音，释义，例句等。另外作为备注我们甚至希望记录它是在哪里被我们发现的。（如果是网页里看到的话，我们也许可以记录下出现这个单词的 URL，对于电子书的话，我们可以记录下出处的上下文）而这些一项一项数据，分别是一个个字段，他们一起组成了关于那个单词的笔记。我们需要定义一下这些字段的名字都叫啥，然后就可以愉快得做笔记了。（这是我们使用 Anki 最需要我们操心的部分）有了笔记，接下来我们定义一套规则，用来生成卡片。听起来好像很复杂，其实很简单，说白了就是，你需要在卡片的正面显示什么，背面显示什么，因为我们收集的笔记字段很多，但其实并不都需要放在卡片里，比如你收集了单词出处的链接，（一般来说）这个链接你当然不需要记住它。你把这个正反面的对应关系告诉 Anki，接下来就放心交给它，让它给我们生成我们用来记忆的卡片就行了。总的来说，我们需要插手做的就是：
 
@@ -45,9 +45,9 @@ url: "/post/anki-the-best-memory-app-for-learning-japanese"
 
 首先说 AnkiConnect，它是 Anki 的一个插件，主要用途是把对 Anki 的各种操作封装成了一套 RESTful 接口，方便其他程序通过 HTTP 通讯。一般读者如果不了解其中的细节，完全没有关系，总之就是联络 Anki 和其他程序的一套规则，有了这个我们就可以让其他程序把我们需要的笔记一键加入 Anki 了，这个「其他程序」这里简单地认为是浏览器就行了。当然了，浏览器本身不会带有一键添加生词本这样天马行空的功能，不过针对日语，Yomichan 这个浏览器插件有这样的功能，添加到 Anki 算是一个高级功能，本身这个插件可以用来查字典。它的最大优势是字典是本地字典，查询速度飞快。插件作者甚至制作了好几款日文字典文件的转换工具叫 [Yomichan Import](https://foosoft.net/projects/yomichan-import/)，通过转换，就可以把那些字典传到浏览器里，通过 Yomichan 来使用了。我目前爱用的字典有明镜国语辞典和三省堂大辞林。Yomichan 和 Anki 联动的最大的优势就是一键录入单词了，因为如果一个单词出现在浏览器里，我们是拥有所有关于这个单词的上下文，词义等等相关情报的。只是苦于没有手段一下子加到生词本里，而 Yomichan 就是把这个现场给保存下来的利器。这样，只需要点击一个按钮，就把你想要记住的单词记录到 Anki 中，不仅有权威字典的解释，有真人读音，还有看到这个词所在的文脉，如果需要还可以把文章链接放进去。而我们只要把宝贵的时间用来背单词就行了。（以下是配置示例和演示）
 
-![yomichan](yomichan.png)
+{{< figure src="yomichan.png" class="center" title="Yomichan" >}}
 
-![AnkiConnect+Yomichan](Peek 2019-03-17 17-00.gif)
+{{< figure src="yomichan_demo.gif" class="center" title="AnkiConnect + Yomichan" >}}
 
 ## 个人感想
 
@@ -55,4 +55,13 @@ url: "/post/anki-the-best-memory-app-for-learning-japanese"
 
 关于使用时间上的安排，我自己一般用早上起床之前的半个小时来背单词，本身这个时间是用来赖床用的，现在被挪用来背单词，感觉多少赚了一点儿。收集词汇的工作主要在睡前通过看小说啥的完成，有时候上班的时候看到生词就随手加一下，反正只要点一下鼠标而已。这里再贴个 Anki 生成的两个月来的使用报告，差不多录入了 1600+ 个词。
 
-![](anki_report.jpg)
+<details>
+<summary> 点击查看 Anki 报告 @ 20190317 </summary>
+{{< figure src="anki_report_20190317.jpg" class="center" title="Anki Report" >}}
+</details>
+
+20191030 更新报告：
+<details>
+<summary> 点击查看 Anki 报告 @ 20191030 </summary>
+{{< figure src="anki_report_20191030.jpg" class="center" title="Anki Report @ 20191030" >}}
+</details>
