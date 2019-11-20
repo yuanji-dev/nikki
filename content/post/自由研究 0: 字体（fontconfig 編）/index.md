@@ -7,7 +7,7 @@ draft: false
 url: "/post/fontconfig-introduction"
 ---
 
-我尝试着去了解字体方面的知识，印象中一共有两次。一次是去年从 [macOS 转到 Arch Linux](https://gimo.me/post/from-macos-to-archlinux/) 上的时候，一次是昨天尝试着把一个字体旋转 270 度的时候。
+我尝试着去了解字体方面的知识，印象中一共有两次。一次是去年从 [macOS 转到 Arch Linux]({{< relref "/从macOS到ArchLinux" >}}) 上的时候，一次是昨天尝试着把一个字体旋转 270 度的时候。
 
 我首先声明我并没有任何制作字体或者是搭配展示字体给其他人看的经历，我所描写的事情说到底不过是我通过自己收集情报、自己尝试得出的一些结论，至于这个结论是否正确，还请读者自己判读。
 

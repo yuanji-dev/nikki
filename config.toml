@@ -1,4 +1,4 @@
-baseURL = "https://gimo.me/"
+baseURL = "https://blog.gimo.me/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "Yuanji's Blog"
