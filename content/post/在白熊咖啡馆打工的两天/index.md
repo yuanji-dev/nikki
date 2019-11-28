@@ -8,13 +8,13 @@ draft: false
 url: "/post/how-to-build-a-douban-bot"
 ---
 
-{{% admonition abstract "TL;DR" %}}
+{{< admonition abstract "TL;DR" >}}
 
 写了一个豆瓣定时发广播的机器人？
 
 https://www.douban.com/people/shirokumacafe/
 
-{{% /admonition %}}
+{{< /admonition >}}
 
 店长白熊桑 @[qinhuai](https://www.douban.com/people/qinhuai/) 说想在豆瓣开个白熊咖啡馆，我说反正我闲着也是闲着要不就交给我吧（大意），于是有了这个项目，就是定时把白熊咖啡馆的截图发到豆瓣广播上。
 
@@ -59,16 +59,16 @@ OP 和 ED 出现概率高的原因是因为他们每集都有嘛，简单得改�
 
 
 
-{{% admonition tip "提示" %}}
+{{< admonition tip "提示" >}}
 
 附项目地址： https://github.com/masakichi/shirokumacafe
 
-{{% /admonition %}}
+{{< /admonition >}}
 
 ![咱们裸熊](bears.jpg)
 
-{{% admonition info 追记 %}}
+{{< admonition info 追记 >}}
 - 2018/05/13: 发完广播后自动回复截图出处
 - 2018/05/27: 支持发布 GIF 动画
 - 2018/11/14: 转移到新的服务器，使用 systemd 的 timer 触发定时功能
-{{% /admonition %}}
+{{< /admonition >}}

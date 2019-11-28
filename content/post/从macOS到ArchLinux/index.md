@@ -69,7 +69,7 @@ url: "/post/from-macos-to-archlinux"
 
 字体基本就是和 fontconfig 打交道，当时配置也是花了老长时间，把 [manpage](http://fontconfig.org/fontconfig-user.html) 基本读了一遍，另外推荐一篇讲配置字体非常好的文章，叫《[我凝视 fontconfig，fontconfig 回以凝视](https://eev.ee/blog/2015/05/20/i-stared-into-the-fontconfig-and-the-fontconfig-stared-back-at-me/)》。我个人而言的话，基本的配置就是西文字体 => emoji => 汉字这么个 fallback 顺序。然后分为 `serif` 、`sans-serif` 、`monospace` 三种分别配下优先级就行。然后其他软件里设置字体，只要指定一个大的字体族的名字就行了，比如我在 terminal 里的字体直接指定 `monospace` 就行。感觉花点儿时间读一读系统预设的配置文件对于自己写配置是一个不错的选择。
 
-{{% admonition example "我的字体优先顺位" %}}
+{{< admonition example "我的字体优先顺位" >}}
 
 ```shell
 $ fc-match -s serif | head -n 5
@@ -92,11 +92,11 @@ NotoColorEmoji.ttf: "Noto Color Emoji" "Regular"
 NotoSansMono-Regular.ttf: "Noto Sans Mono" "Regular"
 ```
 
-{{% /admonition %}}
+{{< /admonition >}}
 
 ### 其他软件
 
-{{% admonition example %}}
+{{< admonition example >}}
 
 - 浏览器： `chromium`
 - 写代码： `neovim` & `visual-studio-code-bin`
@@ -108,7 +108,7 @@ NotoSansMono-Regular.ttf: "Noto Sans Mono" "Regular"
 - 终端： `termite`
 - 通知：`dunst`
 
-{{% /admonition %}}
+{{< /admonition >}}
 
 职场基本使用 G Suite，所以没有安装办公软件。不过避免不了要使用微信和企业微信，索性用 `virtualbox` 装了个 Windows 7。
 
@@ -132,13 +132,13 @@ NotoSansMono-Regular.ttf: "Noto Sans Mono" "Regular"
 
 一般查 Arch 的 wiki 基本能找到解决方案，其他一些小问题的解决方案一般也能用搜索引擎找到。决定之后把遇到的问题和解决方案补充在这里，方便自查找。
 
-{{% admonition tip "安装盘在 MacBook Air 上没法用无线连接" %}}
+{{< admonition tip "安装盘在 MacBook Air 上没法用无线连接" >}}
 
 安装时用手机的 USB 热点给电脑用，然后安装 `broadcom-wl` 就行了。
 
-{{% /admonition %}}
+{{< /admonition >}}
 
-{{% admonition tip "dunst 配置了消息紧急度但没有生效" %}}
+{{< admonition tip "dunst 配置了消息紧急度但没有生效" >}}
 
 可以通过修改  `/.config/dunst/dunstrc` 在最后加上
 
@@ -153,9 +153,9 @@ NotoSansMono-Regular.ttf: "Noto Sans Mono" "Regular"
 
 ref: [Changing urgency by a rule does not affect color of message](https://github.com/dunst-project/dunst/issues/484)
 
-{{% /admonition %}}
+{{< /admonition >}}
 
-{{% admonition tip "安装了 VS Code 之后，打开文件夹会自动用 VS Code 打开" %}}
+{{< admonition tip "安装了 VS Code 之后，打开文件夹会自动用 VS Code 打开" >}}
 
 可以通过修改 `~/.config/mimeapps.list`
 
@@ -172,9 +172,9 @@ inode/directory=pcmanfm.desktop;visual-studio-code.desktop
 
 ref: [VS Code messes with Linux places paths. VS Code is opened instead of system path. ](https://github.com/Microsoft/vscode/issues/41037#issuecomment-373484318)
 
-{{% /admonition %}}
+{{< /admonition >}}
 
-{{% admonition tip "Enpass 二步验证同步出现问题" %}}
+{{< admonition tip "Enpass 二步验证同步出现问题" >}}
 
 查了下一般是系统时间没有自动同步导致的。直接 `timedatectl set-ntp true` 就行了。
 
@@ -194,9 +194,9 @@ ref:
 - [ OTP Sync MacOS, IOS and Windows failed for Windows](https://discussion.enpass.io/index.php?/topic/2126-otp-sync-macos-ios-and-windows-failed-for-windows/)
 - [systemd-timesyncd - ArchWiki](https://wiki.archlinux.org/index.php/systemd-timesyncd)
 
-{{% /admonition %}}
+{{< /admonition >}}
 
-{{% admonition tip "MacBook Air 风扇一直转" %}}
+{{< admonition tip "MacBook Air 风扇一直转" >}}
 
 可以使用 `mbpfan-git` 这个包，然后配置 `/etc/mbpfan.conf`，我的配置如下，自带的注释有详细的设置方法。
 
@@ -227,9 +227,9 @@ polling_interval = 7	# default is 1 seconds
 sudo systemctl enable --now mbpfan.service
 ```
 
-{{% /admonition %}}
+{{< /admonition >}}
 
-{{% admonition tip "Chromium 不定期卡死" %}}
+{{< admonition tip "Chromium 不定期卡死" >}}
 
 表现很奇怪，chromium 不定期会没法操作，如果在播放视频的话，声音还在继续。完全没法继续操作，我只能 `killall chromium`
 
@@ -252,13 +252,13 @@ EndSection
 - [Videos freeze while audio continues to play in Chrome, Videos, etc. [$10] · Issue #121 · elementary/os](https://github.com/elementary/os/issues/121)
 - [Complete periodic freezes with intel graphics · Issue #4641 · qutebrowser/qutebrowser](https://github.com/qutebrowser/qutebrowser/issues/4641)
 
-{{% /admonition %}}
+{{< /admonition >}}
 
-{{% admonition warning "有没有一款较为完整地支持 EPUB 3.0 的阅读器。比如支持日语的縦書き" %}}
+{{< admonition warning "有没有一款较为完整地支持 EPUB 3.0 的阅读器。比如支持日语的縦書き" >}}
 
 **暂未找到**
 
-{{% /admonition %}}
+{{< /admonition >}}
 
 
 
