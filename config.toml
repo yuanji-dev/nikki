@@ -190,9 +190,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   taxonomyTerm = ["HTML"]
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+  defaultMarkdownHandler = "blackfriday"
   [markup.highlight]
     codeFences = true
     hl_Lines = ""
