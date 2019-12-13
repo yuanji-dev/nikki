@@ -228,6 +228,7 @@ Anki 就是那个大名鼎鼎的记忆软件，感觉提到背单词之类的事
 - 另外在下面这些网站上罗列了很多可以自建服务的项目，感兴趣的朋友可以自己研究一下。
   - https://selfhosted.libhunt.com/ （有基本的比较功能，虽然好像并没有什么用）
   - https://github.com/awesome-selfhosted/awesome-selfhosted
+  - https://selfhostedsource.tech/self-hosted
 
 ## 其他
 
