@@ -4,7 +4,7 @@ dist: xenial
 sudo: false
 
 env:
-  - HUGO_VERSION=0.61.0
+  - HUGO_VERSION=0.62.0
 
 install: true
 
