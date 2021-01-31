@@ -108,7 +108,7 @@ ExecStart=/usr/bin/acme.sh --cron
 SuccessExitStatus=0 2
 ```
 
-## 配置 NGINX
+### 配置 NGINX
 
 [bitwarden_rs 的 wiki](https://github.com/dani-garcia/bitwarden_rs/wiki) 里包含了各种各样的文档，其中我对照 https://github.com/dani-garcia/bitwarden_rs/wiki/Proxy-examples 里的例子稍作修改如下。
 
