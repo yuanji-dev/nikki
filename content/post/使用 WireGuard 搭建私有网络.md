@@ -107,7 +107,7 @@ listen 192.168.77.1:443 ssl http2;
 
 ## OpenWrt
 
-到此基本就实现我的目的了，如果手机上需要访问这个服务直接打开 WireGuard 的 VPN 即可，不过考虑到因为 WFH 其实出门的机会也并不大，在家里我希望不连 VPN 就能访问，于是想在家里的路由器也用上 WireGuard，这里多亏了老婆把我的 NanoPi R2S 给带来了日本，我刷入了[官网最新的 ROM](http://wiki.friendlyarm.com/wiki/index.php/NanoPi_R2S#Install_OS) 之后（也是巧了，它正好在半个月前更新了内核到 5.10）先查看了一它自带了 wireguard 内核模块，一阵窃喜。
+到此基本就实现我的目的了，如果手机上需要访问这个服务直接打开 WireGuard 的 VPN 即可，不过考虑到因为 WFH 其实出门的机会也并不大，在家里我希望不连 VPN 就能访问，于是想在家里的路由器也用上 WireGuard，这里多亏了老婆把我的 NanoPi R2S 给带来了日本，我刷入了[官网最新的 ROM](http://wiki.friendlyarm.com/wiki/index.php/NanoPi_R2S#Install_OS) 之后（也是巧了，它正好在半个月前更新了内核到 5.10）查看了一下，它自带了 wireguard 内核模块，一阵窃喜。
 
 ```bash
 root@FriendlyWrt:~# modinfo wireguard
