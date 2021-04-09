@@ -185,7 +185,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 [outputs]
   home = ["HTML", "RSS"]
   page = ["HTML", "MarkDown"]
-  section = ["HTML", "RSS"]
+  section = ["HTML", "RSS", "MarkDown"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
 
