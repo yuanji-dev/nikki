@@ -1,7 +1,8 @@
 # Yuanji's Blog
 
-共计 45 篇文章
+共计 46 篇文章
 ## 2021
+- 04-25 [Vehicle](content/post/Vehicle/index.md)
 - 04-14 [使用 Namecheap 的域名邮箱托管服务](content/post/使用Namecheap的域名邮箱托管服务/index.md)
 - 04-10 [用 Hugo 生成 README.md](content/post/用Hugo生成README.md/index.md)
 - 04-05 [CloudCone 寻找复活节彩蛋始末](content/post/CloudCone%20寻找复活节彩蛋始末/index.md)
