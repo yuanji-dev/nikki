@@ -1,11 +1,15 @@
 ---
-title: "自建 bitwarden_rs"
+title: "自建 vaultwarden(a.k.a bitwarden_rs)"
 date: 2021-01-30T22:53:49+09:00
 tags: ["VPS"]
 isCJKLanguage: true
 draft: false
-url: "/post/self-host-bitwarden_rs"
+url: "/post/self-host-vaultwarden"
+aliases:
+  - "/post/self-host-bitwarden_rs"
 ---
+
+20210513 更新：鉴于 bitwarden_rs 已经更名为 vaultwarden 本文也对关键词加以更新。
 
 ## 背景
 
@@ -17,13 +21,13 @@ url: "/post/self-host-bitwarden_rs"
 
 不过最近用上了新手机之后，它的自动补全方式就开始屡屡失效，虽然之前也有过但并没有这么频繁，于是想着利用这个机会研究一下其他的选择。经过一番比较，基本上把目光投向了 bitwarden。同样支持多平台，实际上我发现桌面端如果只是浏览器使用的话安装一个浏览器插件就行，那个用 Web 技术写的桌面客户端显得非常鸡肋（比起 Enpass，可以说非常卡顿）。不过基本上我在桌面端基本也只使用浏览器填充密码，所以问题不大。
 
-至于 bitwarden 的收费方式虽然是订阅收费但价格可以说真的非常低了，只是它这种自己提供后端同步的方式总觉得心理上有点儿怪怪的。但好在除了使用它官方的服务之外，还有自建服务这条路，这里就不得不说 bitwarden_rs 这个第三方实现的开源后端了，比起官方提供的方式，系统资源的要求上要低的多。
+至于 bitwarden 的收费方式虽然是订阅收费但价格可以说真的非常低了，只是它这种自己提供后端同步的方式总觉得心理上有点儿怪怪的。但好在除了使用它官方的服务之外，还有自建服务这条路，这里就不得不说 vaultwarden(原本叫作：bitwarden_rs) 这个第三方实现的开源后端了，比起官方提供的方式，系统资源的要求上要低的多。
 
 <!--more-->
 
-## 自建 bitwarden_rs
+## 自建 vaultwarden
 
-[bitwarden_rs 的 GitHub](https://github.com/dani-garcia/bitwarden_rs) 页面上提供了各种部署方式，为了方便维护，我选择了使用 docker-compose 的方式。有了之前自建服务的经验，基本上分为：
+[vaultwarden 的 GitHub](https://github.com/dani-garcia/vaultwarden) 页面上提供了各种部署方式，为了方便维护，我选择了使用 docker-compose 的方式。有了之前自建服务的经验，基本上分为：
 
 1. 创建 docker-compose.yml
 2. 启动服务
@@ -35,8 +39,8 @@ url: "/post/self-host-bitwarden_rs"
 ```yaml
 version: '3'
 services:
-  bitwarden_rs:
-    image: bitwardenrs/server:latest
+  vaultwarden:
+    image: vaultwarden/server:latest
     restart: always
     ports:
       - "3080:80"
@@ -110,7 +114,7 @@ SuccessExitStatus=0 2
 
 ### 配置 NGINX
 
-[bitwarden_rs 的 wiki](https://github.com/dani-garcia/bitwarden_rs/wiki) 里包含了各种各样的文档，其中我对照 https://github.com/dani-garcia/bitwarden_rs/wiki/Proxy-examples 里的例子稍作修改如下。
+[vaultwarden 的 wiki](https://github.com/dani-garcia/vaultwarden/wiki) 里包含了各种各样的文档，其中我对照 https://github.com/dani-garcia/vaultwarden/wiki/Proxy-examples 里的例子稍作修改如下。
 
 ```nginx
 # Define the server IP and ports here.
@@ -165,6 +169,6 @@ server {
 
 ## 最后
 
-搭好服务后访问域名就可以使用了，bitwarden_rs 的 docker 镜像除了包含了后端的 API 之外还自带了一个修改过的官方 Web UI，通过它可以直接导入从 Enpass 导出的 json 文件，不过 Enpass 的 attachments 并不会自动转成 bitwarden 里的，稍微需要做点儿手动干预。另外如果只是自己使用的话可以把注册功能禁用，设置 docker 的环境变量 `SIGNUPS_ALLOWED: 'false'` 即可。
+搭好服务后访问域名就可以使用了，vaultwarden 的 docker 镜像除了包含了后端的 API 之外还自带了一个修改过的官方 Web UI，通过它可以直接导入从 Enpass 导出的 json 文件，不过 Enpass 的 attachments 并不会自动转成 bitwarden 里的，稍微需要做点儿手动干预。另外如果只是自己使用的话可以把注册功能禁用，设置 docker 的环境变量 `SIGNUPS_ALLOWED: 'false'` 即可。
 
 在使用了几天之后发现没有特别的问题，只是我上服务器查看了下 NGINX 的日志发现好多奇奇怪怪的爬虫、探测请求，虽然说这些无脑的脚本不至于构成什么大问题，但感觉还是稍加保护为好，好奇的读者可能会发现上文配置里的 https://bw.tokyo-1.gimo.me/ 解析到了一个私有 IP 地址，至于细节，请看下一遍日记我会介绍一下如果[使用 WireGuard 来搭建一个简单的 VPN 隧道]({{< relref "使用 WireGuard 搭建私有网络.md" >}})。
