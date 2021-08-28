@@ -64,7 +64,7 @@ AnkiConnect  是一个 Anki 插件，启动了一个本地服务器来对外暴�
 
 简单地说就是在日本亚马逊买电子书，但不在 Kindle 里读。不仅不用 Kindle 阅读器读，也不用 Kindle 的 App。
 
-{{< admonition question "为什么要这么做" >}}
+{{< admonition primary "为什么要这么做" >}}
 
 主要原因有两条
 
@@ -73,7 +73,7 @@ AnkiConnect  是一个 Anki 插件，启动了一个本地服务器来对外暴�
 
 {{< /admonition >}}
 
-{{< admonition question "做得到吗" >}}
+{{< admonition primary "做得到吗" >}}
 
 调查了一圈，答案是肯定的。原理就是去 DRM[^DRM]（deDRM），就是把 Kindle 设备或者 Kindle App 自己下载的电子书文件去除 DRM，然后转成自己想要的通用格式，就可以在其他设备和软件上阅读了。其中如果有 Kindle 实体设备的话，deDRM 的过程应该是最简单的，装好 [Calibre](https://calibre-ebook.com/download) 和 [deDRM 插件](https://github.com/apprenticeharper/DeDRM_tools/tree/master/Obok_calibre_plugin)，配置好设备序列号，往 Calibre 里导入电子书的同时就直接吧 DRM 给去掉了，借助 Calibre 的电子书格式转换功能就能实现把通用格式的电子书保存在自己手里的愿望啦。[具体的教程](http://demikko-no-bibouroku.hatenablog.com/entry/2018/01/30/143650)想必互联网上有很多，稍微研究下应该就能实现。
 

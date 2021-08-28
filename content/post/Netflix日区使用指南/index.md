@@ -30,7 +30,7 @@ url: "/post/setup-netflix-on-rk3328-tv-box"
 
 到此为止基本就能使用 Netflix 了，不过需要在电视上使用可能还得动点脑子，如果是比较新的安卓电视可以试着安装 Netflix 的 App（如果安装的是手机版 App 操作稍微有点儿蛋疼，实在不行可以插个鼠标），可以使用 [APKMirror](https://www.apkmirror.com/) 或者 [APKPure](https://apkpure.com/) 搜索直接下载 apk。至于像我一样用着比较老的电视不太能安装 App 的情况可以买个电视盒子，比如说淘宝上的外贸盒子，大概几百块钱，大体上都差不多是基于 RK3328 系列芯片组装的。
 
-{{< admonition tip "RK3328 芯片的电视盒子相关介绍" >}}
+{{< admonition primary "RK3328 芯片的电视盒子相关介绍" >}}
 - [RK3328、4GBメモリ搭載のAndroid TV box「A5X Max Plus」実機レビュー](https://obakasanyo.net/review-a5x-max-plus/)
 - [Even Cheaper Android KODI BOX - H96 Max Plus 4GB RAM 64 GB ROM](https://www.youtube.com/watch?v=5s_o2HjPIRE)
 ![RK3328 平台的电视盒子照片](rk3328.jpg)
@@ -39,7 +39,7 @@ url: "/post/setup-netflix-on-rk3328-tv-box"
 
 最后为了能及时收到 Netflix 上架了哪些作品，找到一个日本网站 [Netflix 日本非公認ファンブログ](http://netflix-fan.jp/new-arrival/)每天都有更新，今天上架了啥，下架了啥等等。用 [Inoreader](https://www.inoreader.com/) 订阅一下，看到感兴趣的标记一下挺方便的，比如前几天上架了魔戒、黑客帝国啥的。
 
-{{< admonition info "显示效果图" true >}}
+{{< admonition info "显示效果图" >}}
 
 ![搜藏列表](netflix_wishlist.jpg)
 

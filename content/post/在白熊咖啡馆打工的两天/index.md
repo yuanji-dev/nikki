@@ -8,7 +8,7 @@ draft: false
 url: "/post/how-to-build-a-douban-bot"
 ---
 
-{{< admonition abstract "TL;DR" >}}
+{{< admonition info "TL;DR" >}}
 
 写了一个豆瓣定时发广播的机器人？
 
@@ -59,7 +59,7 @@ OP 和 ED 出现概率高的原因是因为他们每集都有嘛，简单得改�
 
 
 
-{{< admonition tip "提示" >}}
+{{< admonition primary "提示" >}}
 
 附项目地址： https://github.com/masakichi/shirokumacafe
 

@@ -3,6 +3,8 @@ title: "关于"
 date: 2019-01-04T23:53:13+09:00
 isCJKLanguage: true
 draft: false
+toc: false
+caution: false
 ---
 
 ## 关于我
