@@ -29,7 +29,7 @@ googleAnalytics = "G-YL6RBN684E"
   name = "归档"
   weight = 20
   identifier = "archives"
-  url = "/post/"
+  url = "/posts/"
 [[menu.main]]
   name = "标签"
   weight = 30
@@ -53,7 +53,7 @@ googleAnalytics = "G-YL6RBN684E"
   description = "Yuanji's Blog, 元吉的博客"
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
-  archivePaginate = 10
+  archivePaginate = 100
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
