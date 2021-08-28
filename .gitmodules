@@ -1,3 +1,6 @@
 [submodule "themes/even"]
 	path = themes/even
 	url = https://github.com/masakichi/hugo-theme-even
+[submodule "themes/futu"]
+	path = themes/futu
+	url = https://github.com/masakichi/futu
