@@ -4,7 +4,7 @@ date: 2021-01-30T22:53:49+09:00
 tags: ["VPS"]
 isCJKLanguage: true
 draft: false
-url: "/post/self-host-vaultwarden"
+slug: "self-host-vaultwarden"
 aliases:
   - "/post/self-host-bitwarden_rs"
 ---

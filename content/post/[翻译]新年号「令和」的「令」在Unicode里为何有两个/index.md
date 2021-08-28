@@ -4,7 +4,7 @@ date: 2019-04-08T18:30:20+09:00
 tags: ["翻译", "杂"]
 isCJKLanguage: true
 draft: false
-url: "/post/unicode-rei"
+slug: "unicode-rei"
 ---
 
 原文来自：[Unicodeの基本から解説。新元号「令和」の「令」がUnicodeに2つある理由 – cod-log](https://cod-sushi.com/unicode-rei/)

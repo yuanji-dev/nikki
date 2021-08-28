@@ -4,7 +4,7 @@ date: 2019-07-08
 tags: ["NEET Diary", "杂"]
 isCJKLanguage: true
 draft: false
-url: "/post/neet-diary-5-the-1st-week"
+slug: "neet-diary-5-the-1st-week"
 ---
 
 时间过得很快，转眼一周就过去了，也啰啰嗦嗦写了 5 篇日记，加起来快上万字了。总的感受是只要想到一个题目，写起来就很快了。多少体会了森博嗣说的写书比读书快，确实有一定道理。也就是说 output 确实比 input 要容易。

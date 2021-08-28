@@ -4,7 +4,7 @@ date: 2019-07-17
 tags: ["字体", "自由研究"]
 isCJKLanguage: true
 draft: false
-url: "/post/fontconfig-introduction"
+slug: "fontconfig-introduction"
 ---
 
 我尝试着去了解字体方面的知识，印象中一共有两次。一次是去年从 [macOS 转到 Arch Linux]({{< relref "/从macOS到ArchLinux" >}}) 上的时候，一次是昨天尝试着把一个字体旋转 270 度的时候。

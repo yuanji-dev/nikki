@@ -4,7 +4,7 @@ date: 2019-03-17
 tags: ["日语"]
 isCJKLanguage: true
 draft: false
-url: "/post/anki-the-best-memory-app-for-learning-japanese"
+slug: "anki-the-best-memory-app-for-learning-japanese"
 ---
 
 经过了两个多月的摸索使用，Anki 基本成为了我日常日语词汇记忆的重要一环，使用的流程和形态基本固定了下来，感觉可以分享给大家，如果有其他人也用得上的话。

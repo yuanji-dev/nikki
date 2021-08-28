@@ -4,7 +4,7 @@ date: 2019-07-01
 tags: ["NEET Diary", "杂"]
 isCJKLanguage: true
 draft: false
-url: "/post/neet-diary-2-coward"
+slug: "neet-diary-2-coward"
 ---
 
 臆病者，简单地翻译成中文就是胆小鬼。往复杂了说，臆病在大辞林里大概有两条定义：

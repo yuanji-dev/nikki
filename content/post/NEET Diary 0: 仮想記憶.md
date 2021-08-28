@@ -4,7 +4,7 @@ date: 2019-06-29
 tags: ["NEET Diary", "杂"]
 isCJKLanguage: true
 draft: false
-url: "/post/neet-diary-0-virtual-memory"
+slug: "neet-diary-0-virtual-memory"
 ---
 
 这个意味不明的标题是什么意思？

@@ -4,7 +4,7 @@ date: 2019-07-19
 tags: ["字体", "自由研究"]
 isCJKLanguage: true
 draft: false
-url: "/post/font-creation-introduction"
+slug: "font-creation-introduction"
 ---
 
 上回说了[如何使用 fontconfig  搭配字体]({{< relref  "/自由研究 0: 字体（fontconfig 編）" >}})，咋看之下似乎很科学。但有一个明显的问题，就是如果某个软件、或者某个系统压根不支持 fontconfig 呢？没有错，所有在 fontconfig 里做的努力都打了水漂。为了解决这个问题，或者兼顾不同的平台，很多字体爱好者想到了一个办法，那就是把自己喜欢的或者想要的几个字体合到一块不就可以了？确实是这样，今天就简单地说一下怎么修改字体，因为修改的过程很像做菜，标题就取作「字体料理」了。

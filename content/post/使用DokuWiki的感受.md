@@ -4,7 +4,7 @@ date: 2019-12-11T21:43:33+09:00
 tags: ["杂"]
 isCJKLanguage: true
 draft: false
-url: "/post/using-dokuwiki-as-personal-wiki"
+slug: "using-dokuwiki-as-personal-wiki"
 ---
 
 上个月中旬的时候，经过了一番比较和调查，我最终选用 [DokuWiki](https://www.dokuwiki.org/dokuwiki) 来搭建了属于[自己的 Wiki 站点](https://wiki.gimo.me)。本文就来谈一谈我自己这大半个月来的使用感受。感觉好久没有写博客多少有点儿生疏，这一篇文章换一换风格，用 Q&A 的形式来展开，感觉写起来能顺利一点儿。另外本文中提及的 Blog 和 Wiki 在工具的层面，仅仅指代 [Hugo](https://gohugo.io/) 和 DokuWiki。

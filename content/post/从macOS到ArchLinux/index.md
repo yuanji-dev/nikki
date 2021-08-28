@@ -4,7 +4,7 @@ date: 2019-01-05T00:11:32+09:00
 tags: ["Arch Linux"]
 isCJKLanguage: true
 draft: false
-url: "/post/from-macos-to-archlinux"
+slug: "from-macos-to-archlinux"
 ---
 
 去年夏天开始，日常使用的桌面操作系统从苹果的 macOS 逐渐转移到了 Arch Linux 上。到现在基本完全过渡到 Arch Linux 上来了。

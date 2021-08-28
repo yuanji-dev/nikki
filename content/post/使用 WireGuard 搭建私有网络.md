@@ -4,7 +4,7 @@ date: 2021-01-31T21:03:20+09:00
 tags: ["VPS"]
 isCJKLanguage: true
 draft: false
-url: "/post/setup-wireguard-vpn"
+slug: "setup-wireguard-vpn"
 ---
 
 ## 起因

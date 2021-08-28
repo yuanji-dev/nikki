@@ -4,7 +4,7 @@ date: 2019-10-19T16:17:08+09:00
 tags: ["Ansible", "VPS"]
 isCJKLanguage: true
 draft: false
-url: "/post/using-ansible-to-setup-vps"
+slug: "using-ansible-to-setup-vps"
 ---
 
 话说最早接触 VPS 大约还在刚入大学那会儿，我还没有信用卡、PayPal，国外 IDC 对于支付宝等的支持还非常少，记得那时候还是上淘宝找的代购。之后陆陆续续基本上都有一两台在服役，搭建个网站，跑点脚本、做个代理之类的。但老是不太长久，几乎隔段时间就会重新配置一下，虽然也累计了一些脚本，但我想初始化环境、日常维护之类的工作应该可以更方便些。

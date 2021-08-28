@@ -4,7 +4,7 @@ date: 2021-04-10T17:59:46+09:00
 tags: ["blog"]
 isCJKLanguage: true
 draft: false
-url: "/post/using-hugo-to-generate-readme-md"
+slug: "using-hugo-to-generate-readme-md"
 ---
 
 ## 缘起

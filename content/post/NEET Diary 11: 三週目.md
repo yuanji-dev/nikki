@@ -4,7 +4,7 @@ date: 2019-07-23
 tags: ["NEET Diary", "杂"]
 isCJKLanguage: true
 draft: false
-url: "/post/neet-diary-11-the-3rd-week"
+slug: "neet-diary-11-the-3rd-week"
 ---
 
 第三周仍然没有做到早睡早起，不，应该说勉强做到了早睡，完全没有做到早起。这样平均等于没有做到早睡早起。

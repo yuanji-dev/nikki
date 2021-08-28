@@ -4,7 +4,7 @@ date: 2019-07-16
 tags: ["NEET Diary", "杂"]
 isCJKLanguage: true
 draft: false
-url: "/post/neet-diary-10-the-2nd-week"
+slug: "neet-diary-10-the-2nd-week"
 ---
 
 本来应该昨天写的，不过因为研究（折腾）了一下午字体相关的东西花了不少时间就没写。

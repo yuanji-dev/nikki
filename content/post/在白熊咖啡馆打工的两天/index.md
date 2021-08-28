@@ -5,7 +5,7 @@ lastmod: 2018-11-14
 tags: ["编程"]
 isCJKLanguage: true
 draft: false
-url: "/post/how-to-build-a-douban-bot"
+slug: "how-to-build-a-douban-bot"
 ---
 
 {{< admonition info "TL;DR" >}}

@@ -4,7 +4,7 @@ date: 2019-01-20T16:18:34+09:00
 tags: ["日语"]
 isCJKLanguage: true
 draft: false
-url: "/post/learning-japanese-cross-platform"
+slug: "learning-japanese-cross-platform"
 ---
 
 因为去年把电脑系统从 macOS 换成了 Linux，手机也从 iOS 换到了 Android，很多之前用的软件需要重新寻找。和日语相关的软件也是其中的一环，吸取教训，有意识地尽量使用跨平台的软件，这样下次迁移的成本就会很低。

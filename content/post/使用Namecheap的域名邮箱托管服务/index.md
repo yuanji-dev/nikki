@@ -4,7 +4,7 @@ date: 2021-04-14T18:59:32+09:00
 tags: ["杂"]
 isCJKLanguage: true
 draft: false
-url: "/post/using-namecheap-email-hosting-service"
+slug: "using-namecheap-email-hosting-service"
 ---
 
 ## 背景

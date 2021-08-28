@@ -5,7 +5,7 @@ tags: ["翻译", "杂"]
 isCJKLanguage: true
 draft: false
 enableOutdatedInfoWarning: false
-url: "/post/interview-aaron-patterson"
+slug: "interview-aaron-patterson"
 ---
 
 原文来自：[シアトル在住のアーロン・パターソンさん、ネットスラングの解説で一躍有名人に 「日本とアメリカの架け橋になりたい」](http://www.junglecity.com/news/interview-aaron-patterson/)

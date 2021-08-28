@@ -4,7 +4,7 @@ date: 2019-07-12
 tags: ["NEET Diary", "杂"]
 isCJKLanguage: true
 draft: false
-url: "/post/neet-diary-8-spiritual-victory-3"
+slug: "neet-diary-8-spiritual-victory-3"
 ---
 
 就像上回说的一旦构造出了适合我们精神胜利的环境，使用精神胜利法就变得非常容易了。这篇文章就简单地介绍下我会使用的方法。

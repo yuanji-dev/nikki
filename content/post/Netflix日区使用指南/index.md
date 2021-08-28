@@ -4,7 +4,7 @@ date: 2018-11-04
 tags: ["Netflix"]
 isCJKLanguage: true
 draft: false
-url: "/post/setup-netflix-on-rk3328-tv-box"
+slug: "setup-netflix-on-rk3328-tv-box"
 ---
 
 说来惭愧，最近沉迷看电视已经小半年没更新日记了，嘛，那就说说看电视好了。

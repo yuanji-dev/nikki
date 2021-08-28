@@ -4,7 +4,7 @@ date: 2021-04-05T22:06:52+09:00
 tags: ["vps"]
 isCJKLanguage: true
 draft: false
-url: "/post/cloudcone-easter-egg-hunt-2021"
+slug: "cloudcone-easter-egg-hunt-2021"
 ---
 
 话说几天前收到了 [CloudCone](https://app.cloudcone.com/?ref=6708) （某廉价 VPS 提供商）发来的邮件说他们复活节会有一个寻找彩蛋的活动，实际上就是会在他们的网站里藏好特价 VPS 的相关链接，看了下最高有 96% OFF 的折扣，确实挺吸引人。

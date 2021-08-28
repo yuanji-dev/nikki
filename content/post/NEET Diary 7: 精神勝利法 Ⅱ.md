@@ -4,7 +4,7 @@ date: 2019-07-10
 tags: ["NEET Diary", "杂"]
 isCJKLanguage: true
 draft: false
-url: "/post/neet-diary-7-spiritual-victory-2"
+slug: "neet-diary-7-spiritual-victory-2"
 ---
 
 昨天介绍了两种显而易见的精神胜利法之后，今天继续更发散地来介绍其他可以使用的精神胜利法。

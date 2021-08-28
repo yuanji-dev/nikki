@@ -4,7 +4,7 @@ date: 2019-10-22T12:19:43+09:00
 tags: ["selfhosted", "VPS"]
 isCJKLanguage: true
 draft: false
-url: "/post/selfhosted-services-on-vps"
+slug: "selfhosted-services-on-vps"
 ---
 
 在上次介绍了[使用 Ansible 搭建 VPS 基础环境]({{< relref "/VPS 再入门: Ansible 使用篇" >}})之后，这次想记录一下我在 VPS 都自建了哪些服务。

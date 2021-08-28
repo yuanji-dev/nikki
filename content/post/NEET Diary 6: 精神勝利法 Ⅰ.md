@@ -4,7 +4,7 @@ date: 2019-07-09
 tags: ["NEET Diary", "杂"]
 isCJKLanguage: true
 draft: false
-url: "/post/neet-diary-6-spiritual-victory-1"
+slug: "neet-diary-6-spiritual-victory-1"
 ---
 
 上周关于抽象、具体的话题无意中引出的精神胜利法，意外地似乎很多人感兴趣的样子。今天就深入地研究一下这个非常有用的方法论吧。

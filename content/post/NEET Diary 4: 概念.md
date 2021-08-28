@@ -4,7 +4,7 @@ date: 2019-07-05
 tags: ["NEET Diary", "杂"]
 isCJKLanguage: true
 draft: false
-url: "/post/neet-diary-4-concept"
+slug: "neet-diary-4-concept"
 ---
 
 昨天从人名到汉字、假名使用上的一些例子引发了一些对于抽象和具体的思考。抽象和具体都是相对的概念，过于抽象容易导致表述上的过于模糊，通常是造成暧昧的温床。而过于具体会导致执着于细节，造成过多时间、精力的消耗甚至渐渐模糊事情的本质和全体像。
