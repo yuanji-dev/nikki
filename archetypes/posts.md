@@ -1,7 +1,12 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-tags: []
-isCJKLanguage: true
 draft: true
+tags: []
+keywords: []
+slug: ""
 ---
+
+**Insert Lead paragraph here.**
+
+## New Cool Posts
