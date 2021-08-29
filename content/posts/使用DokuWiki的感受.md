@@ -1,6 +1,7 @@
 ---
 title: "使用 DokuWiki 的感受"
 date: 2019-12-11T21:43:33+09:00
+lastmod: 2019-12-12T13:57:49+0900
 tags: ["杂"]
 isCJKLanguage: true
 draft: false

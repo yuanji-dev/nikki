@@ -1,6 +1,7 @@
 ---
 title: "自建 vaultwarden(a.k.a bitwarden_rs)"
 date: 2021-01-30T22:53:49+09:00
+lastmod: 2021-05-13T21:23:46+0900
 tags: ["VPS"]
 isCJKLanguage: true
 draft: false

@@ -46,6 +46,9 @@ googleAnalytics = "G-YL6RBN684E"
 #  identifier = "categories"
 #  url = "/categories/"
 
+[frontmatter]
+lastmod = ['lastmod', ':git', 'date', 'publishDate']
+
 [params]
   since = "2016"            # Site creation time          # 站点建立时间
 

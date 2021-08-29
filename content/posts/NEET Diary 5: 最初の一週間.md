@@ -1,6 +1,7 @@
 ---
 title: "NEET Diary 5: 最初の一週間"
 date: 2019-07-08
+lastmod: 2019-10-20T12:44:06+0900
 tags: ["NEET Diary", "杂"]
 isCJKLanguage: true
 draft: false

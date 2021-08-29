@@ -1,6 +1,7 @@
 ---
 title: "Netflix 日区使用指南"
 date: 2018-11-04
+lastmod: 2019-11-28T21:16:13+0900
 tags: ["Netflix"]
 isCJKLanguage: true
 draft: false

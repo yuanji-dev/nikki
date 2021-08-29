@@ -1,6 +1,7 @@
 ---
 title: "日亚 Kindle 书店漫游指南"
 date: "2017-12-06"
+lastmod: 2019-01-04T23:47:49+0900
 tags: ["日语", "Kindle"]
 isCJKLanguage: true
 draft: false

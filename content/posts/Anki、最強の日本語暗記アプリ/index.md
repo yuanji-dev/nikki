@@ -1,6 +1,7 @@
 ---
 title: "Anki、最強の日本語暗記アプリ"
 date: 2019-03-17
+lastmod: 2019-10-30T18:51:23+0900
 tags: ["日语"]
 isCJKLanguage: true
 draft: false

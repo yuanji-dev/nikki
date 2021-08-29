@@ -1,6 +1,7 @@
 ---
 title: "使用 WireGuard 搭建私有网络"
 date: 2021-01-31T21:03:20+09:00
+lastmod: 2021-05-13T21:23:46+0900
 tags: ["VPS"]
 isCJKLanguage: true
 draft: false

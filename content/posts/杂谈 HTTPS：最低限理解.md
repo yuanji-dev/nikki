@@ -1,6 +1,7 @@
 ---
 title: "杂谈 HTTPS：最低限理解"
 date: 2020-05-23T20:15:12+09:00
+lastmod: 2020-05-24T00:12:47+0900
 tags: ["杂"]
 isCJKLanguage: true
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "从 macOS 到 Arch Linux"
 date: 2019-01-05T00:11:32+09:00
+lastmod: 2019-11-28T21:16:13+0900
 tags: ["Arch Linux"]
 isCJKLanguage: true
 draft: false

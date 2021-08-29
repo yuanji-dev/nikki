@@ -1,6 +1,7 @@
 ---
 title: "用 Hugo 生成 README.md"
 date: 2021-04-10T17:59:46+09:00
+lastmod: 2021-04-10T18:11:18+0900
 tags: ["blog"]
 isCJKLanguage: true
 draft: false

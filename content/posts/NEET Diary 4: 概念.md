@@ -1,6 +1,7 @@
 ---
 title: "NEET Diary 4: 概念"
 date: 2019-07-05
+lastmod: 2019-10-20T12:44:06+0900
 tags: ["NEET Diary", "杂"]
 isCJKLanguage: true
 draft: false

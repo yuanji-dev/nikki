@@ -1,6 +1,7 @@
 ---
 title: "自由研究 0: 字体（fontconfig 編）"
 date: 2019-07-17
+lastmod: 2019-11-20T17:10:39+0900
 tags: ["字体", "自由研究"]
 isCJKLanguage: true
 draft: false

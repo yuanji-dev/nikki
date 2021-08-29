@@ -1,6 +1,7 @@
 ---
 title: "在白熊咖啡馆打工的两天"
 date: 2018-05-13
+lastmod: 2019-11-28T21:16:13+0900
 lastmod: 2018-11-14
 tags: ["编程"]
 isCJKLanguage: true

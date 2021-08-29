@@ -1,6 +1,7 @@
 ---
 title: "自由研究 1: 字体料理"
 date: 2019-07-19
+lastmod: 2019-07-20T12:39:48+0900
 tags: ["字体", "自由研究"]
 isCJKLanguage: true
 draft: false

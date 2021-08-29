@@ -1,6 +1,7 @@
 ---
 title: "[翻译]新年号「令和」的「令」在Unicode里为何有两个"
 date: 2019-04-08T18:30:20+09:00
+lastmod: 2019-11-28T21:16:13+0900
 tags: ["翻译", "杂"]
 isCJKLanguage: true
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "[翻译]Aaron Patterson：想成为日美的桥梁"
 date: 2017-09-30
+lastmod: 2019-11-28T21:16:13+0900
 tags: ["翻译", "杂"]
 isCJKLanguage: true
 draft: false

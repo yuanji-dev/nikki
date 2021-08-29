@@ -1,6 +1,7 @@
 ---
 title: "跨平台日语学习方案"
 date: 2019-01-20T16:18:34+09:00
+lastmod: 2019-11-28T21:16:13+0900
 tags: ["日语"]
 isCJKLanguage: true
 draft: false

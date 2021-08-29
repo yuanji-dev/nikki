@@ -1,6 +1,7 @@
 ---
 title: "使用 Namecheap 的域名邮箱托管服务"
 date: 2021-04-14T18:59:32+09:00
+lastmod: 2021-04-14T19:12:32+0900
 tags: ["杂"]
 isCJKLanguage: true
 draft: false

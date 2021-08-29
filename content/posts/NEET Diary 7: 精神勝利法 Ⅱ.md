@@ -1,6 +1,7 @@
 ---
 title: "NEET Diary 7: 精神勝利法 Ⅱ"
 date: 2019-07-10
+lastmod: 2019-10-20T12:44:06+0900
 tags: ["NEET Diary", "杂"]
 isCJKLanguage: true
 draft: false
