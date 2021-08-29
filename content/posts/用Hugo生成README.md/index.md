@@ -2,7 +2,8 @@
 title: "用 Hugo 生成 README.md"
 date: 2021-04-10T17:59:46+09:00
 lastmod: 2021-04-10T18:11:18+0900
-tags: ["blog"]
+tags: ["Hugo", "博客"]
+keywords: ["Hugo", "博客"]
 isCJKLanguage: true
 draft: false
 slug: "using-hugo-to-generate-readme-md"
@@ -44,21 +45,21 @@ aliases:
 主题支持了生成 md 文件还不够，还需要告诉 Hugo，让它每次生成的时候生成相应的 md 文件，基本的配置如下，无非是定义文件类型，需要哪些页面生成，这里在 section 的地方加入定义好的 MarkDown 即可。
 
 ```toml
-[mediaTypes]                                                                                           
-  [mediaTypes."text/plain"]                                                                            
-    suffixes = ["md"]                                                                                  
-                                                                                                       
-[outputFormats.MarkDown]                                                                               
-  mediaType = "text/plain"                                                                             
-  isPlainText = true                                                                                   
-  isHTML = false                                                                                       
-                                                                                                       
-[outputs]                                                                                              
-  home = ["HTML", "RSS"]                                                                               
-  page = ["HTML", "MarkDown"]                                                                          
-  section = ["HTML", "RSS", "MarkDown"]                                                                
-  taxonomy = ["HTML", "RSS"]                                                                           
-  taxonomyTerm = ["HTML"]     
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS", "MarkDown"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
 ```
 
 最后，加了一个简单的 Makefile，
@@ -75,4 +76,3 @@ readme:
 ## 最后
 
 所以，理论上不仅可以生成 md 文件，生成 JSON 甚至 EPUB 之类的应该也都不在话下，写好对应的生成逻辑就行。对于本文提到的生成 md 的方法包含在这个 [e33412b](https://github.com/masakichi/nikki/commit/e33412b7e76eaec9fa65f1bbc64e802a09f8ab10) commit 中，感兴趣的朋友可以参考。也欢迎到[本博客的源文件仓库](https://github.com/masakichi/nikki)看看。
-
