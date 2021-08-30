@@ -177,6 +177,7 @@ npm install --save-dev prettier prettier-plugin-go-template
 
 如果没有主意，你可以用我的模板构成作一个参考：
 
+{{< table >}}
 | 页面                  | 模板地址                       | 说明                             |
 | --------------------- | ------------------------------ | -------------------------------- |
 | 主页                  | layouts/index.html             |                                  |
@@ -185,6 +186,7 @@ npm install --save-dev prettier prettier-plugin-go-template
 | 归档页                | layouts/\_default/section.html | 如 /posts/                       |
 | 分类列表页            | layouts/\_default/terms.html   | 如 /tags/                        |
 | 分类页                | layouts/\_default/term.html    | 如 /tags/日语/                   |
+{{< /table >}}
 
 ### 内置模板
 
