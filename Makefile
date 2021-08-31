@@ -1,2 +1,2 @@
 readme:
-	hugo && cp public/post/index.md README.md
+	hugo && cp public/posts/index.md README.md
