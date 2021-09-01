@@ -1,7 +1,6 @@
 ---
 title: "用 Hugo 生成 README.md"
 date: 2021-04-10T17:59:46+09:00
-lastmod: 2021-04-10T18:11:18+0900
 tags: ["Hugo", "博客"]
 keywords: ["Hugo", "博客"]
 isCJKLanguage: true
@@ -25,7 +24,7 @@ aliases:
 
 首先需要对主题的模板稍加改造，我的归档页实际上就是 /post 的主页，用 Hugo 的术语讲，这是一个 [section](https://gohugo.io/templates/section-templates/#page-kinds) 页面，对应的主题模板在 `layouts/_default/section.md`（因为我要生成 .md 结尾的文件，所以叫 section.**md**)
 
-```go
+```go-html-template
 # {{ .Site.Title }}
 
 {{ T "archiveCounter" (len .Data.Pages) }}

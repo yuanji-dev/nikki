@@ -50,7 +50,7 @@ hugo new theme futu
 
 有了这个脚手架之后，首先也是最关键的入口文件当属 `layouts/_default/baseof.html`，在这个文件里可以定义网站的基本组成部分，比如 `head`，`main`，`footer` 等等，下面是我主题里这个文件的内容。
 
-```html
+```go-html-template
 <!DOCTYPE html>
 <html>
   <head>
@@ -130,7 +130,7 @@ hugo new theme futu
 
 另外一个值得注意的地方是类似 `{{ block "title" . }}{{ .Site.Title }}{{ end }}` 这句，这个 `block` 函数可以申明一个“块”，然后在其他模板文件中通过定义这个“块”的不同内容达成不同页面有不同标题，如果不定义则使用默认的站点名称 `{{ .Site.Title }}`。看到这里问题都不大，只是千万要注意 **`block`** 只在 `baseof.html` 才有效，这也是为什么我没有把
 
-```html
+```go-html-template
 <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 ```
 
@@ -236,19 +236,13 @@ readingTime:
 
 可以创建 `layouts/_default/_markup/render-image.html` 这么一个文件，里面写上
 
-```html
+```go-html-template
 <p>
   <img
     class="img-fluid"
     src="{{ .Destination | safeURL }}"
     alt="{{ .Text }}"
-    {{
-    with
-    .Title
-    }}title="{{ . }}"
-    {{
-    end
-    }}
+    {{ with .Title }}title="{{ . }}"{{ end }}
   />
 </p>
 ```
@@ -267,7 +261,7 @@ readingTime:
 
 Print 大法，简而言之就是在模板中插入如下语句，`$.` 代表全局上下文。
 
-```go
+```go-html-template
 {{ printf "%#v" $.Site }}
 ```
 
@@ -279,11 +273,10 @@ Print 大法，简而言之就是在模板中插入如下语句，`$.` 代表全
 
 其实我想实现的功能很简单，一个搜索框，一个搜索按钮，按下按钮然后在新窗口打开 Google，并且自动搜索 `keywords site:blog.gimo.me`，这个功能如果只是一个链接倒是会简单不少，不过换成表单就要稍微麻烦一点，不过效果还是挺不错的。示例代码如下，关键是这个隐藏的 `<input type="hidden" name="q" value="site:https://blog.gimo.me" />`。
 
-```html
+```go-html-template
 <form action="https://google.com/search" target="_blank" class="row">
   <div class="col-auto">
-    <input class="form-control me-2" type="search" placeholder="{{ i18n "search"
-    }}" name="q" />
+    <input class="form-control me-2" type="search" placeholder="{{ i18n "search" }}" name="q" />
     <input type="hidden" name="q" value="site:https://blog.gimo.me" />
   </div>
   <button class="col-auto btn btn-outline-success" type="submit">
