@@ -190,7 +190,7 @@ npm install --save-dev prettier prettier-plugin-go-template
 
 ### 内置模板
 
-除了自己写模板呢，Hugo 实际上已经内置了不少通用的模板，称为 [Internal Templates](https://gohugo.io/templates/internal)，比如 disqus，google analytics，可以通过 `template` 函数引入，比如在合适的地方 `{{ template "_internal/disqus.html" . }}`，这样在配置文件中定义了 `disqusShortname` 之后，就可以现实评论了。
+除了自己写模板呢，Hugo 实际上已经内置了不少通用的模板，称为 [Internal Templates](https://gohugo.io/templates/internal)，比如 disqus，google analytics，可以通过 `template` 函数引入，比如在合适的地方 `{{ template "_internal/disqus.html" . }}`，这样在配置文件中定义了 `disqusShortname` 之后，就可以显示评论了。
 
 对于这些内置模板的内容，感兴趣的朋友可以前往 [Hugo 的源代码](https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates)阅读。[\_defualt 目录下](https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates/_default)还有 `robots.txt`，`sitemap.xml`，`rss.xml` 的默认模板。
 
@@ -247,7 +247,7 @@ readingTime:
 </p>
 ```
 
-这样以来，Markdown 在渲染的时候，遇到图片就会采用这里的逻辑。同理给链接加上没有下划线的样式，又或者如果是外部链接在新标签页打开等等的功能就可以实现了。不过，目前只支持以下三种。
+这样一来，Markdown 在渲染的时候，遇到图片就会采用这里的逻辑。同理给链接加上没有下划线的样式，又或者如果是外部链接在新标签页打开等等的功能就可以实现了。不过，目前只支持以下三种。
 
 - image
 - link
@@ -271,13 +271,13 @@ Print 大法，简而言之就是在模板中插入如下语句，`$.` 代表全
 
 上一个主题并没有自带搜索功能，另外静态博客的搜索似乎也是一个痛，需要不少努力而实际上似乎效果有限，我就直接偷懒用 Google 的搜索得了。不过在写搜索表单的时候还是学到了一个小技巧值得分享一下。
 
-其实我想实现的功能很简单，一个搜索框，一个搜索按钮，按下按钮然后在新窗口打开 Google，并且自动搜索 `keywords site:blog.gimo.me`，这个功能如果只是一个链接倒是会简单不少，不过换成表单就要稍微麻烦一点，不过效果还是挺不错的。示例代码如下，关键是这个隐藏的 `<input type="hidden" name="q" value="site:https://blog.gimo.me" />`。
+其实我想实现的功能很简单，一个搜索框，一个搜索按钮，按下按钮然后在新窗口打开 Google，并且自动搜索 `keywords site:blog.gimo.me`，这个功能如果只是一个链接倒是会简单不少，不过换成表单就要稍微麻烦一点，不过效果还是挺不错的。示例代码如下，关键是这个隐藏的 `<input type="hidden" name="q" value="site:blog.gimo.me" />`。
 
 ```go-html-template
 <form action="https://google.com/search" target="_blank" class="row">
   <div class="col-auto">
     <input class="form-control me-2" type="search" placeholder="{{ i18n "search" }}" name="q" />
-    <input type="hidden" name="q" value="site:https://blog.gimo.me" />
+    <input type="hidden" name="q" value="site:blog.gimo.me" />
   </div>
   <button class="col-auto btn btn-outline-success" type="submit">
     {{ partial "icons/search.html" . }}
@@ -296,7 +296,7 @@ Print 大法，简而言之就是在模板中插入如下语句，`$.` 代表全
 
 ```css
 body {
-  padding-top: 76px;
+  padding-top: 56px;
 }
 ```
 
@@ -304,7 +304,7 @@ body {
 
 ```css
 :root {
-  --body-padding-top: 76px;
+  --body-padding-top: 56px;
 }
 html {
   scroll-padding: var(--body-padding-top) 0 0 0;
