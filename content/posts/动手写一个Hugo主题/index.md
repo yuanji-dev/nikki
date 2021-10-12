@@ -1,10 +1,8 @@
 ---
 title: "动手写一个 Hugo 博客主题"
 date: 2021-08-29T11:58:46+09:00
-author: Yuanji
 draft: false
 tags: ["Hugo", "博客", "主题"]
-categories: ["Hugo", "博客", "主题"]
 keywords: ["Hugo", "博客", "主题"]
 slug: "creating-a-hugo-theme"
 ---
