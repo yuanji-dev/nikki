@@ -10,7 +10,7 @@ aliases:
   - "/post/selfhosted-services-on-vps/"
 ---
 
-在上次介绍了[使用 Ansible 搭建 VPS 基础环境]({{< relref "/VPS 再入门: Ansible 使用篇" >}})之后，这次想记录一下我在 VPS 都自建了哪些服务。
+在上次介绍了[使用 Ansible 搭建 VPS 基础环境]({{< relref "VPS再入门：Ansible使用篇" >}})之后，这次想记录一下我在 VPS 都自建了哪些服务。
 
 <!--more-->
 
