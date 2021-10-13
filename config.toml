@@ -52,6 +52,7 @@ googleAnalytics = "G-YL6RBN684E"
 [params]
   since = "2016" # Site creation time          # 站点建立时间
 
+  title = "Yuanji's Blog"
   keywords = ["Yuanji", "元吉", "日语", "编程"]
   description = "Yuanji's Blog, 元吉的博客"
 
@@ -133,3 +134,6 @@ googleAnalytics = "G-YL6RBN684E"
   noClasses = true
   style = "manni"
   tabWidth = 4
+
+[social]
+  twitter = "gimo_me"
