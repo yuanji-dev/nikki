@@ -1,7 +1,8 @@
 # Yuanji's Blog
 
-共计 47 篇文章
+共计 48 篇文章
 ## 2021
+- 10-13 [给博客文章自动生成分享图](content/posts/给博客文章自动生成分享图/index.md)
 - 08-29 [动手写一个 Hugo 博客主题](content/posts/动手写一个Hugo主题/index.md)
 - 04-25 [Vehicle](content/posts/Vehicle/index.md)
 - 04-14 [使用 Namecheap 的域名邮箱托管服务](content/posts/使用Namecheap的域名邮箱托管服务/index.md)
