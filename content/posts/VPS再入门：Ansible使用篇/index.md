@@ -1,5 +1,5 @@
 ---
-title: "VPS 再入门: Ansible 使用篇"
+title: "VPS 再入门：Ansible 使用篇"
 date: 2019-10-19T16:17:08+09:00
 lastmod: 2019-10-19T22:44:43+0900
 tags: ["Ansible", "VPS"]

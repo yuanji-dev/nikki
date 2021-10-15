@@ -1,5 +1,5 @@
 ---
-title: "VPS 再入门: 自建服务篇"
+title: "VPS 再入门：自建服务篇"
 date: 2019-10-22T12:19:43+09:00
 lastmod: 2019-12-13T20:38:55+0900
 tags: ["selfhosted", "VPS"]
