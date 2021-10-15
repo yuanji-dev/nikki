@@ -1,7 +1,8 @@
 # Yuanji's Blog
 
-共计 48 篇文章
+共计 49 篇文章
 ## 2021
+- 10-15 [VPS再入门：选购篇](content/posts/VPS再入门：选购篇/index.md)
 - 10-13 [给博客文章自动生成分享图](content/posts/给博客文章自动生成分享图/index.md)
 - 08-29 [动手写一个 Hugo 博客主题](content/posts/动手写一个Hugo主题/index.md)
 - 04-25 [Vehicle](content/posts/Vehicle/index.md)
@@ -19,8 +20,8 @@
 ## 2019
 - 12-11 [使用 DokuWiki 的感受](content/posts/使用DokuWiki的感受/index.md)
 - 10-25 [令和元年中途转职记录](content/posts/令和元年中途转职记录/index.md)
-- 10-22 [VPS 再入门: 自建服务篇](content/posts/VPS再入门：自建服务篇/index.md)
-- 10-19 [VPS 再入门: Ansible 使用篇](content/posts/VPS再入门：Ansible使用篇/index.md)
+- 10-22 [VPS 再入门：自建服务篇](content/posts/VPS再入门：自建服务篇/index.md)
+- 10-19 [VPS 再入门：Ansible 使用篇](content/posts/VPS再入门：Ansible使用篇/index.md)
 - 07-23 [NEET Diary 11: 三週目](content/posts/NEETDiary11：三週目/index.md)
 - 07-19 [自由研究 1: 字体料理](content/posts/自由研究1：字体料理/index.md)
 - 07-17 [自由研究 0: 字体（fontconfig 編）](content/posts/自由研究0：字体（fontconfig編）/index.md)
