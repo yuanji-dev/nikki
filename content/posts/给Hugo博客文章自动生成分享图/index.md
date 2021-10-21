@@ -1,9 +1,11 @@
 ---
-title: "给博客文章自动生成分享图"
+title: "给 Hugo 博客文章自动生成分享图"
 date: 2021-10-13T20:54:24+09:00
 tags: ["Hugo", "open-graph", "twitter-card"]
 keywords: ["Hugo", "open-graph", "twitter-card"]
-slug: "auto-generating-cover-for-post"
+slug: "generating-cover-images-for-hugo-blog-posts"
+aliases:
+  - "auto-generating-cover-for-post"
 ---
 
 在此之前，如果把本站的文章分享到社交网站或是会抓取内容的聊天软件，通常会显示文章的标题和简介，但多少感觉有点儿光秃秃的，有点儿单调。如果可以加上一张分享图，应该能显得美观一些，但是为此专门找一张关系不大的配图，又觉得很麻烦，而且感觉会对于本身就更新频率一般的本博客而言，更是雪上加霜。于是想了想有没有办法自动生成一张呢？答案是肯定的。这里先把最终的效果放上来，再解释其中的细节，下图就是给本文自动生成的分享图，如果把这篇文章分享出去，想必它就会出现。
