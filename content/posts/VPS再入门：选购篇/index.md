@@ -2,7 +2,7 @@
 title: "VPS 再入门：选购篇"
 date: 2021-10-15T20:02:56+09:00
 tags: ["VPS", "selfhosted"]
-tags: ["VPS", "selfhosted"]
+keywords: ["VPS", "selfhosted"]
 slug: "how-to-choose-cheap-vps"
 ---
 
