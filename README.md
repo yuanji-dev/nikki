@@ -1,6 +1,6 @@
 # Yuanji's Blog
 
-共计 50 篇文章
+共计 52 篇文章
 ## 2022
 - 02-20 [在日本使用 Redmi K40](content/posts/在日本使用RedmiK40/index.md)
 ## 2021
@@ -20,6 +20,8 @@
 - 05-19 [地震、襲来](content/posts/地震、襲来/index.md)
 - 02-09 [来日本最初的一个月](content/posts/来日本最初的一个月/index.md)
 ## 2019
+- 12-26 [来日本最初的一周](content/posts/来日本最初的一周/index.md)
+- 12-12 [赴日的准备工作](content/posts/赴日的准备工作/index.md)
 - 12-11 [使用 DokuWiki 的感受](content/posts/使用DokuWiki的感受/index.md)
 - 10-25 [令和元年中途转职记录](content/posts/令和元年中途转职记录/index.md)
 - 10-22 [VPS 再入门：自建服务篇](content/posts/VPS再入门：自建服务篇/index.md)
