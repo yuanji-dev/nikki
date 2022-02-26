@@ -13,7 +13,9 @@ slug: "using-redmi-k40-in-japan"
 
 ## 反向海淘
 
-这台手机是在 1 月 31 日晚（除夕夜）京东上下的单，2 月 12 日下午拿到手机，除去中国过年假期的话，实际上快递还是非常快的。至于有没有税的问题，目前我还没有收到税单，可以再观察看看。
+这台手机是在 1 月 31 日晚（除夕夜）京东上下的单，2 月 12 日下午拿到手机，除去中国过年假期的话，实际上快递还是非常快的。 ~~至于有没有税的问题，目前我还没有收到税单，可以再观察看看。~~
+
+**在 2 月 25 日的时候邮箱收到了补税的单子，合计 2700 日元，去临近的便利店付款即可。粗略看了下税的名目是消费税，关税其实是免税的。**
 
 详细的追踪可以参考下面的截图。
 
@@ -39,7 +41,7 @@ slug: "using-redmi-k40-in-japan"
 
 具体的可以参考一些手机配置网站上的信息，比如 https://www.gsmarena.com/xiaomi_redmi_k40-10728.php
 
-![redmi-k40-specs](redmi-k40-specs.png)
+![Redmi K40 Specs](redmi-k40-specs.png)
 
 ### 解锁 bootloader
 
@@ -57,4 +59,4 @@ slug: "using-redmi-k40-in-japan"
 
 以上就是最近购买和使用 Redmi K40 的经过啦，附一张新手机桌面的截图，我常用的软件大概就是桌面上的这几个了，只要它们不出问题，想必用上几年问题不大。
 
-![redmi-k40-desktop](redmi-k40-desktop.jpg)
+![Redmi K40 Desktop](redmi-k40-desktop.jpg)
