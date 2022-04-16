@@ -1,7 +1,8 @@
 # Yuanji's Blog
 
-共计 52 篇文章
+共计 53 篇文章
 ## 2022
+- 04-16 [日本软考之基本情报技术者](content/posts/日本软考之基本情报技术者/index.md)
 - 02-20 [在日本使用 Redmi K40](content/posts/在日本使用RedmiK40/index.md)
 ## 2021
 - 10-15 [VPS 再入门：选购篇](content/posts/VPS再入门：选购篇/index.md)
