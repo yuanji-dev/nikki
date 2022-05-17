@@ -10,7 +10,7 @@ caution: false
 
 - My name is Yuanji, you can call me Jimmy
 
-- PGP: 1D5AB52A241CC492A724FE14E8D79E63E3D142F3
+- PGP: 0xE8D79E63E3D142F3
 
 - Email: self@gimo.me
 

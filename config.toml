@@ -55,6 +55,7 @@ googleAnalytics = "G-YL6RBN684E"
   customJS = []
 
   gitRepo = "https://github.com/masakichi/nikki"
+  gitBranch = "main"
 
 [params.publicCDN] # load these files from public cdn                          # 启用公共CDN，需自行定义
   # TODO
@@ -105,14 +106,17 @@ googleAnalytics = "G-YL6RBN684E"
 [markup.goldmark.renderer]
   unsafe = true
 [markup.highlight]
+  anchorLineNos = true
   codeFences = true
   guessSyntax = true
-  hl_Lines = ""
+  hl_Lines = ''
+  lineAnchors = ''
   lineNoStart = 1
-  lineNos = false
-  lineNumbersInTable = true
-  noClasses = true
-  style = "monokai"
+  lineNos = true
+  lineNumbersInTable = false
+  noClasses = false
+  noHl = false
+  style = 'monokai'
   tabWidth = 4
 
 [social]
