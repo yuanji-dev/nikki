@@ -1,3 +1,8 @@
+# TODO:
+# 1. add a cover for home page.
+# 2. review meta info of archives, about page.
+# 3. review head meta template
+
 baseURL = "https://blog.gimo.me/"
 defaultContentLanguage = "zh-cn"       # https://github.com/gohugoio/hugo/issues/7344
 defaultContentLanguageInSubdir = false
@@ -6,11 +11,10 @@ theme = "futu"
 enableRobotsTXT = true
 enableEmoji = true
 enableGitInfo = true
-
 hasCJKLanguage = true            # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 10                    # 首页每页显示的文章数
 disqusShortname = "gimome"       # disqus_shortname
-googleAnalytics = "G-YL6RBN684E"
+# googleAnalytics = "G-YL6RBN684E"
 
 [author]
   name = "Yuanji"
@@ -20,61 +24,24 @@ googleAnalytics = "G-YL6RBN684E"
   priority = 0.5
   filename = "sitemap.xml"
 
-  #[[menu.main]]
-  #  name = "Categories"
-  #  weight = 40
-  #  identifier = "categories"
-  #  url = "/categories/"
-
 [frontmatter]
   lastmod = ['lastmod', ':git', 'date', 'publishDate']
 
 [params]
-  since = "2016" # Site creation time          # 站点建立时间
-
-  title = "Yuanji's Blog"
   keywords = ["Yuanji", "元吉", "日语", "编程"]
   description = "Yuanji's Blog, 元吉的博客"
-
-  # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
-  archivePaginate = 100
-
+  # Site creation time
+  since = "2016"
+  paginate = 10
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006/01/02"
+  # Whether display TOC or not.
+  toc = true
+  googleVerification = "MgUc_ybvVWaRA5z2rsL4hzS5DwH9xdvKQFNthWOoLEg"
 
-  # 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
-  # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
-  # TODO
-  toc = true # 是否开启目录
-
-  googleVerification = "MgUc_ybvVWaRA5z2rsL4hzS5DwH9xdvKQFNthWOoLEg" # Google Verification         # 谷歌
-
-  # Link custom CSS and JS assets
-  #   (relative to /static/css and /static/js respectively)
-  customCSS = ["custom.css"]
-  customJS = []
-
-  gitRepo = "https://github.com/masakichi/nikki"
-  gitBranch = "main"
-
-[params.publicCDN] # load these files from public cdn                          # 启用公共CDN，需自行定义
-  # TODO
-  enable = false
-
-# Display a message at the beginning of an article to warn the readers that it's content may be outdated.
-# 在文章开头显示提示信息，提醒读者文章内容可能过时。
-[params.outdatedInfoWarning]
-  enable = true
-  hint = 180    # Display hint if the last modified time is more than these days ago.    # 如果文章最后更新于这天数之前，显示提醒
-  warn = 360    # Display warning if the last modified time is more than these days ago.    # 如果文章最后更新于这天数之前，显示警告
-
-[params.social]
-  a-email = "mailto:self@gimo.me"
-  b-telegram = "https://t.me/yuanji"
-  c-douban = "https://douban.com/people/masakichi"
-  d-twitter = "https://twitter.com/gimo_me"
-  e-github = "https://github.com/masakichi"
-  f-instagram = "https://instagram.com/gimo_me"
+[params.git]
+  repo = "https://github.com/masakichi/nikki"
+  branch = "main"
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
@@ -119,13 +86,16 @@ googleAnalytics = "G-YL6RBN684E"
   style = 'monokai'
   tabWidth = 4
 
+# weird, not mentioned on https://gohugo.io/variables/site/
 [social]
   twitter = "gimo_me"
 
 [languages]
 [languages.zh-CN]
+  title = "Yuanji's Blog"
   languageCode = 'zh-CN'
   languageName = '简体中文'
+# https://gohugo.io/content-management/menus/
 [languages.zh-CN.menu]
 [[languages.zh-CN.menu.main]]
   name = "首页"
@@ -149,6 +119,7 @@ googleAnalytics = "G-YL6RBN684E"
   url = "/about/"
 
 [languages.en]
+  title = "Yuanji's Blog"
   languageCode = 'en'
   languageName = 'English'
 [[languages.en.menu.main]]
@@ -160,7 +131,7 @@ googleAnalytics = "G-YL6RBN684E"
   name = "Archives"
   weight = 20
   identifier = "archives"
-  url = "/posts/"
+  url = "/archives/"
 [[languages.en.menu.main]]
   name = "Tags"
   weight = 30
