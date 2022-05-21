@@ -13,7 +13,7 @@ slug: "creating-a-hugo-theme"
 
 于是，借着 Hugo 完善的文档以及上一套主题的代码，正式走上了一条缝合的道路。这篇文章就来介绍一下如何写一个适用于 Hugo 的博客主题。
 
-只想看代码的可以直接移步： https://github.com/masakichi/futu
+只想看代码的可以直接移步： https://github.com/masakichi/futu/tree/v1.0.0
 
 <!--more-->
 
@@ -355,3 +355,10 @@ lastmod = [':git', 'lastmod', 'date', 'publishDate']
 ## 最后
 
 到此，一次较为完整的动手写 Hugo 主题活动差不多就告一段落了，管理项目的[笔记](https://yuanji-notes.notion.site/Hugo-Theme-a2d1b9a19e5644159d326147edcec470)在这里，虽然还有一些小问题，今后再更新吧。
+
+20220520 更新：
+
+本文所写的主题已由[后继版本]({{< relref "动手写一个Hugo博客主题（性能篇）" >}})取代，对本文描述的主题感兴趣的朋友可以点击下面链接查看截图存档。
+
+- [桌面端](preview_web.png)
+- [移动端](preview_mobile.png)

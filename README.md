@@ -1,13 +1,14 @@
 # Yuanji's Blog
 
-共计 53 篇文章
+共计 54 篇文章
 ## 2022
+- 05-20 [动手写一个 Hugo 博客主题（性能篇）](content/posts/动手写一个Hugo博客主题（性能篇）/index.md)
 - 04-16 [日本软考之基本情报技术者](content/posts/日本软考之基本情报技术者/index.md)
 - 02-20 [在日本使用 Redmi K40](content/posts/在日本使用RedmiK40/index.md)
 ## 2021
 - 10-15 [VPS 再入门：选购篇](content/posts/VPS再入门：选购篇/index.md)
 - 10-13 [给 Hugo 博客文章自动生成分享图](content/posts/给Hugo博客文章自动生成分享图/index.md)
-- 08-29 [动手写一个 Hugo 博客主题](content/posts/动手写一个Hugo主题/index.md)
+- 08-29 [动手写一个 Hugo 博客主题](content/posts/动手写一个Hugo博客主题/index.md)
 - 04-25 [Vehicle](content/posts/Vehicle/index.md)
 - 04-14 [使用 Namecheap 的域名邮箱托管服务](content/posts/使用Namecheap的域名邮箱托管服务/index.md)
 - 04-10 [用 Hugo 生成 README.md](content/posts/用Hugo生成README.md/index.md)

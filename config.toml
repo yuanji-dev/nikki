@@ -2,6 +2,8 @@
 # 1. add a cover for home page.
 # 2. review meta info of archives, about page.
 # 3. review head meta template
+# 4. remove admonition & figure
+# 5. reduce cover image size
 
 baseURL = "https://blog.gimo.me/"
 defaultContentLanguage = "zh-cn"       # https://github.com/gohugoio/hugo/issues/7344
@@ -15,6 +17,9 @@ hasCJKLanguage = true            # has chinese/japanese/korean ? # 自动检测�
 paginate = 10                    # 首页每页显示的文章数
 disqusShortname = "gimome"       # disqus_shortname
 # googleAnalytics = "G-YL6RBN684E"
+
+[imaging]
+  quality = 75
 
 [author]
   name = "Yuanji"
