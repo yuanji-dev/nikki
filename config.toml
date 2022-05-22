@@ -1,9 +1,6 @@
 # TODO:
-# 1. add a cover for home page.
-# 2. review meta info of archives, about page.
-# 3. review head meta template
-# 4. remove admonition & figure
-# 5. reduce cover image size
+#  remove admonition & figure
+#  reduce cover image size
 
 baseURL = "https://blog.gimo.me/"
 defaultContentLanguage = "zh-cn"       # https://github.com/gohugoio/hugo/issues/7344
@@ -33,7 +30,7 @@ disqusShortname = "gimome"       # disqus_shortname
   lastmod = ['lastmod', ':git', 'date', 'publishDate']
 
 [params]
-  keywords = ["Yuanji", "元吉", "日语", "编程"]
+  keywords = ["Yuanji", "元吉", "日语", "日本", "VPS", "Linux"]
   description = "Yuanji's Blog, 元吉的博客"
   # Site creation time
   since = "2016"
@@ -100,6 +97,10 @@ disqusShortname = "gimome"       # disqus_shortname
   title = "Yuanji's Blog"
   languageCode = 'zh-CN'
   languageName = '简体中文'
+[languages.zh-CN.params]
+  description = "Yuanji's Blog。分享技术、日语，记录学习、生活。"
+  # https://github.com/gohugoio/hugo/blob/2fc2e9c8718db2fe60f03bcf3661f449851cfe5f/tpl/tplimpl/embedded/templates/twitter_cards.html
+  images = ["cover.png"]
 # https://gohugo.io/content-management/menus/
 [languages.zh-CN.menu]
 [[languages.zh-CN.menu.main]]
@@ -127,6 +128,8 @@ disqusShortname = "gimome"       # disqus_shortname
   title = "Yuanji's Blog"
   languageCode = 'en'
   languageName = 'English'
+[languages.en.params]
+  images = ["cover.en.png"]
 [[languages.en.menu.main]]
   name = "Home"
   weight = 10

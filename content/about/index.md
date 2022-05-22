@@ -5,6 +5,7 @@ isCJKLanguage: true
 draft: false
 toc: false
 caution: false
+description: "关于"
 ---
 
 ## 关于我
