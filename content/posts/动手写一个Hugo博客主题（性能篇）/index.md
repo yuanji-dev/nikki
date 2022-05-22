@@ -11,7 +11,7 @@ slug: "creating-a-hugo-theme-2"
 
 当然叫作「性能篇」也不是完全没有道理，正常来说作为本博客读者的你应该已经感到页面打开速度飞快才对，如果不是请务必给我留言。
 
-这篇文章就主要来介绍我在上次博客主题的基础上做了哪些优化。
+这篇文章就主要来介绍我在上次博客主题的基础上做了哪些优化。想直接看代码的朋友请移步：[futu@v2](https://github.com/masakichi/futu/tree/v2)
 
 <!--more-->
 
@@ -110,7 +110,7 @@ slug: "creating-a-hugo-theme-2"
 
 ## 图片处理
 
-对于我个人博客来说，内容方面能够极大提升性能的部分当属减少图片体积了，当然一张一张专门去转换格式压缩不仅繁琐，而且极大地伤害写作的积极性，那有没有直接写 Markdown 然后 Hugo 就直接能把图片处理好呢？答案是肯定的。虽然我在网上没有搜到现成的答案，不过靠着组合 [Markdown Render Hooks](https://gohugo.io/templates/render-hooks/) 和 [Image Processing](https://gohugo.io/content-management/image-processing/) 两章的内容，自己实现这一功能，可以自动把图片转换成 WebP 格式，大体的思路如下：
+对于我个人博客来说，内容方面能够极大提升性能的部分当属减少图片体积了，当然一张一张专门去转换格式压缩不仅繁琐，而且极大地伤害写作的积极性，那有没有直接写 Markdown 然后 Hugo 就直接能把图片处理好呢？答案是肯定的。虽然我在网上没有搜到现成的答案，不过靠着组合 [Markdown Render Hooks](https://gohugo.io/templates/render-hooks/) 和 [Image Processing](https://gohugo.io/content-management/image-processing/) 两章的内容，自己实现了这一功能，可以自动把图片转换成 WebP 格式，大体的思路如下：
 
 ```go-html-template
 {{ $image := .Page.Resources.GetMatch .Destination }}
