@@ -1,6 +1,5 @@
 # TODO:
 #  remove admonition & figure
-#  reduce cover image size
 
 baseURL = "https://blog.gimo.me/"
 defaultContentLanguage = "zh-cn"       # https://github.com/gohugoio/hugo/issues/7344
