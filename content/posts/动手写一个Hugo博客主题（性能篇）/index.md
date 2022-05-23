@@ -131,6 +131,8 @@ slug: "creating-a-hugo-theme-2"
   quality = 75
 ```
 
+另外有一点需要注意的是如果原图是 GIF，转成 WebP 之后动画会失效，所以我[加了一个判断](https://github.com/masakichi/futu/commit/376802df052bb7c83b216734079ce6dd872e8804)，如果是动图的话就不转换直接用原图了。
+
 ## Disqus & Google Analytics
 
 虽然已经做出上面种种努力，最后，还有两个拖累性能的大户。Disqus 评论系统和 Google Analytics，对于后者我直接关闭了，本来也没啥用，另一方面基本的统计功能 [Cloudflare Pages](https://pages.cloudflare.com/) 已经内置了。对于 Disqus 而言我还没找到任何能和它功能、体验相似还免费的替代品，能做的就是给它加了个按需加载的功能，有兴趣的朋友可以参考：[Lazy-Loading Disqus Comments | CSS-Tricks - CSS-Tricks](https://css-tricks.com/lazy-loading-disqus-comments/)
