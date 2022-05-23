@@ -2,6 +2,8 @@
 #  remove admonition & figure
 
 baseURL = "https://blog.gimo.me/"
+# https://discourse.gohugo.io/t/pros-and-cons-of-ugly-urls/8022/7
+uglyurls = true
 defaultContentLanguage = "zh-cn"       # https://github.com/gohugoio/hugo/issues/7344
 defaultContentLanguageInSubdir = false
 title = "Yuanji's Blog"
@@ -53,18 +55,25 @@ disqusShortname = "gimome"       # disqus_shortname
 
 # Uncomment these options to make hugo output .md files.
 [mediaTypes]
-[mediaTypes."text/plain"]
+[mediaTypes."text/markdown"]
   suffixes = ["md"]
 
-[outputFormats.MarkDown]
-  mediaType = "text/plain"
+[outputFormats.Markdown]
+  name = "Markdown"
+  mediaType = "text/markdown"
   isPlainText = true
   isHTML = false
+  nougly = false
+  permalinkable = true
+[outputFormats.HTML]
+  nougly = true
+[outputFormats.AMP]
+  nougly = true
 
 [outputs]
   home = ["HTML", "RSS"]
-  page = ["HTML", "MarkDown"]
-  section = ["HTML", "RSS", "MarkDown"]
+  page = ["HTML", "Markdown"]
+  section = ["HTML", "RSS", "Markdown"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
 
