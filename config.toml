@@ -1,7 +1,7 @@
 # TODO:
 #  remove admonition & figure
 
-baseURL = "https://blog.gimo.me/"
+baseURL = "https://blog.gimo.me"
 defaultContentLanguage = "zh-cn"       # https://github.com/gohugoio/hugo/issues/7344
 defaultContentLanguageInSubdir = false
 title = "Yuanji's Blog"
@@ -19,6 +19,7 @@ disqusShortname = "gimome"       # disqus_shortname
 
 [author]
   name = "Yuanji"
+  url = "https://blog.gimo.me"
 
 [sitemap]
   changefreq = "weekly"
