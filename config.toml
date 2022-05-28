@@ -54,18 +54,18 @@ disqusShortname = "gimome"       # disqus_shortname
 
 # Uncomment these options to make hugo output .md files.
 [mediaTypes]
-[mediaTypes."text/plain"]
+[mediaTypes."text/markdown"]
   suffixes = ["md"]
 
-[outputFormats.MarkDown]
-  mediaType = "text/plain"
+[outputFormats.Markdown]
+  mediaType = "text/markdown"
   isPlainText = true
   isHTML = false
 
 [outputs]
   home = ["HTML", "RSS"]
-  page = ["HTML", "MarkDown"]
-  section = ["HTML", "RSS", "MarkDown"]
+  page = ["HTML", "AMP", "Markdown"]
+  section = ["HTML", "RSS", "Markdown"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
 
