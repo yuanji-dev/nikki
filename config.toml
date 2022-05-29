@@ -125,6 +125,11 @@ disqusShortname = "gimome"       # disqus_shortname
   weight = 40
   identifier = "about"
   url = "/about/"
+[[languages.zh-CN.menu.main]]
+  name = "订阅"
+  weight = 50
+  identifier = "rss"
+  url = "/index.xml"
 
 [languages.en]
   title = "Yuanji's Blog"
@@ -152,3 +157,8 @@ disqusShortname = "gimome"       # disqus_shortname
   weight = 40
   identifier = "about"
   url = "/about/"
+[[languages.en.menu.main]]
+  name = "RSS"
+  weight = 50
+  identifier = "rss"
+  url = "/index.xml"
