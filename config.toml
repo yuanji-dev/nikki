@@ -32,6 +32,7 @@ disqusShortname = "gimome"       # disqus_shortname
 [params]
   keywords = ["Yuanji", "元吉", "日语", "日本", "VPS", "Linux"]
   description = "Yuanji's Blog, 元吉的博客"
+  ampLogo = "logo-600x60.png"
   # Site creation time
   since = "2016"
   paginate = 10

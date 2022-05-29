@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 54 篇文章
+共计 55 篇文章
 ## 2022
-- 05-20 [动手写一个 Hugo 博客主题（性能篇）](content/posts/动手写一个Hugo博客主题（性能篇）/index.md)
+- 05-29 [动手写一个Hugo博客主题（AMP篇）](content/posts/动手写一个Hugo博客主题（AMP篇）/index.md)
+- 05-21 [动手写一个 Hugo 博客主题（性能篇）](content/posts/动手写一个Hugo博客主题（性能篇）/index.md)
 - 04-16 [日本软考之基本情报技术者](content/posts/日本软考之基本情报技术者/index.md)
 - 02-20 [在日本使用 Redmi K40](content/posts/在日本使用RedmiK40/index.md)
 ## 2021
@@ -53,7 +54,7 @@
 ## 2017
 - 12-06 [日亚 Kindle 书店漫游指南](content/posts/日亚Kindle书店漫游指南/index.md)
 - 09-30 [[翻译]Aaron Patterson：想成为日美的桥梁](content/posts/[翻译]Aaron_Patterson：想成为日美的桥梁/index.md)
-- 08-27 [人気はないけど、僕は好きなんだ](content/posts/人気はないけど、僕は好きなんだ/index.md)
+- 08-27 [人気はないけど、僕は好きなんだ](content/posts/人気はないけど、僕は好きなんだ/index.md)
 - 07-22 [少年カフカ](content/posts/少年カフカ/index.md)
 - 07-19 [来自星期天的使者](content/posts/来自星期天的使者/index.md)
 - 07-05 [少年の詩](content/posts/少年の詩/index.md)
