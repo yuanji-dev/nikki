@@ -11,7 +11,9 @@ slug: "creating-a-hugo-theme-2"
 
 当然叫作「性能篇」也不是完全没有道理，正常来说作为本博客读者的你应该已经感到页面打开速度飞快才对，如果不是请务必给我留言。
 
-这篇文章就主要来介绍我在上次博客主题的基础上做了哪些优化。想直接看代码的朋友请移步：[futu@v2](https://github.com/masakichi/futu/tree/v2)
+这篇文章就主要来介绍我在上次博客主题的基础上做了哪些优化。想直接看代码的朋友请移步：
+
+{{< github title="masakichi/futu" detail="Yet another minimal hugo theme, built-in styles are modified upon awsm.css." >}}
 
 <!--more-->
 

@@ -14,6 +14,8 @@ slug: "creating-a-hugo-theme"
 - [桌面端](preview_web.png)
 - [移动端](preview_mobile.png)
 
+{{< github title="masakichi/futu" detail="Yet another minimal hugo theme, built-in styles are modified upon awsm.css." >}}
+
 ---
 
 在读这篇文章的朋友可能已经注意到本博客的主题换了个样，那是因为过去的两个星期我自己写了套 Hugo 的主题。
