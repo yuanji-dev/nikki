@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 55 篇文章
+共计 56 篇文章
 ## 2022
-- 05-29 [动手写一个Hugo博客主题（AMP篇）](content/posts/动手写一个Hugo博客主题（AMP篇）/index.md)
+- 05-31 [用 Hugo 的 shortcodes 做 GitHub 卡片](content/posts/用Hugo的shortcodes做GitHub卡片/index.md)
+- 05-29 [动手写一个 Hugo 博客主题（AMP篇）](content/posts/动手写一个Hugo博客主题（AMP篇）/index.md)
 - 05-21 [动手写一个 Hugo 博客主题（性能篇）](content/posts/动手写一个Hugo博客主题（性能篇）/index.md)
 - 04-16 [日本软考之基本情报技术者](content/posts/日本软考之基本情报技术者/index.md)
 - 02-20 [在日本使用 Redmi K40](content/posts/在日本使用RedmiK40/index.md)
