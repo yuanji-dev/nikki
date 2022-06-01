@@ -42,17 +42,17 @@ I/O speed(3rd run)   : 50.9 MB/s
 Average I/O speed    : 52.0 MB/s
 ----------------------------------------------------------------------
 Node Name                       IPv4 address            Download Speed
-CacheFly                        205.234.175.175         5.62MB/s      
-Linode, Tokyo2, JP              139.162.65.37           5.68MB/s      
-Linode, Singapore, SG           139.162.23.4            3.61MB/s      
-Linode, London, UK              176.58.107.39           5.12MB/s      
-Linode, Frankfurt, DE           139.162.130.8           5.07MB/s      
-Linode, Fremont, CA             50.116.14.9             4.87MB/s      
-Softlayer, Dallas, TX           173.192.68.18           4.02MB/s      
-Softlayer, Seattle, WA          67.228.112.250          5.02MB/s      
-Softlayer, Frankfurt, DE        159.122.69.4            4.23MB/s      
-Softlayer, Singapore, SG        119.81.28.170           5.23MB/s      
-Softlayer, HongKong, CN         119.81.130.170          5.24MB/s      
+CacheFly                        205.234.175.175         5.62MB/s
+Linode, Tokyo2, JP              139.162.65.37           5.68MB/s
+Linode, Singapore, SG           139.162.23.4            3.61MB/s
+Linode, London, UK              176.58.107.39           5.12MB/s
+Linode, Frankfurt, DE           139.162.130.8           5.07MB/s
+Linode, Fremont, CA             50.116.14.9             4.87MB/s
+Softlayer, Dallas, TX           173.192.68.18           4.02MB/s
+Softlayer, Seattle, WA          67.228.112.250          5.02MB/s
+Softlayer, Frankfurt, DE        159.122.69.4            4.23MB/s
+Softlayer, Singapore, SG        119.81.28.170           5.23MB/s
+Softlayer, HongKong, CN         119.81.130.170          5.24MB/s
 ----------------------------------------------------------------------
 ```
 
@@ -195,7 +195,7 @@ Anki 就是那个大名鼎鼎的记忆软件，感觉提到背单词之类的事
 
 这是一个非常简单的而且容易部署的 RSS 阅读器，本身提供简洁的 Web 界面，也可以通过自带的 Fever API 使用第三方的本地阅读器。架设这个服务的主要目标是取代之前一直使用的 Inoreader，Inoreader 其实我用着很舒服，每年交不到 20 刀去个广告，我也没用上多复杂的功能，就是看看新闻和标记感兴趣的文章。想到服务器闲着也是闲着，就调查了一番，结果是一般自建 RSS 阅读服务的方案分为两种，Tiny Tiny RSS 和其他，Tiny Tiny RSS 我感觉它提供的功能过于丰富，我也不太用得上，另一方面它部署起来也不太方便。于是其他方案里，Miniflux 目前呼声挺高，部署就是个 Go 语言编译而成的二进制文件，虽然本身提供的功能简单，核心功能也都有。与第三方服务（主要是 Read it later 服务）的连携也不错。实在要说有什么缺点，就是首页不能预览文章和**全文搜索不支持中文、日文等**
 
-{{< figure src="miniflux.png" class="center" title="miniflux screenshot" >}}
+![miniflux screenshot](miniflux.png)
 
 ### RSSHub
 
@@ -209,7 +209,7 @@ Anki 就是那个大名鼎鼎的记忆软件，感觉提到背单词之类的事
 
 这是一个稍后阅读和文章收集的服务，被当作 Pocket 或者 Instapaper 的开源实现。看着很实用，支持从好几个服务迁移数据，也支持从我上面自建的 Miniflux 里保存网页。看到官网推荐了一家欧洲的服务商托管这个服务，我就懒得自建服务了，每年的价格是 9 欧元，差不多是 70 人民币，比主流的 Pocket 和 Instapaper 便宜很多。定期做好备份就行了，如果那边服务出现什么状况自己启一个实例，导入备份的数据就行。界面大概长下面的样子：
 
-{{< figure src="wallabag.png" class="center" title="wallabag screenshot" >}}
+![wallabag screenshot](wallabag.png)
 
 ### File Browser
 

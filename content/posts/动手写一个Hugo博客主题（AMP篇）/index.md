@@ -102,9 +102,9 @@ AMP 是 Accelerated Mobile Pages 的简称，是由 Google 开发的一项加速
 
 打开 Chrome 的开发者工具，在 URL 后加上 `#development=1`，可以在 `Console` 标签卡中查看所有页面中的错误。同时也可以使用 [The AMP Validator](https://validator.ampproject.org/) 这个在线检测工具。
 
-![DevTools Error](DevTools_error.png "AMP 验证有报错")
+![DevTools 里 AMP 验证有报错](DevTools_error.png)
 
-![DevTools Success](DevTools_success.png "AMP 通过验证")
+![DevTools 里 AMP 通过验证](DevTools_success.png)
 
 ### 图片处理
 

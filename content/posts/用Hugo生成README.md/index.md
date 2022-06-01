@@ -70,7 +70,7 @@ readme:
 
 这样每次写完新的日记，执行一下 `make readme` 就可以直接生成最新的 README.md 文件了，是不是很方便呢？下面就是这一套操作之后的预览啦。
 
-![](after.gif)
+![有了 README.md 之后的仓库主页](after.gif)
 
 ## 最后
 

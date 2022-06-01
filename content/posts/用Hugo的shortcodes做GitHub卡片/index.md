@@ -41,7 +41,7 @@ slug: "using-hugo-shortcodes-to-create-github-widget"
 
 不过对于我来说还是有种杀鸡用牛刀的感觉，接着调查找到了[Hugo でわりと楽してわりとかっこよく Amazon 商品紹介をする](https://yusukebe.com/posts/2020/amazon-shortcode/)这么一篇文章，它的实现确实有种眼睛一亮的感觉，不同的是他是做了日本亚马逊商品卡片的功能，好在原理都一样，其实也非常简单，就是利用网站的 Open Graph 或是 Twitter Card 标签里的图片作为素材，用 HTML + CSS 画出一张卡片来。甚至 CSS 都不怎么需要自己写，Twitter 提供了一个叫作 [Card Validator](https://cards-dev.twitter.com/validator) 的线上工具，我们可以打开 Chrome 的 DevTools 直接参考样式即可。
 
-![Twitter Card Validator](twitter_card_validator.png "Twitter Card Validator")
+![Twitter Card Validator](twitter_card_validator.png)
 
 有了思路，接下来就简单了，基本上就是写一个 shortcode 放到 `layouts/shortcodes/github.html` 里即可，样式文件这里就不赘述了。
 
