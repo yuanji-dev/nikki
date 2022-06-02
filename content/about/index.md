@@ -10,7 +10,7 @@ description: "关于"
 
 ## 关于我
 
-- 名叫 元吉，1993 年生
+- 我叫<ruby>元吉<rp>(</rp><rt>yuán jí</rt><rp>)</rp></ruby>，1993 年生
 
 - PGP: 0xE8D79E63E3D142F3
 
@@ -18,13 +18,12 @@ description: "关于"
 
 - Telegram: https://telegram.me/yuanji
 
-- 日本語で話しかけても大丈夫
-
-- It's OK if you speak English with me
+- Please feel free to contact me in English
 
 ## 关于本站
 
-- (希望)写一些对其他人也有帮助的文章
-- 偶尔翻译一些觉得不错的文章
-- 偶尔写一些记录生活的文章
-- 一个月尽量能写上一篇文章
+本站使用 [Hugo](https://gohugo.io/) 生成，部署在 [Cloudflare Pages](https://pages.cloudflare.com/) 上。
+
+本站使用的主题是 👇
+
+{{< github title="masakichi/futu" detail="Yet another minimal hugo theme, built-in styles are modified upon awsm.css." >}}

@@ -7,7 +7,7 @@ caution: false
 description: "About"
 ---
 
-## About Me
+## About me
 
 - My name is Yuanji, you can call me Jimmy
 
@@ -19,4 +19,6 @@ description: "About"
 
 - 我的母语是中文
 
-- 日本語で話しかけても大丈夫
+## About this site
+
+This site is generated using [Hugo](https://gohugo.io/) and deployed on [Cloudflare Pages](https://pages.cloudflare.com/).
