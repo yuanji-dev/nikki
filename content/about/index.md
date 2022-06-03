@@ -10,7 +10,7 @@ description: "关于"
 
 ## 关于我
 
-- 我叫<ruby>元吉<rp>(</rp><rt>yuán jí</rt><rp>)</rp></ruby>，1993 年生
+- 我叫{{< ruby "元" "yuán" "吉" "jí" >}}，1993 年生
 
 - PGP: 0xE8D79E63E3D142F3
 

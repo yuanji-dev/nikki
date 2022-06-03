@@ -31,6 +31,6 @@ aliases:
 
 [森博嗣の浮遊工作室](http://www001.upp.so-net.ne.jp/mori/)
 
-少年の<ruby>詩 <rp>(</rp><rt>うた</rt><rp>)</rp></ruby> https://music.163.com/#/song?id=22668438
+少年の{{< ruby "詩" "うた" >}} https://music.163.com/#/song?id=22668438
 
 つづく

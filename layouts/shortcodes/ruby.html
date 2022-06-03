@@ -1,0 +1,8 @@
+<ruby>
+{{- range seq (len .Params) -}}
+  {{- if (modBool . 2) -}}
+    {{  $.Get (sub . 2) }}<rp>(</rp><rt>{{  $.Get (sub . 1) }}</rt><rp>)</rp>
+  {{- end -}} 
+{{- end -}}
+</ruby>
+{{- /* Strip trailing newline. */ -}}
