@@ -1,7 +1,9 @@
 # Yuanji's Blog
 
-共计 56 篇文章
+共计 57 篇
+
 ## 2022
+- 06-05 [タイガーデン 渋谷店](content/remarks/タイガーデン渋谷店/index.md)
 - 05-31 [用 Hugo 的 shortcodes 做 GitHub 卡片](content/posts/用Hugo的shortcodes做GitHub卡片/index.md)
 - 05-29 [动手写一个 Hugo 博客主题（AMP篇）](content/posts/动手写一个Hugo博客主题（AMP篇）/index.md)
 - 05-21 [动手写一个 Hugo 博客主题（性能篇）](content/posts/动手写一个Hugo博客主题（性能篇）/index.md)
@@ -64,3 +66,4 @@
 - 01-10 [日语学习二期](content/posts/日语学习二期/index.md)
 ## 2016
 - 10-14 [业余日语学习的近况](content/posts/业余日语学习的近况/index.md)
+

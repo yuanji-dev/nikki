@@ -65,9 +65,9 @@ disqusShortname = "gimome"       # disqus_shortname
   isHTML = false
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "Markdown"]
   page = ["HTML", "AMP", "Markdown"]
-  section = ["HTML", "RSS", "Markdown"]
+  section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
 
