@@ -103,6 +103,7 @@ disqusShortname = "gimome"       # disqus_shortname
   description = "Yuanji's Blog。分享技术、日语，记录学习、生活。"
   # https://github.com/gohugoio/hugo/blob/2fc2e9c8718db2fe60f03bcf3661f449851cfe5f/tpl/tplimpl/embedded/templates/twitter_cards.html
   images = ["cover.png"]
+  mainSections = ["posts", "remarks"]
 # https://gohugo.io/content-management/menus/
 [languages.zh-CN.menu]
 [[languages.zh-CN.menu.main]]
