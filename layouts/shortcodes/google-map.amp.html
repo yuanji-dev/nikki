@@ -1,0 +1,17 @@
+<details>
+  <summary>📍 查看地图</summary>
+  {{ with .Get 2 }}
+  <amp-iframe
+    src="https://www.google.com/maps/embed?pb={{ . }}"
+    width="600"
+    height="450"
+    layout="responsive"
+    sandbox="allow-scripts allow-same-origin"
+    referrerpolicy="no-referrer-when-downgrade"
+  >
+  </amp-iframe>
+  {{ end }}
+  <address>
+    <a target="_blank" rel="noopener" href="https://goo.gl/maps/{{ .Get 1 }}">{{ .Get 0 }}</a>
+  </address>
+</details>
