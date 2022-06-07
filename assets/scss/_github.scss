@@ -1,0 +1,47 @@
+.sc-card {
+  border-radius: 0.85em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e1e8ed;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-size: 14px;
+
+  &:hover .sc-card-content {
+    background: #f5f8fa;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.sc-card-content {
+  padding: 1em;
+
+  h2 {
+    margin: 0 0 0.15em;
+    max-height: 1.3em;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  p.sc-card-title {
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 1.25;
+    margin: 0 0 0.15em;
+    color: #000;
+  }
+
+  p.sc-card-details {
+    margin: 0;
+    color: #000;
+  }
+
+  span {
+    color: #4f5a5f;
+  }
+}
