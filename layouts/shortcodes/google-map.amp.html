@@ -2,7 +2,7 @@
   <summary>📍 查看地图</summary>
   {{ with .Get 2 }}
   <amp-iframe
-    src="https://www.google.com/maps/embed?pb={{ . }}"
+    {{ printf "src=\"https://www.google.com/maps/embed?pb=%s\"" . | safeHTMLAttr }}
     width="600"
     height="450"
     layout="responsive"
