@@ -35,6 +35,7 @@ disqusShortname = "gimome"       # disqus_shortname
   ampLogo = "logo-600x60.png"
   # Site creation time
   since = "2016"
+  homePaginate = 5
   paginate = 10
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006/01/02"
