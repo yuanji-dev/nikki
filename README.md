@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 59 篇
+共计 60 篇
 
 ## 2022
+- 06-09 [日本国家资格考试的仪式感](content/remarks/日本国家资格考试的仪式感/index.md)
 - 06-07 [日本肯德基白金会员](content/remarks/日本肯德基白金会员/index.md)
 - 06-07 [使用 Markdown Render Hooks 要注意](content/posts/使用Markdown_Render_Hooks要注意/index.md)
 - 06-05 [タイガーデン 渋谷店](content/remarks/タイガーデン渋谷店/index.md)
