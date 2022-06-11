@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 60 篇
+共计 61 篇
 
 ## 2022
+- 06-11 [丸酱炒面和马黛茶](content/remarks/丸酱炒面和马黛茶/index.md)
 - 06-09 [日本国家资格考试的仪式感](content/remarks/日本国家资格考试的仪式感/index.md)
 - 06-07 [日本肯德基白金会员](content/remarks/日本肯德基白金会员/index.md)
 - 06-07 [使用 Markdown Render Hooks 要注意](content/posts/使用Markdown_Render_Hooks要注意/index.md)
