@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /status/
+Sitemap: {{ "sitemap.xml" | absURL }}

@@ -1,5 +1,5 @@
 <p>
-  {{ (printf (i18n "powered") (printf `<a target="_blank" rel="noopener" href="https://gohugo.io">Hugo %s</a>` .Site.Hugo.Version)) | safeHTML }}
+  {{ (printf (i18n "powered") (printf `<a href="%s">Hugo %s</a>` ("/status/" | relLangURL) .Site.Hugo.Version)) | safeHTML }}
   |
   {{ i18n "theme" }}
   <a target="_blank" rel="noopener" href="https://github.com/masakichi/futu">futu@v2</a>

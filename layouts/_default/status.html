@@ -1,0 +1,45 @@
+{{- define "main" }}
+<header>
+  <h1>{{ .Title }}</h1>
+  This page was generated at <code>{{ partial "rfc3339.html" now }}</code>
+</header>
+<article>
+  <header>
+    <h2>hugo</h2>
+    <table>
+      <tbody>
+        <tr>
+          <td><code>{{ `{{` }} hugo.Generator {{ `}}` }}</code></td>
+          <td><code>{{ hugo.Generator | htmlUnescape }}</code></td>
+        </tr>
+        <tr>
+          <td><code>{{ `{{` }} hugo.Version {{ `}}` }}</code></td>
+          <td><code>{{ hugo.Version }}</code></td>
+        </tr>
+        <tr>
+          <td><code>{{ `{{` }} hugo.Environment {{ `}}` }}</code></td>
+          <td><code>{{ hugo.Environment }}</code></td>
+        </tr>
+        <tr>
+          <td><code>{{ `{{` }} hugo.CommitHash {{ `}}` }}</code></td>
+          <td><code>{{ hugo.CommitHash }}</code></td>
+        </tr>
+        <tr>
+          <td><code>{{ `{{` }} hugo.BuildDate {{ `}}` }}</code></td>
+          <td><code>{{ hugo.BuildDate }}</code></td>
+        </tr>
+        <tr>
+          <td><code>{{ `{{` }} hugo.IsExtended {{ `}}` }}</code></td>
+          <td><code>{{ hugo.IsExtended }}</code></td>
+        </tr>
+      </tbody>
+    </table>
+  </header>
+</article>
+<article>
+  <header>
+    <h2>config.toml</h2>
+    {{ highlight (readFile "config.toml") "toml" }}
+  </header>
+</article>
+{{- end }}
