@@ -51,7 +51,7 @@
 - 06-30 [NEET Diary 1: 夏](content/posts/NEETDiary1：夏/index.md)
 - 06-29 [NEET Diary 0: 仮想記憶](content/posts/NEETDiary0：仮想記憶/index.md)
 - 04-08 [[翻译]新年号「令和」的「令」在Unicode里为何有两个](content/posts/[翻译]新年号「令和」的「令」在Unicode里为何有两个/index.md)
-- 03-17 [Anki、最強の日本語暗記アプリ](content/posts/Anki、最強の日本語暗記アプリ/index.md)
+- 03-17 [Anki：最强日语单词记忆软件](content/posts/Anki：最强日语单词记忆软件/index.md)
 - 01-20 [跨平台日语学习方案](content/posts/跨平台日语学习方案/index.md)
 - 01-05 [从 macOS 到 Arch Linux](content/posts/从macOS到ArchLinux/index.md)
 ## 2018
