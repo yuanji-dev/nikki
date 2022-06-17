@@ -1,7 +1,6 @@
 ---
 title: "Anki：最强日语单词记忆软件"
 date: 2019-03-17
-lastmod: 2019-10-30T18:51:23+0900
 tags: ["日语", "Anki"]
 keywords: ["日语", "Anki", "Yomichan"]
 isCJKLanguage: true
