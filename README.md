@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 62 篇
+共计 63 篇
 
 ## 2022
+- 06-18 [携号转网到 IIJmio](content/remarks/携号转网到IIJmio/index.md)
 - 06-17 [↑THE HIGH-LOWS↓](content/remarks/THE_HIGH-LOWS/index.md)
 - 06-11 [丸酱炒面和马黛茶](content/remarks/丸酱炒面和马黛茶/index.md)
 - 06-09 [日本国家资格考试的仪式感](content/remarks/日本国家资格考试的仪式感/index.md)
