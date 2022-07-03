@@ -5,7 +5,8 @@ draft: false
 toc: false
 tags: ["食物", "东京"]
 keywords: ["泰国料理"]
-slug: "thai-garden-shibuya"
+aliases:
+  - "/remarks/thai-garden-shibuya/"
 hasIframe: true
 ---
 

@@ -5,7 +5,8 @@ draft: false
 toc: false
 tags: ["食物", "日本"]
 keywords: ["肯德基", "白金会员"]
-slug: "kfc-japan-platinum-membership"
+aliases:
+  - "/remarks/kfc-japan-platinum-membership/"
 ---
 
 要说我来日本之后吃的最多的快餐店是哪家，那毫无疑问是肯德基。

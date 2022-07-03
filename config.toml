@@ -14,6 +14,12 @@ paginate = 10                    # 首页每页显示的文章数
 disqusShortname = "gimome"       # disqus_shortname
 # googleAnalytics = "G-YL6RBN684E"
 
+[uglyURLs]
+  remarks = true
+
+[permalinks]
+  remarks = '/:section/:year-:month-:day/'
+
 [imaging]
   quality = 75
 

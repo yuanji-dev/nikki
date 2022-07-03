@@ -5,7 +5,8 @@ draft: false
 toc: false
 tags: ["食物", "料理", "日本"]
 keywords: ["丸酱炒面", "マルちゃん焼きそば", "马黛茶", "マテ茶"]
-slug: "maruchan-yakisoba-and-mate-tea"
+aliases:
+  - "/remarks/maruchan-yakisoba-and-mate-tea/"
 ---
 
 今天一早用冰箱剩余的午餐肉切成丁，放入锅中简单煎一下，打两个鸡蛋炒开，再在锅中加入一袋丸酱面（マルちゃん焼きそば），加入大概 60 毫升水，把面加热到散开，最后撒上唯一的一包调味粉拌一下，一份香喷喷的丸酱炒面就做成了，味道非常不错。

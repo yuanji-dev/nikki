@@ -5,7 +5,8 @@ draft: false
 toc: false
 tags: ["日本", "日语", "考试"]
 keywords: ["基本情報技術者試験", "情報処理技術者試験合格証書"]
-slug: "fe-certificate"
+aliases:
+  - "/remarks/fe-certificate/"
 ---
 
 上次分享的关于[日本软考]({{< relref "日本软考之基本情报技术者" >}})的文章最近终于有了结果，今天收到了合格的证书（见下文）。

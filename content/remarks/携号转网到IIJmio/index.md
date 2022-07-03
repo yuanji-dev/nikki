@@ -5,7 +5,8 @@ draft: false
 toc: false
 tags: ["IIJmio", "日本"]
 keywords: ["IIJmio", "Xiaomi Mi 11 Lite 5G", "日本", "格安SIM"]
-slug: "iijmio"
+aliases:
+  - "/remarks/iijmio/"
 ---
 
 因为前段时间 Rakuten Mobile 宣布取消免费套餐，我为期一年多的薅羊毛生涯眼看要告一段落，正好很多其他运营商也是看准了这个时机，纷纷推出了各种携号转网优惠套餐，因为乐天新的套餐对我没有太大的吸引力，我也计划转到其他运营商。

@@ -5,7 +5,6 @@ draft: false
 toc: false
 tags: []
 keywords: []
-slug: ""
 ---
 
 **Insert Lead paragraph here.**
