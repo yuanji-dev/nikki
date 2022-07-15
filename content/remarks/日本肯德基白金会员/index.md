@@ -22,3 +22,9 @@ aliases:
 ![吮指原味鸡x3 + 松脆鸡肉x4](kfc_jp_special_coupon_01.jpg)
 
 ![一百日元一个松饼](kfc_jp_special_coupon_02.jpg)
+
+**2022/07/15 更新：**
+
+积分累积超过 10000 分还会额外送一张 100 日元购买两块吮指原味鸡的优惠券
+
+![100日元=吮指原味鸡x2](kfc_jp_special_coupon_03.jpg)
