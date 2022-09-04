@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 66 篇
+共计 67 篇
 
 ## 2022
+- 09-04 [のんある気分](content/remarks/のんある気分/index.md)
 - 08-24 [远程采访的正确方式](content/remarks/远程采访的正确方式/index.md)
 - 07-16 [富士河口湖之行](content/remarks/富士河口湖之行/index.md)
 - 07-03 [过去炎热的一周](content/remarks/过去炎热的一周/index.md)
