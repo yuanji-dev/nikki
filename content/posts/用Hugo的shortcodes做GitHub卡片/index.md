@@ -11,7 +11,7 @@ slug: "using-hugo-shortcodes-to-create-github-widget"
 
 本文就来介绍如何花较少的工夫来完成这样一个简单但又不失美观的卡片功能，虽然标题说是 GitHub 卡片，但理论上应该适用于不少其他场景。
 
-{{< github title="gohugoio/hugo" detail="The world’s fastest framework for building websites." >}}
+{{< github repo="gohugoio/hugo" >}}
 
 <!--more-->
 
@@ -79,3 +79,9 @@ javascript:(function(){var[a,b]=document.getElementsByTagName("title")[0].textCo
 ```
 
 <video controls src="bookmarklet_usage.webm"></video>
+
+## 2022/09/17 更新
+
+根据[网友 sdvcrx 的建议](http://disq.us/p/2qvivgd)，对于 GitHub，可以通过它的 API 配合 Hugo 提供的 getJSON 来获取数据，就不必手动复制 Repo 的简介信息了，代码参见 👇
+
+{{< gist sdvcrx baeffcb79dd1e69e7b2ed5ac30d55259 >}}

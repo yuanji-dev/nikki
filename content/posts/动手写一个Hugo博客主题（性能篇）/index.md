@@ -13,7 +13,7 @@ slug: "creating-a-hugo-theme-2"
 
 这篇文章就主要来介绍我在上次博客主题的基础上做了哪些优化。想直接看代码的朋友请移步：
 
-{{< github title="masakichi/futu" detail="Yet another minimal hugo theme, built-in styles are modified upon awsm.css." >}}
+{{< github repo="masakichi/futu" >}}
 
 <!--more-->
 

@@ -1,14 +1,14 @@
-{{ $title := .Get "title" }}
-{{ $detail := .Get "detail" }}
+{{ $repo := .Get "repo" }}
+{{ $detail := getJSON "https://api.github.com/repos/" $repo }}
 <div class="sc-card">
-  <a href="https://github.com/{{ $title }}" target="_blank" rel="noopener">
+  <a href="https://github.com/{{ $repo }}" target="_blank" rel="noopener">
     <div>
-      <img alt="{{ $title }}" src="https://opengraph.githubassets.com/1/{{ $title }}" />
+      <img alt="{{ $repo }}" src="https://opengraph.githubassets.com/1/{{ $repo }}" />
     </div>
     <div class="sc-card-content">
-      <p class="sc-card-title">{{ .Get "title" }}</p>
+      <p class="sc-card-title">{{ .Get "repo" }}</p>
       {{ with $detail }}
-      <p class="sc-card-details">{{ . }}</p>
+      <p class="sc-card-details">{{ .description }}</p>
       {{ end }}
       <span>github.com</span>
     </div>

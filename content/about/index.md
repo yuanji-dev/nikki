@@ -26,4 +26,4 @@ description: "关于"
 
 本站使用的主题是 👇
 
-{{< github title="masakichi/futu" detail="Yet another minimal hugo theme, built-in styles are modified upon awsm.css." >}}
+{{< github repo="masakichi/futu" >}}

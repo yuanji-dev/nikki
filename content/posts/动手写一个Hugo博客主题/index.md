@@ -14,7 +14,7 @@ slug: "creating-a-hugo-theme"
 - [桌面端](preview_web.png)
 - [移动端](preview_mobile.png)
 
-{{< github title="masakichi/futu" detail="Yet another minimal hugo theme, built-in styles are modified upon awsm.css." >}}
+{{< github repo="masakichi/futu" >}}
 
 ---
 

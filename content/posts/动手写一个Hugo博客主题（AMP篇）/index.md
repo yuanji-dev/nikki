@@ -11,7 +11,7 @@ slug: "creating-a-hugo-theme-3"
 
 这篇文章就主要分享一下给 Hugo 主题适配 AMP 需要做哪些工作。
 
-{{< github title="masakichi/futu" detail="Yet another minimal hugo theme, built-in styles are modified upon awsm.css." >}}
+{{< github repo="masakichi/futu" >}}
 
 <!--more-->
 
