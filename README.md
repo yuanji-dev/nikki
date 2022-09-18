@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 67 篇
+共计 68 篇
 
 ## 2022
+- 09-17 [自动使用最新版 Hugo 生成博客](content/posts/自动使用最新版Hugo生成博客/index.md)
 - 09-04 [のんある気分](content/remarks/のんある気分/index.md)
 - 08-24 [远程采访的正确方式](content/remarks/远程采访的正确方式/index.md)
 - 07-16 [富士河口湖之行](content/remarks/富士河口湖之行/index.md)
