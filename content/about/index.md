@@ -6,6 +6,7 @@ draft: false
 toc: false
 caution: false
 description: "关于"
+icon: 🙏
 ---
 
 ## 关于我

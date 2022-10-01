@@ -5,6 +5,7 @@ draft: false
 toc: false
 caution: false
 description: "About"
+icon: 🙏
 ---
 
 ## About me

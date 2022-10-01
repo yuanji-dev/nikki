@@ -5,6 +5,7 @@ draft: false
 tags: ["Hugo", "博客"]
 keywords: ["Hugo", "博客", "Cloudflare Pages", "Huginn"]
 slug: "always-using-latest-hugo-to-build-my-blog"
+icon: ⚙️
 ---
 
 ## TL;DR
