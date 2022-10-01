@@ -5,6 +5,7 @@ draft: false
 toc: false
 tags: ["IIJmio", "日本"]
 keywords: ["IIJmio", "Xiaomi Mi 11 Lite 5G", "日本", "格安SIM"]
+icon: 📲
 aliases:
   - "/remarks/iijmio/"
 ---

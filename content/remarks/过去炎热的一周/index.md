@@ -5,6 +5,7 @@ draft: false
 toc: false
 tags: ["东京", "日本"]
 keywords: ["东京", "日本"]
+icon: 💦
 ---
 
 刚刚过去的一周感觉是我来日本以来最热的一周，从[气象厅提供的数据](https://www.data.jma.go.jp/obd/stats/etrn/index.php)来看，气温变化的情况果然也是如此，每天最高温度都保持在 35 摄氏度以上。

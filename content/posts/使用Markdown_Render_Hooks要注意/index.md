@@ -5,6 +5,7 @@ draft: false
 tags: ["Hugo", "博客", "主题"]
 keywords: ["Hugo", "Render Hooks", "博客", "主题"]
 slug: "using-hugo-markdown-render-hooks-with-caution"
+icon: ⚠️
 ---
 
 在制作 Hugo 主题的过程中，免不了要和 Markdown 打交道，尤其是希望在 Markdown 转 HTML 的过程中想要额外做点儿什么的时候。

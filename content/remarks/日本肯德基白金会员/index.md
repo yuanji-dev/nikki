@@ -5,6 +5,7 @@ draft: false
 toc: false
 tags: ["食物", "日本"]
 keywords: ["肯德基", "白金会员"]
+icon: 🍗
 aliases:
   - "/remarks/kfc-japan-platinum-membership/"
 ---

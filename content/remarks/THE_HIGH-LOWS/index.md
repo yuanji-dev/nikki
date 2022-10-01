@@ -5,6 +5,7 @@ draft: false
 toc: false
 tags: ["THE BLUE HEARTS", "↑THE HIGH-LOWS↓"]
 keywords: ["THE BLUE HEARTS", "↑THE HIGH-LOWS↓", "ザ・ブルーハーツ", "ザ・ハイロウズ"]
+icon: 👍
 aliases:
   - "/remarks/the-high-lows/"
 ---

@@ -5,6 +5,7 @@ draft: false
 toc: false
 tags: ["日本", "日语", "考试"]
 keywords: ["基本情報技術者試験", "情報処理技術者試験合格証書"]
+icon: 🎉
 aliases:
   - "/remarks/fe-certificate/"
 ---

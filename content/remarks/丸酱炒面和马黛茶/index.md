@@ -5,6 +5,7 @@ draft: false
 toc: false
 tags: ["食物", "料理", "日本"]
 keywords: ["丸酱炒面", "マルちゃん焼きそば", "马黛茶", "マテ茶"]
+icon: 🧉
 aliases:
   - "/remarks/maruchan-yakisoba-and-mate-tea/"
 ---
