@@ -14,4 +14,4 @@ icon: 🍔
 
 之前对那些在麦当劳门口大排长龙的人嗤之以鼻，现在似乎有点儿理解想吃汉堡的心情了，我甚至觉得每天能吃上汉堡是非常幸福的一件事。
 
-![倍ビッグマック](featured_Bai-Big-Mac.webp)
+[![倍ビッグマック](featured_Bai-Big-Mac.webp)](https://www.mcdonalds.co.jp/products/4550/)
