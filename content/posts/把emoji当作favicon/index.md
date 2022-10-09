@@ -68,3 +68,7 @@ index cab9c41..1f47494 100644
 发现改完之后 [Nu Html Checker](https://html5.validator.nu/) 提示有错误，原因是 `link` 的 `href` 属性需要转义特殊字符，更新见 [bf04517a](https://gitlab.com/yuanji/futu/-/commit/bf04517a2c2a5d1dee8f43cad647db75d298bc63)
 
 参考： https://stackoverflow.com/a/7109208
+
+## 2022/10/09 更新
+
+又发现了一个有关 Hugo 的 `minify` 带来的副作用，它会转义 `%` 符号本身，为了避免这一问题发生，于是在模板里直接输出 emoji 而非 URL encoding 之后的编码。这个代码就显得很丑陋了，我甚至有点儿后悔加上这个 emoji 功能了 :joy:，代码见 [7417fe78](https://gitlab.com/yuanji/futu/-/commit/7417fe78d7daa0cd588c3898a86bf6cb058f7546)
