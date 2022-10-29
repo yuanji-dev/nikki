@@ -5,7 +5,7 @@ tg_bin="${tg_dir}/tcardgen"
 tg_font_dir="${tg_dir}/font"
 tg_tpl_dir="${tg_dir}/template.png"
 
-articles=$(git diff --name-only HEAD content/posts)
+articles=$(git diff --name-only HEAD content)
 
 for article in $articles; do
     cover="$(dirname "$article")/cover.png"

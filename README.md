@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 71 篇
+共计 72 篇
 
 ## 2022
+- 10-29 [真人日语，在线教学](content/remarks/真人日语，在线教学/index.md)
 - 10-15 [开始使用 Yubikey](content/posts/开始使用Yubikey/index.md)
 - 10-08 [倍ビッグマック](content/remarks/倍ビッグマック/index.md)
 - 10-01 [把 emoji 当作 favicon](content/posts/把emoji当作favicon/index.md)
