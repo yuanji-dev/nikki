@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 72 篇
+共计 73 篇
 
 ## 2022
+- 11-15 [给博客加上认证](content/remarks/给博客加上认证/index.md)
 - 10-29 [真人日语，在线教学](content/remarks/真人日语，在线教学/index.md)
 - 10-15 [开始使用 Yubikey](content/posts/开始使用Yubikey/index.md)
 - 10-08 [倍ビッグマック](content/remarks/倍ビッグマック/index.md)
