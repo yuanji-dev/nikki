@@ -87,11 +87,11 @@ disqusShortname = "gimome"       # disqus_shortname
   hl_Lines = ''
   lineAnchors = ''
   lineNoStart = 1
-  lineNos = true
+  lineNos = false
   lineNumbersInTable = false
   noClasses = false
   noHl = false
-  style = 'monokai'
+  style = 'rose-pine-dawn'
   tabWidth = 4
 
 # weird, not mentioned on https://gohugo.io/variables/site/
