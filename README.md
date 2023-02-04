@@ -1,7 +1,9 @@
 # Yuanji's Blog
 
-共计 73 篇
+共计 74 篇
 
+## 2023
+- 02-04 [统计博客的访客](content/remarks/统计博客的访客/index.md)
 ## 2022
 - 11-15 [给博客加上认证](content/remarks/给博客加上认证/index.md)
 - 10-29 [真人日语，在线教学](content/remarks/真人日语，在线教学/index.md)
