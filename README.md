@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 74 篇
+共计 75 篇
 
 ## 2023
+- 02-25 [在 Arch Linux 上使用兄弟（Brother）打印机](content/posts/在ArchLinux上使用兄弟（Brother）打印机/index.md)
 - 02-04 [统计博客的访客](content/remarks/统计博客的访客/index.md)
 ## 2022
 - 11-15 [给博客加上认证](content/remarks/给博客加上认证/index.md)
