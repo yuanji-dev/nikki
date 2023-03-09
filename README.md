@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 75 篇
+共计 76 篇
 
 ## 2023
+- 03-09 [Google Pixel 7 初体验](content/remarks/GooglePixel7初体验/index.md)
 - 02-25 [在 Arch Linux 上使用兄弟（Brother）打印机](content/posts/在ArchLinux上使用兄弟（Brother）打印机/index.md)
 - 02-04 [统计博客的访客](content/remarks/统计博客的访客/index.md)
 ## 2022
