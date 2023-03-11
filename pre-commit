@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+# usage: ln -s ../../pre-commit .git/hooks
+
+# Define the file types to check for EXIF data
+IMAGE_TYPES=(jpg jpeg png gif webp)
+
+# Build the regular expression for matching file extensions
+IFS="|"
+EXT_REGEX="${IMAGE_TYPES[*]}"
+IFS=""
+
+# Loop through all staged files
+for file in $(git diff --cached --name-only --diff-filter=ACM); do
+  # Check if the file is an image file
+  if [[ $file =~ \.($EXT_REGEX)$ ]]; then
+    # Check if the file has EXIF data
+    if exiv2 "$file" 2>/dev/null | grep -q "Exif"; then
+      echo "ERROR: $file contains EXIF data. Remove EXIF data before committing."
+      exit 1
+    fi
+  fi
+done
+
+# If no errors were found, allow the commit to proceed
+exit 0
+
