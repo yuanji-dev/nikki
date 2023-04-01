@@ -100,4 +100,4 @@ ssh-keygen -t ed25519-sk -C "Yubikey 5 NFC/xxxxxxxx"
 
 上面几种就是我一周以来目前常用到的 Yubikey 的功能了，其他的一些诸如把 TOTP 信息保存到 Yubikey 里功能我感觉不太用的到而且 Yubikey 的空间有限，就不一一介绍了。对了，顺便一提既然用了 Yubikey 的话最好有个备份键，关键的时候也许会用上。所以上面介绍的用途我都有设置到一主一备两个 Yubikey 上。
 
-最后，如果也有对 Yubikey 跃跃欲试的读者不妨先看看 [Works with YubiKey catalog | Yubico](https://www.yubico.com/jp/works-with-yubikey/catalog/?sort=popular) 是不是都有你常用的软件、网站或平台。
+最后，如果也有对 Yubikey 跃跃欲试的读者不妨先看看 [Works with YubiKey catalog | Yubico](https://www.yubico.com/works-with-yubikey/catalog/?sort=popular) 是不是都有你常用的软件、网站或平台。
