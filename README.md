@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 77 篇
+共计 78 篇
 
 ## 2023
+- 04-15 [日本的水、电、燃气账单长什么样？](content/posts/日本的水、电、燃气账单长什么样？/index.md)
 - 03-11 [让 ChatGPT 给本博客写了个 pre-commit](content/remarks/让ChatGPT给本博客写了个pre-commit/index.md)
 - 03-09 [Google Pixel 7 初体验](content/remarks/GooglePixel7初体验/index.md)
 - 02-25 [在 Arch Linux 上使用兄弟（Brother）打印机](content/posts/在ArchLinux上使用兄弟（Brother）打印机/index.md)

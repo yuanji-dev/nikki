@@ -46,6 +46,7 @@ disqusShortname = "gimome"       # disqus_shortname
   toc = true
   googleVerification = "MgUc_ybvVWaRA5z2rsL4hzS5DwH9xdvKQFNthWOoLEg"
   # cfBeaconToken = "744413db6a4649cd861280314303b5a9"
+  enableZoomJS = true
 
 [params.git]
   repo = "https://github.com/masakichi/nikki"
