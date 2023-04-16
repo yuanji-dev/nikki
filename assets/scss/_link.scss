@@ -13,7 +13,7 @@
   }
 }
 
-article {
+article p {
   a[href^="http"] {
     @include link-icon(url("/icons/link.svg"));
   }
