@@ -11,20 +11,27 @@ icon: 🙏
 
 ## 关于我
 
-- 我叫{{< ruby "元" "yuán" "吉" "jí" >}}，1993 年生
+亲爱的读者你好，我是元吉。
 
-- PGP: 0xE8D79E63E3D142F3
+1993 年出生，来自中国江苏。
 
-- Email: self@gimo.me
+目前工作、生活在日本，主要活动于东京、神奈川一带。
 
-- Telegram: https://telegram.me/yuanji
+## 联系我
 
-- Please feel free to contact me in English
+欢迎使用如下方式联系我，称呼我元吉即可。
+
+- Telegram: [@yuanji](https://t.me/yuanji)
+- Email: [self@gimo.me](mailto:self@gimo.me?subject=关于...&body=你好，元吉)
+- Twitter: [@gimo_me](https://twitter.com/intent/follow?screen_name=gimo_me)
+- Douban: [@masakichi](https://www.douban.com/people/masakichi)
 
 ## 关于本站
 
+本站是我的个人博客，分享一些自己的见闻和心得。若是能对各位读者有所帮助就再好不过了。
+
 本站使用 [Hugo](https://gohugo.io/) 生成，部署在 [Cloudflare Pages](https://pages.cloudflare.com/) 上。
 
-本站使用的主题是 👇
+使用的主题是我基于 [awsm.css](https://github.com/igoradamenko/awsm.css) 开发的，详情见 👇
 
 {{< github repo="masakichi/futu" >}}

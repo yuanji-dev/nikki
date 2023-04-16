@@ -13,17 +13,30 @@
   }
 }
 
-article p {
-  a[href^="http"] {
+a.external-link {
+  &[href^="http"] {
     @include link-icon(url("/icons/link.svg"));
   }
-  a[href*="google.com"] {
-    @include link-icon(url("/icons/google.svg"));
-  }
-  a[href*="github.com"] {
-    @include link-icon(url("/icons/github.svg"));
-  }
-  a[href*="archlinux.org"] {
+  &[href*="archlinux.org"] {
     @include link-icon(url("/icons/archlinux.svg"));
   }
+  &[href*="douban.com"] {
+    @include link-icon(url("/icons/douban.svg"));
+  }
+  &[href*="github.com"], &[href*="github.io"], [href*="github.dev"] {
+    @include link-icon(url("/icons/github.svg"));
+  }
+  &[href*="google.com"] {
+    @include link-icon(url("/icons/google.svg"));
+  }
+  &[href*="t.me"], &[href*="telegram.me"], &[href*="telegram.org"] {
+    @include link-icon(url("/icons/telegram.svg"));
+  }
+  &[href*="twitter.com"] {
+    @include link-icon(url("/icons/twitter.svg"));
+  }
+}
+
+a[href*="mailto"] {
+  @include link-icon(url("/icons/mailto.svg"));
 }
