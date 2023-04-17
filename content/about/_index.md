@@ -7,6 +7,7 @@ toc: false
 caution: false
 description: "关于"
 icon: 🙏
+layout: single
 ---
 
 ## 关于我
@@ -16,6 +17,8 @@ icon: 🙏
 1993 年出生，来自中国江苏。
 
 目前工作、生活在日本，主要活动于东京、神奈川一带。
+
+👉 [我喜爱的一些东西]({{< relref "likes" >}})
 
 ## 联系我
 

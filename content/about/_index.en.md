@@ -6,6 +6,7 @@ toc: false
 caution: false
 description: "About"
 icon: 🙏
+layout: single
 ---
 
 ## About me
