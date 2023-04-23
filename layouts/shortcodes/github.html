@@ -7,9 +7,9 @@
     </div>
     <div class="sc-card-content">
       <p class="sc-card-title">{{ .Get "repo" }}</p>
-      {{ with $detail }}
+      {{ with $detail -}}
       <p class="sc-card-details">{{ .description }}</p>
-      {{ end }}
+      {{- end }}
       <span>github.com</span>
     </div>
   </a>

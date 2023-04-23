@@ -35,6 +35,6 @@ layout: single
 
 本站使用 [Hugo](https://gohugo.io/) 生成，部署在 [Cloudflare Pages](https://pages.cloudflare.com/) 上。
 
-使用的主题是我基于 [awsm.css](https://github.com/igoradamenko/awsm.css) 开发的，详情见 👇
-
+{{% details "点击查看本站主题" %}}
 {{< github repo="masakichi/futu" >}}
+{{% /details %}}
