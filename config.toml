@@ -117,10 +117,10 @@ disqusShortname = "gimome"       # disqus_shortname
   identifier = "home"
   url = "/"
 [[languages.zh-CN.menu.main]]
-  name = "归档"
+  name = "文章"
   weight = 20
-  identifier = "archives"
-  url = "/archives/"
+  identifier = "posts"
+  url = "/posts/"
 [[languages.zh-CN.menu.main]]
   name = "标签"
   weight = 30
@@ -149,10 +149,10 @@ disqusShortname = "gimome"       # disqus_shortname
   identifier = "home"
   url = "/"
 [[languages.en.menu.main]]
-  name = "Archives"
+  name = "Posts"
   weight = 20
-  identifier = "archives"
-  url = "/archives/"
+  identifier = "posts"
+  url = "/posts/"
 [[languages.en.menu.main]]
   name = "Tags"
   weight = 30
