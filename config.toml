@@ -38,7 +38,7 @@ disqusShortname = "gimome"       # disqus_shortname
   ampLogo = "logo-600x60.png"
   # Site creation time
   since = "2016"
-  homePaginate = 5
+  homePaginate = 10
   paginate = 10
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006/01/02"
@@ -108,7 +108,7 @@ disqusShortname = "gimome"       # disqus_shortname
   description = "Yuanji's Blog。分享技术、日语，记录学习、生活。"
   # https://github.com/gohugoio/hugo/blob/2fc2e9c8718db2fe60f03bcf3661f449851cfe5f/tpl/tplimpl/embedded/templates/twitter_cards.html
   images = ["cover.png"]
-  mainSections = ["posts", "remarks"]
+  mainSections = ["posts"]
 # https://gohugo.io/content-management/menus/
 [languages.zh-CN.menu]
 [[languages.zh-CN.menu.main]]
