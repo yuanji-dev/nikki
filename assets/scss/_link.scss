@@ -35,6 +35,9 @@ a.external-link {
   &[href*="twitter.com"] {
     @include link-icon(url("/icons/twitter.svg"));
   }
+  &[href*="youtube.com"] {
+    @include link-icon(url("/icons/youtube.svg"));
+  }
 }
 
 a[href*="mailto"] {
