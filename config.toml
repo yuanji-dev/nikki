@@ -47,6 +47,7 @@ disqusShortname = "gimome"       # disqus_shortname
   googleVerification = "MgUc_ybvVWaRA5z2rsL4hzS5DwH9xdvKQFNthWOoLEg"
   # cfBeaconToken = "744413db6a4649cd861280314303b5a9"
   enableZoomJS = true
+  telegramChannel = "yuanji_chan"
 
 [params.git]
   repo = "https://github.com/masakichi/nikki"
@@ -81,6 +82,8 @@ disqusShortname = "gimome"       # disqus_shortname
   startLevel = 2
 [markup.goldmark.renderer]
   unsafe = true
+[markup.goldmark.parser]
+  wrapStandAloneImageWithinParagraph = false
 [markup.highlight]
   anchorLineNos = true
   codeFences = true
