@@ -2,6 +2,7 @@
 title: "Yuanji's Channel 开通啦！"
 date: 2023-05-02T21:40:25+09:00
 draft: false
+toc: false
 tags: ["日本", "日语", "食物"]
 keywords: ["日本", "日语", "食物"]
 slug: "welcome-to-yuanji-telegram-channel"
