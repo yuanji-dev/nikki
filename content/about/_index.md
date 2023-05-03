@@ -25,6 +25,7 @@ layout: single
 欢迎使用如下方式联系我，称呼我元吉即可。
 
 - Telegram: [@yuanji](https://t.me/yuanji)
+- Telegram Channel: [@yuanji_chan](https://t.me/yuanji_chan)
 - Email: [self@gimo.me](mailto:self@gimo.me?subject=关于...&body=你好，元吉)
 - Twitter: [@gimo_me](https://twitter.com/intent/follow?screen_name=gimo_me)
 - Douban: [@masakichi](https://www.douban.com/people/masakichi)
