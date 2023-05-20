@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 79 篇
+共计 80 篇
 
 ## 2023
+- 05-20 [在群晖 DS220+ 上使用 Homebrew](content/posts/在群晖DS220+上使用Homebrew/index.md)
 - 05-02 [Yuanji's Channel 开通啦！](content/posts/Yuanji'sChannel开通啦！/index.md)
 - 04-15 [日本的水、电、燃气账单长什么样？](content/posts/日本的水、电、燃气账单长什么样？/index.md)
 - 03-11 [让 ChatGPT 给本博客写了个 pre-commit](content/posts/让ChatGPT给本博客写了个pre-commit/index.md)
