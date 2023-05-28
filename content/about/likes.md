@@ -25,6 +25,8 @@ icon: 💙
 - [Anki](https://apps.ankiweb.net/)
 - [Syncthing](https://syncthing.net/)
 - [Rclone](https://rclone.org/)
+- [mpv](https://mpv.io/)
+- [Flameshot](https://flameshot.org/)
 
 ## 💻 硬件
 
@@ -36,3 +38,4 @@ icon: 💙
 - [NETGEAR WAX206-100JPS](https://www.netgear.com/jp/business/wifi/access-points/wax206/)
 - [NanoPi R2S](https://wiki.friendlyelec.com/wiki/index.php/NanoPi_R2S)
 - [YubiKey 5C NFC](https://www.yubico.com/setup/yubikey-5-series/)
+- [Synology DiskStation DS220+](https://www.synology.com/ja-jp/products/DS220+)
