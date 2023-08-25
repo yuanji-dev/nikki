@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 81 篇
+共计 82 篇
 
 ## 2023
+- 08-25 [开始使用 AstroNvim](content/posts/开始使用AstroNvim/index.md)
 - 07-13 [让 Sony α6400 支持更多语言](content/posts/让Sonyα6400支持更多语言/index.md)
 - 05-20 [在群晖 DS220+ 上使用 Homebrew](content/posts/在群晖DS220+上使用Homebrew/index.md)
 - 05-02 [Yuanji's Channel 开通啦！](content/posts/Yuanji'sChannel开通啦！/index.md)

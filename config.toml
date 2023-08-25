@@ -75,7 +75,6 @@ disqusShortname = "gimome"       # disqus_shortname
   page = ["HTML", "AMP", "Markdown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
 
 [markup]
 [markup.tableOfContents]
