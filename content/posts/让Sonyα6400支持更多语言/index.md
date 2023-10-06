@@ -25,8 +25,8 @@ icon: 📷
 git clone https://github.com/ma1co/Sony-PMCA-RE.git
 cd Sony-PMCA-RE
 python -m venv venv
-pip install -r requirements.txt
 source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 到此这个工具就配置完毕了。
