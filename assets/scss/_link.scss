@@ -45,6 +45,9 @@ a.external-link {
   &[href*="docker.com"] {
     @include link-icon(url("/icons/docker.svg"));
   }
+  &[href*="wikipedia.org"] {
+    @include link-icon(url("/icons/wikipedia.svg"));
+  }
 }
 
 a[href*="mailto"] {

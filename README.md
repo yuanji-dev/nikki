@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 85 篇
+共计 86 篇
 
 ## 2023
+- 12-01 [威斯敏斯特钟声](content/posts/威斯敏斯特钟声/index.md)
 - 11-18 [我的 2023 年 VPS 使用报告](content/posts/我的2023年VPS使用报告/index.md)
 - 10-01 [街とその不確かな壁](content/posts/街とその不確かな壁/index.md)
 - 09-02 [给 ThinkBook 更新 BIOS](content/posts/给ThinkBook更新BIOS/index.md)
