@@ -3,6 +3,7 @@ title: "About"
 date: 2019-01-04T23:53:13+09:00
 draft: false
 toc: false
+enableRelated: false
 caution: false
 description: "About"
 icon: 🙏

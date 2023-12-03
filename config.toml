@@ -1,6 +1,3 @@
-# TODO:
-#  remove admonition & figure
-
 baseURL = "https://blog.gimo.me"
 defaultContentLanguage = "zh-cn"       # https://github.com/gohugoio/hugo/issues/7344
 defaultContentLanguageInSubdir = false
@@ -19,10 +16,6 @@ disqusShortname = "gimome"       # disqus_shortname
 
 [imaging]
   quality = 75
-
-[author]
-  name = "Yuanji"
-  url = "https://blog.gimo.me"
 
 [sitemap]
   changefreq = "weekly"
@@ -44,10 +37,18 @@ disqusShortname = "gimome"       # disqus_shortname
   dateFormatToUse = "2006/01/02"
   # Whether display TOC or not.
   toc = true
+  enableRelated = true
   googleVerification = "MgUc_ybvVWaRA5z2rsL4hzS5DwH9xdvKQFNthWOoLEg"
   # cfBeaconToken = "744413db6a4649cd861280314303b5a9"
   enableZoomJS = true
   telegramChannel = "yuanji_chan"
+
+[params.social]
+  twitter = "gimo_me"
+
+[params.author]
+  name = "Yuanji"
+  url = "https://blog.gimo.me"
 
 [params.git]
   repo = "https://github.com/masakichi/nikki"
@@ -97,9 +98,6 @@ disqusShortname = "gimome"       # disqus_shortname
   style = 'rose-pine-dawn'
   tabWidth = 4
 
-# weird, not mentioned on https://gohugo.io/variables/site/
-[social]
-  twitter = "gimo_me"
 
 [languages]
 [languages.zh-CN]
@@ -170,3 +168,29 @@ disqusShortname = "gimome"       # disqus_shortname
   weight = 50
   identifier = "rss"
   url = "/index.xml"
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+    applyFilter = false
+    cardinalityThreshold = 0
+    name = 'keywords'
+    pattern = ''
+    type = 'basic'
+    weight = 100
+[[related.indices]]
+    applyFilter = false
+    cardinalityThreshold = 0
+    name = 'date'
+    pattern = ''
+    type = 'basic'
+    weight = 10
+[[related.indices]]
+    applyFilter = false
+    cardinalityThreshold = 0
+    name = 'tags'
+    pattern = ''
+    type = 'basic'
+    weight = 80
