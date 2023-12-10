@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 86 篇
+共计 87 篇
 
 ## 2023
+- 12-10 [Be Water, My Friend](content/posts/Be_Water_My_Friend/index.md)
 - 12-01 [威斯敏斯特钟声](content/posts/威斯敏斯特钟声/index.md)
 - 11-18 [我的 2023 年 VPS 使用报告](content/posts/我的2023年VPS使用报告/index.md)
 - 10-01 [街とその不確かな壁](content/posts/街とその不確かな壁/index.md)
