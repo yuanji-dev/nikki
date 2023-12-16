@@ -2,14 +2,15 @@
   {{ (printf (i18n "powered") (printf `<a href="%s">Hugo %s</a>` ("/status/" | relLangURL) .Site.Hugo.Version)) | safeHTML }}
   |
   {{ i18n "theme" }}
-  <a target="_blank" rel="noopener" href="https://github.com/masakichi/futu">futu v2</a>
-  |
-  统计
+  <a target="_blank" rel="noopener" href="https://github.com/masakichi/futu">futu</a>
+  | 统计
   <a target="_blank" rel="noopener" href="https://uma.gimo.me/share/JdzqlJyb/Yuanji%27s%20Blog">Umami</a>
   <br />
   Copyright ©
   {{ .Site.Params.Since }}-{{ now.Format "2006" }}
   {{ .Site.Author.name }} All Rights Resarved.
   <br />
-  <a target="_blank" rel="noopener" href="https://html5.validator.nu/?doc={{ .Permalink }}&showoutline=yes"><img src={{ "html5-validator-badge.svg" | relURL }} alt="HTML5 Validator" width="48" height="16"></a>
+  <a target="_blank" rel="noopener" href="https://html5.validator.nu/?doc={{ .Permalink }}&showoutline=yes"
+    ><img src="{{ "html5-validator-badge.svg" | relURL }}" alt="HTML5 Validator" width="48" height="16"
+  /></a>
 </p>
