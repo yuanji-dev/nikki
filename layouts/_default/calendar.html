@@ -1,0 +1,45 @@
+{{ define "main" }}
+  {{ $lang := .Language.Lang }}
+  {{- $events := slice }}
+  {{- $posts := where .Site.RegularPages "Draft" "eq" false }}
+  {{- $drafts := where .Site.RegularPages "Draft" "eq" true }}
+  {{- range $posts }}
+    {{- $events = $events | append (dict "title" .Title "start" (time.Format "2006-01-02" .Date) "url" .RelPermalink "allDay" true ) }}
+  {{- end -}}
+  {{- range $drafts }}
+    {{- $events = $events | append (dict "title" .Title "start" (time.Format "2006-01-02" .Date) "allDay" true "color" "var(--text-muted)" ) }}
+  {{- end -}}
+  <script src="/fullcalendar@6.1.10/dist/index.global.min.js"></script>
+  {{- if ne $lang "en" }}
+    <script src="/fullcalendar@6.1.10/dist/locales-all.global.min.js"></script>
+  {{- end }}
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var calendarEl = document.getElementById("calendar");
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: "dayGridMonth",
+        locale: {{ $lang }},
+        contentHeight: "65vh",
+        headerToolbar: {
+          left: "today",
+          center: "title",
+          right: "prev,next",
+        },
+        events: {{ $events }},
+        eventClick: function(info) {
+          info.jsEvent.preventDefault();
+          if (info.event.url) {
+            window.open(info.event.url);
+          } else {
+            alert("本文尚未发布，敬请期待。")
+          }
+        },
+      });
+      calendar.render();
+    });
+  </script>
+  <noscript>
+    <p>使用此功能需要启用 JavaScript。</p>
+  </noscript>
+  <div id="calendar"></div>
+{{- end }}
