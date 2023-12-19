@@ -1,0 +1,31 @@
+{{ define "main" }}
+  {{ $lang := .Language.Lang }}
+  {{- $events := slice }}
+  {{- range .Site.RegularPages }}
+    {{- $events = $events | append (dict "title" .Title "start" (time.Format "2006-01-02" .Date) "url" .RelPermalink "allDay" true ) }}
+  {{- end -}}
+  <script src="/fullcalendar@6.1.10/dist/index.global.min.js"></script>
+  {{- if ne $lang "en" }}
+    <script src="/fullcalendar@6.1.10/dist/locales-all.global.min.js"></script>
+  {{- end }}
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var calendarEl = document.getElementById("calendar");
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: "dayGridMonth",
+        locale: {{ $lang }},
+        headerToolbar: {
+          left: "today",
+          center: "title",
+          right: "prev,next",
+        },
+        events: {{ $events }},
+      });
+      calendar.render();
+    });
+  </script>
+  <noscript>
+    <p>使用此功能需要启用 JavaScript。</p>
+  </noscript>
+  <div id="calendar"></div>
+{{- end }}

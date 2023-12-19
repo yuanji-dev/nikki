@@ -1,6 +1,7 @@
 baseURL = "https://blog.gimo.me"
 defaultContentLanguage = "zh-cn"       # https://github.com/gohugoio/hugo/issues/7344
 defaultContentLanguageInSubdir = false
+buildDrafts = true
 title = "Yuanji's Blog"
 theme = "futu"
 enableRobotsTXT = true
@@ -23,7 +24,9 @@ disqusShortname = "gimome"       # disqus_shortname
   filename = "sitemap.xml"
 
 [frontmatter]
+  date = ['date', 'publishdate', 'pubdate', 'published', 'lastmod', 'modified']
   lastmod = ['lastmod', ':git', 'date', 'publishDate']
+  publishDate = ['publishdate', 'pubdate', 'published', 'date']
 
 [params]
   keywords = ["Yuanji", "元吉", "日语", "日本", "VPS", "Linux"]
@@ -122,18 +125,23 @@ disqusShortname = "gimome"       # disqus_shortname
   identifier = "posts"
   url = "/posts/"
 [[languages.zh-CN.menu.main]]
-  name = "标签"
+  name = "月历"
   weight = 30
+  identifier = "calendar"
+  url = "/calendar/"
+[[languages.zh-CN.menu.main]]
+  name = "标签"
+  weight = 40
   identifier = "tags"
   url = "/tags/"
 [[languages.zh-CN.menu.main]]
   name = "关于"
-  weight = 40
+  weight = 50
   identifier = "about"
   url = "/about/"
 [[languages.zh-CN.menu.main]]
   name = "订阅"
-  weight = 50
+  weight = 60
   identifier = "rss"
   url = "/index.xml"
 
@@ -154,18 +162,23 @@ disqusShortname = "gimome"       # disqus_shortname
   identifier = "posts"
   url = "/posts/"
 [[languages.en.menu.main]]
-  name = "Tags"
+  name = "Calendar"
   weight = 30
+  identifier = "calendar"
+  url = "/calendar/"
+[[languages.en.menu.main]]
+  name = "Tags"
+  weight = 40
   identifier = "tags"
   url = "/tags/"
 [[languages.en.menu.main]]
   name = "About"
-  weight = 40
+  weight = 50
   identifier = "about"
   url = "/about/"
 [[languages.en.menu.main]]
   name = "RSS"
-  weight = 50
+  weight = 60
   identifier = "rss"
   url = "/index.xml"
 
