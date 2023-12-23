@@ -1,8 +1,8 @@
 ---
 title: "给 Hugo 博客添加月历功能"
 createDate: 2023-12-20T22:25:32+09:00
-publishDate: 2023-12-23
-draft: true
+publishDate: 2023-12-23T12:36:07+09:00
+draft: false
 tags: ["Hugo", "博客"]
 keywords: ["Hugo", "博客"]
 slug: "adding-calendar-view-for-hugo-blog-posts"
@@ -96,7 +96,10 @@ icon: 📅
 4. 因为网络上删库跑路的事情太多了，虽然像这样知名的库不太至于，我还是保险起见将 FullCalendar 里需要的 JS 文件下载到了本博客自己的仓库里。
 5. 此外就是一些关于月历显示大小，周末颜色区别，以及多语言之类的微调了。
 
-代码在此就不一一解释了，总之整个月历功能的实现，我都包含在 [feat(theme): add calendar page for posts · masakichi/nikki@cc5f4cc](https://github.com/masakichi/nikki/commit/cc5f4cc952a590872bb881528e7122ab921dce7c) 这个 commit 里了，有需要可以自行查看。
+代码在此就不一一解释了，总之整个月历功能的实现，我都包含在下面两个 commit 里了，有需要可以自行查看。
+
+- [feat(theme): add calendar page for posts · masakichi/nikki@cc5f4cc](https://github.com/masakichi/nikki/commit/cc5f4cc952a590872bb881528e7122ab921dce7c)
+- [feat: hide draft page in all list pages · masakichi/futu@3499b50](https://github.com/masakichi/futu/commit/3499b50742ef4e0ebc376e12d6f7331761a74d8f)
 
 ## 总结
 
