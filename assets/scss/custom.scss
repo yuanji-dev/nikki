@@ -14,14 +14,21 @@
     background: var(--background-body);
   }
 
+  .fc-event {
+    cursor: pointer;
+  }
+
   .fc-daygrid-event {
     white-space: normal;
   }
 
   .fc-day-sat .fc-daygrid-day-number,
-  .fc-day-sat .fc-col-header-cell-cushion,
+  .fc-day-sat .fc-col-header-cell-cushion {
+    color: dodgerblue;
+  }
+
   .fc-day-sun .fc-daygrid-day-number,
   .fc-day-sun .fc-col-header-cell-cushion {
-    color: #e74c3c;
+    color: crimson;
   }
 }

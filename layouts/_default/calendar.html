@@ -1,13 +1,21 @@
 {{ define "main" }}
   {{ $lang := .Language.Lang }}
-  {{- $events := slice }}
-  {{- $posts := where .Site.RegularPages "Draft" "eq" false }}
-  {{- $drafts := where .Site.RegularPages "Draft" "eq" true }}
-  {{- range $posts }}
-    {{- $events = $events | append (dict "title" .Title "start" (time.Format "2006-01-02" .Date) "url" .RelPermalink "allDay" true ) }}
-  {{- end -}}
-  {{- range $drafts }}
-    {{- $events = $events | append (dict "title" .Title "start" (time.Format "2006-01-02" .Date) "allDay" true "color" "var(--text-muted)" ) }}
+  {{- $postEvents := slice }}
+  {{- $draftEvents := slice }}
+  {{- $holidayEvents := slice }}
+
+  {{ range .Site.RegularPages }}
+    {{ if eq .Draft false }}
+      {{- $postEvents = $postEvents | append (dict "title" .Title "start" (time.Format "2006-01-02" .Date) "url" .RelPermalink "allDay" true "color" "royalblue") }}
+    {{ else }}
+      {{- $draftEvents = $draftEvents | append (dict "title" .Title "start" (time.Format "2006-01-02" .Date) "allDay" true "color" "var(--text-muted)" ) }}
+    {{ end }}
+  {{ end }}
+
+  {{- range $.Site.Data.calendar.holidays_jp -}}
+    {{ range . }}
+      {{- $holidayEvents = $holidayEvents | append (dict "title" .name "start" (time.Format "2006-01-02" .date) "allDay" true "color" "crimson" "kind" "holidays_jp" ) }}
+    {{ end }}
   {{- end -}}
   <script src="/fullcalendar@6.1.10/dist/index.global.min.js"></script>
   {{- if ne $lang "en" }}
@@ -25,13 +33,15 @@
           center: "title",
           right: "prev,next",
         },
-        events: {{ $events }},
+        eventSources: [{{ $postEvents }}, {{ $draftEvents }}, {{ $holidayEvents }}],
         eventClick: function(info) {
           info.jsEvent.preventDefault();
           if (info.event.url) {
             window.open(info.event.url);
+          } else if (info.event.extendedProps.kind === "holidays_jp") {
+            window.open(`https://ja.wikipedia.org/wiki/${info.event.title}`);
           } else {
-            alert("本文尚未发布，敬请期待。")
+            alert("本文尚未发布，敬请期待。");
           }
         },
       });
