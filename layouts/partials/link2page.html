@@ -1,0 +1,13 @@
+{{ $path := . }}
+{{ $page := "" }}
+
+{{ range $p := site.RegularPages }}
+  {{ if hasSuffix $p.RelPermalink $path }}
+    {{ $page = $p }}
+    {{ break }}
+  {{ end }}
+{{ end }}
+{{ if not $page }}
+  {{ errorf "%q does not exist" $path }}
+{{ end }}
+{{ return $page }}

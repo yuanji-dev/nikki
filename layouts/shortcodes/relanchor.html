@@ -1,0 +1,25 @@
+{{- $page := "" -}}
+{{- if .IsNamedParams -}}
+  {{- $lang := .Get "lang" -}}
+  {{- $path := .Get "path" -}}
+  {{- if $lang -}}
+    {{- with where site.Sites "Language.Lang" "eq" $lang -}}
+      {{- with index . 0 -}}
+        {{- with .GetPage $path -}}
+          {{- $page = . -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $page = site.GetPage $path -}}
+  {{ end }}
+{{- else -}}
+  {{- $path := .Get 0 -}}
+  {{- with site.GetPage $path -}}
+    {{- $page = . -}}
+  {{- else -}}
+    {{- $page = (partial "link2page.html" $path) -}}
+  {{- end -}}
+{{- end -}}
+<a href="{{- $page.RelPermalink -}}">{{- $page.Title -}}</a>
+{{- /* Strip trailing newline. */ -}}

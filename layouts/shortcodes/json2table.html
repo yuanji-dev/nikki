@@ -1,0 +1,71 @@
+{{ $file := .Get "file" }}
+{{ $pageLink := .Get "pageLink" }}
+{{ $counter := .Get "counter" }}
+{{ $caption := .Get "caption" }}
+
+{{- /* fetch data from page resource or site data */ -}}
+{{ $data := "" }}
+{{ if hasSuffix $file ".json" }}
+  {{ $data = unmarshal (.Page.Resources.Get $file) }}
+{{ else }}
+  {{ $data = index .Site.Data $file }}
+  {{ if not $data }}
+    {{ errorf "%s file doesn't exist!" $file }}
+  {{ end }}
+{{ end }}
+
+{{- /* proceed headers */ -}}
+{{ $headers := slice }}
+{{ with .Get "headers" }}
+  {{ $headers = split . "|" }}
+{{ else }}
+  {{ range $k, $_ := index $data 0 }}
+    {{ $headers = $headers | append $k }}
+  {{ end }}
+{{ end }}
+
+{{- /* proceed columns */ -}}
+{{ $columns := slice }}
+{{ with .Get "columns" }}
+  {{ $columns = split . "|" }}
+{{ else }}
+  {{ range $k, $_ := index $data 0 }}
+    {{ $columns = $columns | append $k }}
+  {{ end }}
+{{ end }}
+
+{{- /* setup counter start from 1 */ -}}
+{{ $.Scratch.Set "count" 1 }}
+<table>
+  {{ with $caption }}
+    <caption>
+      {{ . }}
+    </caption>
+  {{ end }}
+  <thead>
+    <tr>
+      {{ range $header := $headers }}
+        <th>{{ $header }}</th>
+      {{ end }}
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $row := $data }}
+      <tr>
+        {{ if ne $counter "false" }}
+          <td>{{ $.Scratch.Get "count" }}</td>
+        {{ end }}
+        {{ range $column := $columns }}
+          {{ $v := index $row $column }}
+          {{ if eq $column $pageLink }}
+            {{ $page := (partial "link2page.html" $v) }}
+            <td><a href="{{- $page.RelPermalink -}}">{{- $page.Title -}}</a></td>
+          {{ else }}
+            <td>{{ $v }}</td>
+          {{ end }}
+        {{ end }}
+      </tr>
+      {{ $.Scratch.Add "count" 1 }}
+    {{ end }}
+  </tbody>
+</table>

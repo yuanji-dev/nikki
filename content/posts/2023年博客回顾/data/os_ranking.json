@@ -1,0 +1,12 @@
+[
+  { "views": 16133, "visitors": 7162, "os": "Windows 10" },
+  { "views": 9370, "visitors": 3760, "os": "Mac OS" },
+  { "views": 4931, "visitors": 2467, "os": "Android OS" },
+  { "views": 3770, "visitors": 2007, "os": "iOS" },
+  { "views": 2361, "visitors": 1035, "os": "Linux" },
+  { "views": 147, "visitors": 86, "os": "Windows 7" },
+  { "views": 57, "visitors": 3, "os": "Open BSD" },
+  { "views": 40, "visitors": 20, "os": "Chrome OS" },
+  { "views": 10, "visitors": 8, "os": "Windows 8.1" },
+  { "views": 2, "visitors": 2, "os": "Windows 8" }
+]
