@@ -1,9 +1,11 @@
 # Yuanji's Blog
 
-共计 90 篇
+共计 91 篇
 
+## 2024
+- 01-02 [2024 年元旦听到的声音](content/posts/2024年元旦听到的声音/index.md)
+- 01-01 [2023 年博客回顾](content/posts/2023年博客回顾/index.md)
 ## 2023
-- 12-29 [2023 年博客回顾](content/posts/2023年博客回顾/index.md)
 - 12-26 [日本的节假日](content/posts/日本的节假日/index.md)
 - 12-23 [给 Hugo 博客添加月历功能](content/posts/给Hugo博客添加月历功能/index.md)
 - 12-10 [Be Water, My Friend](content/posts/Be_Water_My_Friend/index.md)
