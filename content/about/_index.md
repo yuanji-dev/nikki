@@ -5,6 +5,7 @@ isCJKLanguage: true
 draft: false
 toc: false
 enableRelated: false
+enableShare: false
 caution: false
 description: "关于"
 icon: 🙏

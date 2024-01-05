@@ -17,39 +17,44 @@ a.external-link {
   &[href^="http"] {
     @include link-icon(url("/icons/link.svg"));
   }
+
   &[href*="archlinux.org"] {
     @include link-icon(url("/icons/archlinux.svg"));
   }
+
   &[href*="douban.com"] {
     @include link-icon(url("/icons/douban.svg"));
   }
+
   &[href*="github.com"],
   &[href*="github.io"],
   [href*="github.dev"] {
     @include link-icon(url("/icons/github.svg"));
   }
+
   &[href*="google.com"] {
     @include link-icon(url("/icons/google.svg"));
   }
+
   &[href*="t.me"],
   &[href*="telegram.me"],
   &[href*="telegram.org"] {
     @include link-icon(url("/icons/telegram.svg"));
   }
+
   &[href*="twitter.com"] {
     @include link-icon(url("/icons/twitter.svg"));
   }
+
   &[href*="youtube.com"] {
     @include link-icon(url("/icons/youtube.svg"));
   }
+
   &[href*="docker.com"] {
     @include link-icon(url("/icons/docker.svg"));
   }
+
   &[href*="wikipedia.org"] {
     @include link-icon(url("/icons/wikipedia.svg"));
   }
-}
-
-a[href*="mailto"] {
-  @include link-icon(url("/icons/mailto.svg"));
 }

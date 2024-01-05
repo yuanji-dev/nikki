@@ -5,6 +5,7 @@ isCJKLanguage: true
 draft: false
 toc: true
 enableRelated: false
+enableShare: false
 caution: false
 description: "介绍各种我喜爱使用的物品也好，我喜欢吃的东西也好……"
 icon: 💙
