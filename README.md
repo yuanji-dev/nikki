@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 92 篇
+共计 93 篇
 
 ## 2024
+- 01-13 [使用 Obsidian 的一年](content/posts/使用Obsidian的一年/index.md)
 - 01-06 [博客更新：增加分享按钮](content/posts/博客更新：增加分享按钮/index.md)
 - 01-02 [2024 年元旦听到的声音](content/posts/2024年元旦听到的声音/index.md)
 - 01-01 [2023 年博客回顾](content/posts/2023年博客回顾/index.md)
