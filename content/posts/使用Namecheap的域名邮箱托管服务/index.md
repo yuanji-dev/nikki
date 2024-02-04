@@ -1,13 +1,14 @@
 ---
 title: "使用 Namecheap 的域名邮箱托管服务"
 date: 2021-04-14T18:59:32+09:00
-lastmod: 2021-04-14T19:12:32+0900
-tags: ["杂"]
+tags: ["邮箱", "selfhosted", "Namecheap"]
+keywords: ["邮箱", "selfhosted", "Namecheap"]
 isCJKLanguage: true
 draft: false
 slug: "using-namecheap-email-hosting-service"
 aliases:
   - "/post/using-namecheap-email-hosting-service/"
+icon: 📧
 ---
 
 ## 背景
@@ -34,9 +35,9 @@ Namespace 虽然提供了很详细图文教程，比如如何在 [Cloudflare](ht
 首先最关键的当然是 MX 记录了，这个很好理解，一般设定好 MX 记录等生效后别人给你发邮件基本就可以收到了。
 
 ```bash
-❯ dog gimo.me MX        
-MX gimo.me. 5m00s   10 "mx1.privateemail.com."
-MX gimo.me. 5m00s   10 "mx2.privateemail.com."
+❯ dig +short gimo.me MX
+10 mx1.privateemail.com.
+10 mx2.privateemail.com.
 ```
 
 其中有个 **Priority** 可以设置，这个值越小优先级越高的意思，像是 Google 家 MX 记录可以设置 5 条之多，这里 Namecheap 的应该是比较常规的两条记录。（另外读者可能奇怪为什么记录有没有出现 Namecheap 字样，实际上 privateemail 就是 Namecheap 家的邮箱服务名称）另外记录中的 Host（比如 mx1.privateemail.com.） 必须直接映射 A 或者 AAAA 记录，不过这就不是我们需要关心的问题了。
@@ -46,8 +47,8 @@ MX gimo.me. 5m00s   10 "mx2.privateemail.com."
 这个 SPF（Sender Policy Framework）主要是用来声明发信的服务器是经过我本人授权的，它的假设是只有我本人可以控制 DNS 的记录，既然我在 DNS 里声明了自然代表了我的意志，意思就是声明收到以 gimo.me 结尾的发信人发的信时，去查一查是不是被授权的服务器发来的。那么，按照 Namecheap 的指示，我的记录如下
 
 ```bash
-❯ dog gimo.me TXT
-TXT gimo.me. 5m00s   "v=spf1 include:spf.privateemail.com ~all"
+❯ dig +short gimo.me TXT
+"v=spf1 include:spf.privateemail.com ~all"
 ```
 
 不过这条记录是什么意思呢？查阅了相关资料后
@@ -57,8 +58,8 @@ v 代表版本，include 就是字面意思，就是包括参照 spf.privateemai
 那么我就马上去看一下 include 的这个记录上到底写了啥，结果如下：
 
 ```bash
-❯ dog spf.privateemail.com TXT
-TXT spf.privateemail.com. 30m00s   "v=spf1 ip4:68.65.122.0/27 ip4:198.54.122.32/27 ip4:198.54.127.64/27 ip4:198.54.127.32/27 ip4:198.54.118.192/27 ip4:198.54.122.96/27 ip4:198.54.127.96/27 include:fbrelay.privateemail.com include:se.privateemail.com ~all"
+❯ dig +short spf.privateemail.com TXT
+"v=spf1 include:ips1.privateemail.com include:fbrelay.privateemail.com include:spf-pe.jellyfish.systems ~all"
 ```
 
 ### DKIM 记录
@@ -66,8 +67,8 @@ TXT spf.privateemail.com. 30m00s   "v=spf1 ip4:68.65.122.0/27 ip4:198.54.122.32/
 DKIM (Domain Keys Identified Mail) 这条记录的设置实际上在 Namecheap 的设置教程里并没有出现，不过在它的管理页面确实有这么个功能，他的主要功能是通过[公开密钥加密](https://zh.wikipedia.org/wiki/%E5%85%AC%E5%BC%80%E5%AF%86%E9%92%A5%E5%8A%A0%E5%AF%86)的原理，由邮件服务器用我的私钥对邮件内容进行签名附在邮件的 header 里，当收信服务器收到时就可以用存在我 DNS 记录里的公钥进行验证：
 
 ```bash
-❯ dog default._domainkey.gimo.me TXT
-TXT default._domainkey.gimo.me. 5m00s   "v=DKIM1;k=rsa;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqkiywqUshjuFyQpeCME01I3vi8Z7vR67k/4VSCfaWQJg6cjAfeOB3V8U8pNCI3884cx6PRhlqhMOW9g4zNLMVbREFqa4nRyg9Kmg8Qop87/Pk8Vc3IldzB5m5YlNJy+a/y1KxRC7gq0JTSKXiT7AEXCKXhU1LBiE9S7e1k7lmWQEDkVZJunFyVDVslUlNUFD6qsCWTLxTV6COEmYbMZxWgLAKX/AcYOzRtlYQKh5ZN/IX0JMPTJwhvj3xYQxVVhdjFWSInVIXENEaRcazskFazEHC3n2awk2YQ3L69PsqMd2qPvayh462CkDw54kfPfMbGXfxzxD0mVJxd5CxDX6pQIDAQAB"
+❯ dig +short default._domainkey.gimo.me TXT
+"v=DKIM1;k=rsa;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqkiywqUshjuFyQpeCME01I3vi8Z7vR67k/4VSCfaWQJg6cjAfeOB3V8U8pNCI3884cx6PRhlqhMOW9g4zNLMVbREFqa4nRyg9Kmg8Qop87/Pk8Vc3IldzB5m5YlNJy+a/y1KxRC7gq0JTSKXiT7AEXCKXhU1LBiE9S7e1k7lmWQEDkVZJunFyVDVslUlNUFD6qs" "CWTLxTV6COEmYbMZxWgLAKX/AcYOzRtlYQKh5ZN/IX0JMPTJwhvj3xYQxVVhdjFWSInVIXENEaRcazskFazEHC3n2awk2YQ3L69PsqMd2qPvayh462CkDw54kfPfMbGXfxzxD0mVJxd5CxDX6pQIDAQAB"
 ```
 
 不过，我想了想既然都有 SPF 来保证我的邮件是我授权的服务器发出的，为什么还要多此一举加一个 DKIM 呢？难不成有人用同一个邮件服务商来冒名顶替我发邮件？毕竟我的私钥也是 Namecheap 给生成告知我的，既然我都信得过他们的服务了，这么设置 DKIM 感觉有点儿多此一举。不过我查了其他一些资料得知，据说转发邮件的时候 SPF 验证就会失效了，因为当新的接收者收到邮件时，他去验证发出的服务器显然不是我最初指定的授权服务器了，这时他可以通过在 header 里的 DKIM 签名来验证确实是我授权发出的。这样一来两道保障确实是说得通的，一来保障发出的服务器是经过授权的，二来邮件的内容是没有篡改的。
@@ -77,21 +78,21 @@ TXT default._domainkey.gimo.me. 5m00s   "v=DKIM1;k=rsa;p=MIIBIjANBgkqhkiG9w0BAQE
 DMARC (Domain-based Message Authentication, Reporting and Conformance) 这条记录的名字虽然看着复杂，不过有了上面两条的铺垫，这个就比较好理解了，因为这条记录的前提是前面两条记录 SPF 和 DKIM。作用大体是是定义如果上面两种验证的结果没有通过的话，接收到邮件的服务器可以采取什么样的手段。这里就不展开讲各种配置的作用，我们可以看看各大邮件提供商是如何配置的
 
 ```bash
-❯ dog _dmarc.gmail.com TXT
-TXT _dmarc.gmail.com. 10m00s   "v=DMARC1; p=none; sp=quarantine; rua=mailto:mailauth-reports@google.com"
+❯ dig +short _dmarc.gmail.com TXT
+"v=DMARC1; p=none; sp=quarantine; rua=mailto:mailauth-reports@google.com"
 
-❯ dog _dmarc.163.com TXT             
-TXT _dmarc.163.com. 30m00s   "v=DMARC1; p=none;"
+❯ dig +short _dmarc.163.com TXT
+"v=DMARC1; p=none;"
 
-❯ dog _dmarc.qq.com TXT 
-TXT _dmarc.qq.com. 1h00m00s   "v=DMARC1; p=none; rua=mailto:mailauth-reports@qq.com"
+❯ dig +short _dmarc.qq.com TXT
+"v=DMARC1; p=quarantine; rua=mailto:mailauth-reports@qq.com"
 ```
 
 基本都是比较宽松的，p 代表的是 policy 都是 none，sp 代表的是 subdomain 的 policy，而 rua 则代表发送 aggregate 报告到指定邮箱。我就依葫芦画瓢整一个类似的基本就可以了。
 
 ```bash
-❯ dog _dmarc.gimo.me TXT  
-TXT _dmarc.gimo.me. 5m00s   "v=DMARC1; p=none; rua=mailto:mailauth-reports@gimo.me"
+❯ dig +short _dmarc.gimo.me TXT
+"v=DMARC1; p=none; rua=mailto:mailauth-reports@gimo.me"
 ```
 
 ### 其他 DNS 记录
