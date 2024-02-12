@@ -21,6 +21,8 @@ layout: single
 
 - Telegram: https://telegram.me/yuanji
 
+- Bluesky: https://bsky.app/profile/yuanji.dev
+
 - 我的母语是中文
 
 ## About this site
