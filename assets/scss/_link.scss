@@ -57,4 +57,9 @@ a.external-link {
   &[href*="wikipedia.org"] {
     @include link-icon(url("/icons/wikipedia.svg"));
   }
+
+  &[href*="bsky.app"],
+  &[href*="bsky.social"] {
+    @include link-icon(url("/icons/bluesky.svg"));
+  }
 }
