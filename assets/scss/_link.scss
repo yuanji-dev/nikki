@@ -62,4 +62,8 @@ a.external-link {
   &[href*="bsky.social"] {
     @include link-icon(url("/icons/bluesky.svg"));
   }
+
+  &[href*="cloudflare.com"] {
+    @include link-icon(url("/icons/cloudflare.svg"));
+  }
 }
