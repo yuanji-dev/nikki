@@ -66,4 +66,9 @@ a.external-link {
   &[href*="cloudflare.com"] {
     @include link-icon(url("/icons/cloudflare.svg"));
   }
+
+  &[href*="amazon.com"],
+  &[href*="amazon.co.jp"] {
+    @include link-icon(url("/icons/amazon.svg"));
+  }
 }

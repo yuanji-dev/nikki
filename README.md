@@ -1,9 +1,10 @@
 # Yuanji's Blog
 
-共计 96 篇
+共计 97 篇
 
 ## 2024
-- 02-19 [将域名跳转到 Bluesky 主页](content/posts/将域名跳转到Bluesky主页/index.md)
+- 02-24 [日亚 Kindle 书店漫游指南（Kindle Unlimited 篇）](content/posts/日亚Kindle书店漫游指南（Kindle_Unlimited篇）/index.md)
+- 02-18 [将域名跳转到 Bluesky 主页](content/posts/将域名跳转到Bluesky主页/index.md)
 - 02-12 [Bluesky 初体验](content/posts/Bluesky初体验/index.md)
 - 02-03 [第一次使用电视机录画功能](content/posts/第一次使用电视机录画功能/index.md)
 - 01-13 [使用 Obsidian 的一年](content/posts/使用Obsidian的一年/index.md)
