@@ -33,8 +33,10 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 
-# 安装 AstroNvim 本体
-git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+# 安装 AstroNvim 默认配置
+git clone --depth 1 https://github.com/AstroNvim/template ~/.config/nvim
+rm -rf ~/.config/nvim/.git
+# 启动 Neovim
 nvim
 ```
 
@@ -44,18 +46,16 @@ nvim
 
 配置方面，比起直接对 Neovim 及自己安装的插件进行配置，转而对 AstroNvim 这个发行版进行配置显得容易很多，虽说自由度会有所下降，但是个人感觉更加有条理方便管理。以前那些直接从插件官网 copy & paste 默认配置，哪天突然用不了的窘境想必会相应减少，因为这部分就有发行版 AstroNvim 以及社区去解决了，我作为用户就主要时不时盯一下 AstroNvim 它的更新日志就好。
 
-要配置 AstroNvim，或者说改变一些 AstroNvim 的默认行为，可以把配置文件放置于 `~/.config/nvim/lua/user` 或者 `~/.config/astronvim/lua/user`。我个人更倾向于使用后者完全独立的目录，我使用的 dotfiles 管理软件 chezmoi 也更容易管理。
+要配置 AstroNvim，或者说改变一些 AstroNvim 的默认行为，可以修改位于 `~/.config/nvim` 的配置文件。AstroNvim 官方为了降低配置的门槛，安装的时候其实就已经拷贝了一份[默认的配置文件](https://github.com/AstroNvim/template)，参考[官网的文档](https://docs.astronvim.com/#-configuration)在此基础上微调即可。
 
-另外，AstroNvim 官方为了降低配置的门槛，甚至专门有 [user_example](https://github.com/AstroNvim/user_example) 这么个 repo 作为配置文件的示例，我也就不另起炉灶，直接拿来用了。所有可配置的选项可以查看 [Available User Options](https://astronvim.com/Configuration/config_options) 这份文档。值得注意的是所有配置你可以选择放在单文件里，也可以分别放在不同的细分文件中。
-
-如果你对我的配置文件感兴趣，可以查看[我的 dotfiles](https://github.com/masakichi/dotfiles/tree/main/home/dot_config/astronvim/lua/user)
+如果你对我的配置文件感兴趣，可以查看[我的 dotfiles](https://github.com/masakichi/dotfiles/tree/main/home/dot_config/nvim)
 
 ## 社区支持
 
 上面提到的配置主要针对 AstroNvim 本身行为的配置，除此之外另一大配置的对象就是插件（无论是 AstroNvim 本体自带的插件，还是用户自己选择安装的插件）。AstroNvim 用来管理插件的插件是 [lazy.nvim](https://github.com/folke/lazy.nvim)，借助它，管理插件变得简单又有条理。就像我上面说的像我这样的普通玩家很多插件直接用默认配置就好，AstroNvim 估计也考虑到了这一点，于是就有 [AstroNvim/astrocommunity](https://github.com/AstroNvim/astrocommunity) 这个仓库专门收集志愿者提供的插件配置文件。所以如果你有需要使用额外的什么插件不如看看是不是社区已经有人配置好了。对我而言，其实并不需要本体以外的太多插件，不过也为了尝个鲜，拿配色的插件 tokyonight-nvim 试了试。
 
 ```lua
--- ~/.config/astronvim/lua/user/plugins/community.lua
+-- ~/.config/nvim/lua/community.lua
 return {
   -- Add the community repository of plugin specifications
   "AstroNvim/astrocommunity",
