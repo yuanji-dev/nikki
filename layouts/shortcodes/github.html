@@ -1,16 +1,23 @@
 {{ $repo := .Get "repo" }}
-{{ $detail := getJSON "https://api.github.com/repos/" $repo }}
-<div class="sc-card">
-  <a href="https://github.com/{{ $repo }}" target="_blank" rel="noopener">
-    <div>
-      <img alt="{{ $repo }}" src="https://opengraph.githubassets.com/1/{{ $repo }}" />
+{{ $repoUrl := (printf "%s%s" "https://api.github.com/repos/" $repo) }}
+{{ with resources.GetRemote $repoUrl }}
+  {{ with .Err }}
+    {{ errorf "%s" . }}
+  {{ else }}
+    {{ $data := . | transform.Unmarshal }}
+    <div class="sc-card">
+      <a href="https://github.com/{{ $repo }}" target="_blank" rel="noopener">
+        <div>
+          <img alt="{{ $repo }}" src="https://opengraph.githubassets.com/1/{{ $repo }}" />
+        </div>
+        <div class="sc-card-content">
+          <p class="sc-card-title">{{ $repo }}</p>
+          <p class="sc-card-details">{{ $data.description }}</p>
+          <span>github.com</span>
+        </div>
+      </a>
     </div>
-    <div class="sc-card-content">
-      <p class="sc-card-title">{{ .Get "repo" }}</p>
-      {{ with $detail -}}
-        <p class="sc-card-details">{{ .description }}</p>
-      {{- end }}
-      <span>github.com</span>
-    </div>
-  </a>
-</div>
+  {{ end }}
+{{ else }}
+  {{ errorf "Unable to get remote resource %q" $repoUrl }}
+{{ end }}

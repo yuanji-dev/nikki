@@ -39,6 +39,6 @@ layout: single
 
 本站使用 [Hugo](https://gohugo.io/) 生成，部署在 [Cloudflare Pages](https://pages.cloudflare.com/) 上。
 
-{{% details "点击查看本站主题" %}}
+{{< details "点击查看本站主题" >}}
 {{< github repo="masakichi/futu" >}}
-{{% /details %}}
+{{< /details >}}
