@@ -21,4 +21,4 @@ url: /remarks/2023-02-04/
 
 ![2023/01 博客访问量统计](umami_202301.png)
 
-这个统计的功能是我用 [umami](https://umami.is/) 自建的，搭建在自己的服务器上，好处大概是比较简单而且可以很好地绕过浏览器去广告插件的规则，所以这个数据应该是比较可信的。另外它可以生成一个公共的页面，感兴趣的朋友可以查看详情：[Yuanji's Blog 访问统计](https://uma.gimo.me/share/JdzqlJyb/Yuanji's%20Blog)
+这个统计的功能是我用 [umami](https://umami.is/) 自建的，搭建在自己的服务器上，好处大概是比较简单而且可以很好地绕过浏览器去广告插件的规则，所以这个数据应该是比较可信的。另外它可以生成一个公共的页面，感兴趣的朋友可以查看详情：[Yuanji's Blog 访问统计](https://uma.yuanji.dev/share/JdzqlJyb/Yuanji's%20Blog)
