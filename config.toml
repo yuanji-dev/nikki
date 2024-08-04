@@ -1,4 +1,4 @@
-baseURL = "https://blog.gimo.me"
+baseURL = "https://blog.yuanji.dev"
 defaultContentLanguage = "zh-cn"       # https://github.com/gohugoio/hugo/issues/7344
 defaultContentLanguageInSubdir = false
 buildDrafts = true
@@ -50,11 +50,11 @@ disqusShortname = "gimome"       # disqus_shortname
   telegramChannel = "yuanji_chan"
 
 [params.social]
-  twitter = "gimo_me"
+  twitter = "yuanji_dev"
 
 [params.author]
   name = "Yuanji"
-  url = "https://blog.gimo.me"
+  url = "https://blog.yuanji.dev"
 
 [params.git]
   repo = "https://github.com/masakichi/nikki"
