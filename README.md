@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 99 篇
+共计 100 篇
 
 ## 2024
+- 08-04 [介绍我最近做的新网站「日语迷.com」](content/posts/介绍我最近做的新网站「日语迷.com」/index.md)
 - 06-09 [开始迷上 VTuber](content/posts/开始迷上VTuber/index.md)
 - 03-02 [使用 MXroute 的域名邮箱托管服务](content/posts/使用MXroute的域名邮箱托管服务/index.md)
 - 02-24 [日亚 Kindle 书店漫游指南（Kindle Unlimited 篇）](content/posts/日亚Kindle书店漫游指南（Kindle_Unlimited篇）/index.md)
