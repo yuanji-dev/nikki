@@ -28,10 +28,7 @@ layout: single
 
 - Telegram: [@yuanji](https://t.me/yuanji)
 - Telegram Channel: [@yuanji_chan](https://t.me/yuanji_chan)
-- Email: [self@gimo.me](mailto:self@gimo.me?subject=关于...&body=你好，元吉)
-- Bluesky: [@yuanji.dev](https://bsky.app/profile/yuanji.dev)
-- Twitter: [@gimo_me](https://twitter.com/intent/follow?screen_name=gimo_me)
-- Douban: [@masakichi](https://www.douban.com/people/masakichi)
+- X: [@yuanji_dev](https://x.com/intent/follow?screen_name=yuanji_dev)
 
 ## 关于本站
 

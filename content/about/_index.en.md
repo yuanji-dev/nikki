@@ -17,11 +17,11 @@ layout: single
 
 - PGP: 0xE8D79E63E3D142F3
 
-- Email: self@gimo.me
+- Telegram: [@yuanji](https://t.me/yuanji)
 
-- Telegram: https://telegram.me/yuanji
+- Telegram Channel: [@yuanji_chan](https://t.me/yuanji_chan)
 
-- Bluesky: https://bsky.app/profile/yuanji.dev
+- X: [@yuanji_dev](https://x.com/intent/follow?screen_name=yuanji_dev)
 
 - 我的母语是中文
 
