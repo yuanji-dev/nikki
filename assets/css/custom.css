@@ -1,0 +1,25 @@
+.box-008 {
+  display: flex;
+  align-items: center;
+  grid-gap: 0 0.7em;
+  margin: 1em auto 0;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: #ecffe9;
+  color: #333333;
+}
+
+.box-008::before {
+  width: 16px;
+  height: 8px;
+  border-bottom: 3px solid #86d67c;
+  border-left: 3px solid #86d67c;
+  transform: rotate(-45deg) translate(2.5px, -2.5px);
+  content: "";
+}
+
+.box-008 p {
+  margin: 0;
+  padding: 0 0 0 0.7em;
+  border-left: 1px solid #86d67c;
+}

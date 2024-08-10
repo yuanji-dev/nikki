@@ -14,6 +14,12 @@ layout: single
 
 ## 关于我
 
+{{% blog-box %}}
+对日语或者日本感兴趣？欢迎前往我的新网站
+<a href="https://riyumi.com" target="_blank" rel="noopener" data-umami-event="about-page-riyumi">日语迷.com</a>
+阅读更多 🚀
+{{% /blog-box %}}
+
 亲爱的读者你好，我是元吉。
 
 1993 年出生，来自中国江苏。

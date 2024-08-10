@@ -3,8 +3,6 @@ title: "介绍我最近做的新网站「日语迷.com」"
 createDate: 2024-08-04T13:41:54+09:00
 publishDate: 2024-08-04T14:31:11+09:00
 draft: false
-tags: ["日语", "日本"]
-keywords: ["日语", "日本"]
 slug: "introduction-of-riyumi-com"
 icon: 🚀
 ---

@@ -1,0 +1,32 @@
+{{ define "main" -}}
+  <article>
+    <header>
+      <h1>{{ .Title }}</h1>
+      {{- partial "meta.html" . -}}
+    </header>
+    {{ if (.Params.toc | default (.Site.Params.toc | default false )) }}
+      {{ with .TableOfContents }}
+        {{ if ne . "<nav id=\"TableOfContents\"></nav>" }}
+          <details id="TableOfContentsWrapper">
+            <summary>{{ i18n "TOC" }}</summary>
+            {{ . }}
+          </details>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ if or (in .Params.tags "日语") (in .Params.tags "日本") }}
+      <div class="box-008">
+        <p>
+          对日语或者日本感兴趣？欢迎前往我的新网站
+          <a href="https://riyumi.com" target="_blank" rel="noopener" data-umami-event="banner-riyumi">日语迷.com</a>
+          阅读更多 🚀
+        </p>
+      </div>
+    {{ end }}
+    {{ .Content }}
+    <hr />
+    {{- partial "share_buttons.html" . -}}
+    {{- partial "related.html" . -}}
+    {{- partial "disqus.html" . -}}
+  </article>
+{{- end }}
