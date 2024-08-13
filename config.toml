@@ -11,8 +11,11 @@ enableGitInfo = true
 hasCJKLanguage = true            # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 10                    # 首页每页显示的文章数
 timeout = "300s"
-disqusShortname = "gimome"       # disqus_shortname
 # googleAnalytics = "G-YL6RBN684E"
+
+[services]
+  [services.disqus]
+    shortname = 'gimome'
 
 [permalinks]
   remarks = '/:section/:year-:month-:day/'
