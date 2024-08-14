@@ -39,7 +39,7 @@ icon: 💻
 
 另外值得一提的是我没有使用商家自带的 Arch，而是挂了 Live CD 自己重新装的，我甚至用 cryptsetup 给系统盘加了密，稍微麻烦一点儿的是每次重启需要用 SSH 输入一下解密的密码。
 
-感兴趣的朋友可以参考一下我之前写的脚本： [Install Arch Linux on VPS with Encrypted System Partition](https://gist.github.com/masakichi/3ef03fe422ae102fdfe8a4a3015149fb)，如果你有安装过 Arch 的经验，稍微修改下应该就能用。
+感兴趣的朋友可以参考一下我之前写的脚本： [Install Arch Linux on VPS with Encrypted System Partition](https://gist.github.com/yuanji-dev/3ef03fe422ae102fdfe8a4a3015149fb)，如果你有安装过 Arch 的经验，稍微修改下应该就能用。
 
 另外如果商家没有提供基于 Arch 的 Live CD 的话，可以参考下 [tokland/arch-bootstrap: Bootstrap a base Arch Linux system](https://github.com/tokland/arch-bootstrap) 这个项目如何用其他系统安装 Arch。
 

@@ -12,7 +12,7 @@ aliases:
 
 ## 缘起
 
-相信不少人跟我一样使用 GitHub 来托管博客的源文件，用 [Hugo](https://gohugo.io/) 来生成静态的 HTML 页面，然后用 GitHub Pages 也好其他什么服务也好来展示自己的博客，最终的成品就像你现在看到的这个网址是 blog.gimo.me 开头的页面。很少有读者会去关心这个博客背后的文件都存放在哪，不过作为这个博客的作者，时不时地还是会去它的 [GitHub 仓库地址](https://github.com/masakichi/nikki)看一看，一直以来有一个让人不爽的地方是这个 GitHub 仓库没有一个 README.md 文件，也就是说打开这个仓库的页面有种很突兀的感觉，什么介绍也没有，就像下面的 gif 里显示的那样。
+相信不少人跟我一样使用 GitHub 来托管博客的源文件，用 [Hugo](https://gohugo.io/) 来生成静态的 HTML 页面，然后用 GitHub Pages 也好其他什么服务也好来展示自己的博客，最终的成品就像你现在看到的这个网址是 blog.gimo.me 开头的页面。很少有读者会去关心这个博客背后的文件都存放在哪，不过作为这个博客的作者，时不时地还是会去它的 [GitHub 仓库地址](https://github.com/yuanji-dev/nikki)看一看，一直以来有一个让人不爽的地方是这个 GitHub 仓库没有一个 README.md 文件，也就是说打开这个仓库的页面有种很突兀的感觉，什么介绍也没有，就像下面的 gif 里显示的那样。
 
 <!--more-->
 
@@ -74,4 +74,4 @@ readme:
 
 ## 最后
 
-所以，理论上不仅可以生成 md 文件，生成 JSON 甚至 EPUB 之类的应该也都不在话下，写好对应的生成逻辑就行。对于本文提到的生成 md 的方法包含在这个 [e33412b](https://github.com/masakichi/nikki/commit/e33412b7e76eaec9fa65f1bbc64e802a09f8ab10) commit 中，感兴趣的朋友可以参考。也欢迎到[本博客的源文件仓库](https://github.com/masakichi/nikki)看看。
+所以，理论上不仅可以生成 md 文件，生成 JSON 甚至 EPUB 之类的应该也都不在话下，写好对应的生成逻辑就行。对于本文提到的生成 md 的方法包含在这个 [e33412b](https://github.com/yuanji-dev/nikki/commit/e33412b7e76eaec9fa65f1bbc64e802a09f8ab10) commit 中，感兴趣的朋友可以参考。也欢迎到[本博客的源文件仓库](https://github.com/yuanji-dev/nikki)看看。

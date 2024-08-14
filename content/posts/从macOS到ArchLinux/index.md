@@ -111,7 +111,7 @@ NotoSansMono-Regular.ttf: "Noto Sans Mono" "Regular"
 
 ### 配置文件管理
 
-之前在 Arch Linux CN 的讨论群里看到 farseerfc 桑翻译的《[使用 GNU stow 管理你的點文件](https://farseerfc.me/using-gnu-stow-to-manage-your-dotfiles.html)》非常好用，我在这里就不用冗述了。直接贴一下我自己的 dotfiles 仓库好了 https://github.com/masakichi/dotfiles ， `git clone` 之后，直接 `./bootstrap.sh` 一下就配置好了。因为使用了 git 来管理配置文件，对于不同的电脑的细微配置区别，使用不同的分支就行了。
+之前在 Arch Linux CN 的讨论群里看到 farseerfc 桑翻译的《[使用 GNU stow 管理你的點文件](https://farseerfc.me/using-gnu-stow-to-manage-your-dotfiles.html)》非常好用，我在这里就不用冗述了。直接贴一下我自己的 dotfiles 仓库好了 https://github.com/yuanji-dev/dotfiles ， `git clone` 之后，直接 `./bootstrap.sh` 一下就配置好了。因为使用了 git 来管理配置文件，对于不同的电脑的细微配置区别，使用不同的分支就行了。
 
 ## (Arch) Linux 使用感受
 

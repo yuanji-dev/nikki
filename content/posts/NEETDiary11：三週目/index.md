@@ -19,7 +19,7 @@ aliases:
 - 研究字体如何渲染、如何制作。（写了两篇介绍的日记，这里就不多说了）
 - 看了好几集 Netflix 的纪录片，其中有个讲记忆力的印象比较深刻，于是自己写了个爬虫做了一个日本艺人的头像姓名卡包。甚至第一次用日文投了次稿说明了一下事情经纬，反响和在豆瓣投稿差不多。见：[我、日本人顔暗記開始了 - Qiita](https://qiita.com/gimo/items/a1f5be8a7e6da03a9b49)
 - 研究如何从日文文章里抽出文法，没有实际做，不过找到个 https://jreadability.net/ 这个网站和我想做的差不多。
-- 从森博嗣的散文中毕业，总共读了 8 本他的散文，感兴趣的朋友可以看[我读过的书](https://book.douban.com/people/masakichi/collect)里面挑一两本读一读，我觉得肯定没啥坏处。 
+- 从森博嗣的散文中毕业，总共读了 8 本他的散文，感兴趣的朋友可以看[我读过的书](https://book.douban.com/people/yuanji-dev/collect)里面挑一两本读一读，我觉得肯定没啥坏处。 
 - 其他就是看电子书，目前在读有三本 [The Go Programming Language](https://book.douban.com/subject/26337545/)  [CJKV Information Processing ](https://book.douban.com/subject/3404546/) [人工知能は人間を超えるか ディープラーニングの先にあるもの](https://book.douban.com/subject/26835618/) 
 
 接下来我把人脸记忆和从日文里抽出文法的词汇、文法的事情详细说一下。

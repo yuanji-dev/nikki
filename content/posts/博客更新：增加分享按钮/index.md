@@ -48,7 +48,7 @@ icon: 📝
 2. 添加缺失的服务，比如豆瓣和 Pocket，除了需要跟上面一样获得 Logo 和配色之外，还需要构造分享的 URL，比如豆瓣的像是这样：`https://www.douban.com/share/service/?href={{ .Permalink }}&amp;name={{ .Title }}`，各家虽然名称不尽相同，但基本都是需要提供链接和一个可选的标题就行。
 3. 最后可选的一步就是清理一下最初生成的 HTML 和 CSS，我甚至把 CSS 转写成了 SCSS 以保持本博客主题样式的一贯性。
 
-代码虽然不复杂但是稍微有点冗长，感兴趣的朋友可以直接参考 [feat: add share buttons for post · masakichi/futu@1ce5993](https://github.com/masakichi/futu/commit/1ce599375e66e524e54f9fb810e9ce315e409b27) 主题仓库里这个 commit。其实也许可以做得更灵活一些，比如支持在 Hugo 可以按需配置生成分享按钮，不过目前的功能已经够我自已用了。
+代码虽然不复杂但是稍微有点冗长，感兴趣的朋友可以直接参考 [feat: add share buttons for post · yuanji-dev/futu@1ce5993](https://github.com/yuanji-dev/futu/commit/1ce599375e66e524e54f9fb810e9ce315e409b27) 主题仓库里这个 commit。其实也许可以做得更灵活一些，比如支持在 Hugo 可以按需配置生成分享按钮，不过目前的功能已经够我自已用了。
 
 ## 在 Hugo 中启用分享按钮
 

@@ -14,7 +14,7 @@ icon: 🚀
 
 这篇文章就主要来介绍我在上次博客主题的基础上做了哪些优化。想直接看代码的朋友请移步：
 
-{{< github repo="masakichi/futu" >}}
+{{< github repo="yuanji-dev/futu" >}}
 
 <!--more-->
 
@@ -30,7 +30,7 @@ icon: 🚀
 
 不过要我从头开始写一套没有太多违和感的主题，哪怕就是一个简单的博客，对于现在的我来说难度也颇高。于是有一类叫作 Classless 的 CSS 样式很好地填补了这块空白，既不会像成熟的 CSS 框架动辄上百 KB，也不至于需要从头开始写样式。
 
-正如名字所暗示的样子就是不需要在 HTML 的标签中插入任何 class，这一特性与我这个主要就是通过 Markdown 转换成 HTML 的静态博客非常契合（想想用 Bootstrap 的时候我为了给由 Markdown 渲染出的 table 标签加上相应的类名做了[多大的努力](https://github.com/masakichi/futu/blob/v1.0.0/layouts/shortcodes/table.html)），甚至不难想象哪天要是想换换主题风格只需要简单地替换到唯一的 CSS 文件即可。
+正如名字所暗示的样子就是不需要在 HTML 的标签中插入任何 class，这一特性与我这个主要就是通过 Markdown 转换成 HTML 的静态博客非常契合（想想用 Bootstrap 的时候我为了给由 Markdown 渲染出的 table 标签加上相应的类名做了[多大的努力](https://github.com/yuanji-dev/futu/blob/v1.0.0/layouts/shortcodes/table.html)），甚至不难想象哪天要是想换换主题风格只需要简单地替换到唯一的 CSS 文件即可。
 
 如果你对 Classless CSS 感兴趣，可以看看下面我收集的一些：
 
@@ -134,7 +134,7 @@ icon: 🚀
   quality = 75
 ```
 
-另外有一点需要注意的是如果原图是 GIF，转成 WebP 之后动画会失效，所以我[加了一个判断](https://github.com/masakichi/futu/commit/376802df052bb7c83b216734079ce6dd872e8804)，如果是动图的话就不转换直接用原图了。
+另外有一点需要注意的是如果原图是 GIF，转成 WebP 之后动画会失效，所以我[加了一个判断](https://github.com/yuanji-dev/futu/commit/376802df052bb7c83b216734079ce6dd872e8804)，如果是动图的话就不转换直接用原图了。
 
 ## Disqus & Google Analytics
 

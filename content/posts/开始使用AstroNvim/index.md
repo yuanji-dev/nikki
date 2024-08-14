@@ -48,7 +48,7 @@ nvim
 
 要配置 AstroNvim，或者说改变一些 AstroNvim 的默认行为，可以修改位于 `~/.config/nvim` 的配置文件。AstroNvim 官方为了降低配置的门槛，安装的时候其实就已经拷贝了一份[默认的配置文件](https://github.com/AstroNvim/template)，参考[官网的文档](https://docs.astronvim.com/#-configuration)在此基础上微调即可。
 
-如果你对我的配置文件感兴趣，可以查看[我的 dotfiles](https://github.com/masakichi/dotfiles/tree/main/home/dot_config/nvim)
+如果你对我的配置文件感兴趣，可以查看[我的 dotfiles](https://github.com/yuanji-dev/dotfiles/tree/main/home/dot_config/nvim)
 
 ## 社区支持
 

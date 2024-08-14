@@ -110,4 +110,4 @@ IFS=""
 
 ## 最后
 
-后来我又问了几次，他又给了几种方案，比如用 `printf` 处理字符串等等。不过，我觉得这个用 `IFS` 方法看着顺眼，就采用了这一方案。代码成品可见：[masakichi/nikki@c970d57](https://github.com/masakichi/nikki/commit/c970d57c7b7138d61f500004ef28ad2cc16026e0)
+后来我又问了几次，他又给了几种方案，比如用 `printf` 处理字符串等等。不过，我觉得这个用 `IFS` 方法看着顺眼，就采用了这一方案。代码成品可见：[yuanji-dev/nikki@c970d57](https://github.com/yuanji-dev/nikki/commit/c970d57c7b7138d61f500004ef28ad2cc16026e0)

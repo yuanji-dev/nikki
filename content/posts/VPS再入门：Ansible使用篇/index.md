@@ -80,7 +80,7 @@ users:
   authorized_key:
     user: yuanji
     state: present # absent 可以确保公钥不在 authorized_key 文件里
-    key: https://github.com/masakichi.keys # 当然也可以用本地的文件
+    key: https://github.com/yuanji-dev.keys # 当然也可以用本地的文件
 ```
 
 总而言之，Ansible 里已经内置了五花八门的模块供使用，基本能够满足日常的需求。我们要做的就是尽量写出满足幂等性要求的 Playbook（Ansible 的术语，就是书写一系列指令的地方）。

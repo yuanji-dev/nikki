@@ -115,7 +115,7 @@ Softlayer, HongKong, CN         119.81.130.170          9.04MB/s
 
 ### shirokumacafe
 
-项目地址：https://github.com/masakichi/shirokumacafe
+项目地址：https://github.com/yuanji-dev/shirokumacafe
 
 这个是我自己写的一个 Python 小程序，用 pipenv 管理依赖，用 systemd 的 timer 定时发送豆瓣广播。地址在 https://www.douban.com/people/shirokumacafe/statuses 这里。因为估计只有我自己部署使用，这里就不多介绍了。
 

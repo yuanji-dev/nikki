@@ -64,7 +64,7 @@ OP 和 ED 出现概率高的原因是因为他们每集都有嘛，简单得改�
 
 {{< admonition primary "提示" >}}
 
-附项目地址： https://github.com/masakichi/shirokumacafe
+附项目地址： https://github.com/yuanji-dev/shirokumacafe
 
 {{< /admonition >}}
 

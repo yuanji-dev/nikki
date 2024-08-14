@@ -98,8 +98,8 @@ icon: 📅
 
 代码在此就不一一解释了，总之整个月历功能的实现，我都包含在下面两个 commit 里了，有需要可以自行查看。
 
-- [feat(theme): add calendar page for posts · masakichi/nikki@cc5f4cc](https://github.com/masakichi/nikki/commit/cc5f4cc952a590872bb881528e7122ab921dce7c)
-- [feat: hide draft page in all list pages · masakichi/futu@3499b50](https://github.com/masakichi/futu/commit/3499b50742ef4e0ebc376e12d6f7331761a74d8f)
+- [feat(theme): add calendar page for posts · yuanji-dev/nikki@cc5f4cc](https://github.com/yuanji-dev/nikki/commit/cc5f4cc952a590872bb881528e7122ab921dce7c)
+- [feat: hide draft page in all list pages · yuanji-dev/futu@3499b50](https://github.com/yuanji-dev/futu/commit/3499b50742ef4e0ebc376e12d6f7331761a74d8f)
 
 ## 总结
 

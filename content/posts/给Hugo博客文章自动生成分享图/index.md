@@ -33,7 +33,7 @@ aliases:
 
 ## tcardgen
 
-既然在线的不行，又找了找离线的工具，运气不错还真被我找到一个，这个项目叫 [tcardgen](https://github.com/Ladicle/tcardgen)，巧的是这个开发者也是用的 Hugo 作为博客的生成器，原理也不复杂，首先是提供一张模板图片，然后程序读取文章的 [Front Matter](https://gohugo.io/content-management/front-matter/) 部分的元信息，再根据指定的字体和定义的位置、颜色等信息绘制而成。我直接偷懒[魔改一下他的代码](https://github.com/masakichi/tcardgen/commit/f97389031d1c2261fad1674d7a92f56448ffda49)和示例的[模板图片](https://github.com/Ladicle/tcardgen/tree/master/example)就生成了文章最初的本文的分享图。
+既然在线的不行，又找了找离线的工具，运气不错还真被我找到一个，这个项目叫 [tcardgen](https://github.com/Ladicle/tcardgen)，巧的是这个开发者也是用的 Hugo 作为博客的生成器，原理也不复杂，首先是提供一张模板图片，然后程序读取文章的 [Front Matter](https://gohugo.io/content-management/front-matter/) 部分的元信息，再根据指定的字体和定义的位置、颜色等信息绘制而成。我直接偷懒[魔改一下他的代码](https://github.com/yuanji-dev/tcardgen/commit/f97389031d1c2261fad1674d7a92f56448ffda49)和示例的[模板图片](https://github.com/Ladicle/tcardgen/tree/master/example)就生成了文章最初的本文的分享图。
 
 这个工具用法大致如下：
 
@@ -69,6 +69,6 @@ aliases:
 
 ## 最后
 
-既然成功生成了一篇，干脆一不做二不休写个小脚本把之前所有的文章都一并生成封面图了，甚至谈不上脚本，直接打开 ipython，用 glob、subprocess 等几个内置模块写个循环了事。所有改动都浓缩在了 [feat(cover): add cover for all posts · masakichi/nikki@6a03c8e](https://github.com/masakichi/nikki/commit/6a03c8e87c9a0180550c94ed74091b341099d797) 这个 commit 当中。
+既然成功生成了一篇，干脆一不做二不休写个小脚本把之前所有的文章都一并生成封面图了，甚至谈不上脚本，直接打开 ipython，用 glob、subprocess 等几个内置模块写个循环了事。所有改动都浓缩在了 [feat(cover): add cover for all posts · yuanji-dev/nikki@6a03c8e](https://github.com/yuanji-dev/nikki/commit/6a03c8e87c9a0180550c94ed74091b341099d797) 这个 commit 当中。
 
 以上就是这次给博客增加的一点小功能了。说实话写这篇文章着实比生成分享图这件事本身要耗时，笑。

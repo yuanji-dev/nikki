@@ -11,7 +11,7 @@ slug: "creating-a-hugo-theme-3"
 
 这篇文章就主要分享一下给 Hugo 主题适配 AMP 需要做哪些工作。
 
-{{< github repo="masakichi/futu" >}}
+{{< github repo="yuanji-dev/futu" >}}
 
 <!--more-->
 
@@ -108,7 +108,7 @@ AMP 是 Accelerated Mobile Pages 的简称，是由 Google 开发的一项加速
 
 ### 图片处理
 
-基本上通过如上步骤就能完成所有适配了，不过除此之外，官方还有一些推荐项目，图片正是其中之一。普通 HTML 里的图片用 `<img />` 标签，在 AMP 里推荐使用 `<amp-img></amp-img>`，于是创建一个 `layouts/_default/_markup/render-image.amp.html`，内容可以直接看[这里的代码](https://github.com/masakichi/futu/commit/f35ef557418d9cda179f0bbad14b14f842c919a1#diff-b0e53042d9a5d639a5efa85e987b31965c541c73516332373980b3a4065b0992)。
+基本上通过如上步骤就能完成所有适配了，不过除此之外，官方还有一些推荐项目，图片正是其中之一。普通 HTML 里的图片用 `<img />` 标签，在 AMP 里推荐使用 `<amp-img></amp-img>`，于是创建一个 `layouts/_default/_markup/render-image.amp.html`，内容可以直接看[这里的代码](https://github.com/yuanji-dev/futu/commit/f35ef557418d9cda179f0bbad14b14f842c919a1#diff-b0e53042d9a5d639a5efa85e987b31965c541c73516332373980b3a4065b0992)。
 
 ### JSON-LD
 
@@ -143,11 +143,11 @@ AMP 是 Accelerated Mobile Pages 的简称，是由 Google 开发的一项加速
 
 ### 其他
 
-做完以上差不多就可以上线了，但是上线后我用在线工具一检测发现，有一个错误提示引用了一个外部的脚本文件，原来是 Cloudflare 的 Web Analytics 的脚本文件，如果你也用 Cloudflare Pages 部署并开启了这个功能的话，它会在所有 HTML 文档中加入这个脚本，为此我还要在 Pages 里禁用 Web Analytics 功能，然后到 Web Analytics 里手动创建一个新站点，再[修改 Hugo 的模板文件](https://github.com/masakichi/futu/commit/fd064478fcdb8df6ad3750b3c305962eca2fc8ba)让脚本只在非 AMP 页面启用，这样一来就可以顺利通过验证了。
+做完以上差不多就可以上线了，但是上线后我用在线工具一检测发现，有一个错误提示引用了一个外部的脚本文件，原来是 Cloudflare 的 Web Analytics 的脚本文件，如果你也用 Cloudflare Pages 部署并开启了这个功能的话，它会在所有 HTML 文档中加入这个脚本，为此我还要在 Pages 里禁用 Web Analytics 功能，然后到 Web Analytics 里手动创建一个新站点，再[修改 Hugo 的模板文件](https://github.com/yuanji-dev/futu/commit/fd064478fcdb8df6ad3750b3c305962eca2fc8ba)让脚本只在非 AMP 页面启用，这样一来就可以顺利通过验证了。
 
 ## 感想
 
-经过这次的折腾，感觉对于 Hugo 的 [Custom Output Formats](https://gohugo.io/templates/output-formats/) 功能有了更深入的认识，再感受这个功能灵活的同时，也感觉它目前有局限的地方，比如对于 Hugo 的 Page 来说，虽然它提供了 `AlternativeOutputFormats` 和 `OutputFormats` 两个属性，却没有一个方式知道当前的 Page 到底是哪种，只能通过两者去掉交集的方式来变通一下。不过也因此知道了 `partial` 不仅可以作为复用模板的工具，也可以用来[返回自定义的变量](https://github.com/masakichi/futu/commit/736e65d28b8c0fedb0717074d233b83a500a6b0b#diff-0a85521ce8cea9a94875c70b75fee6d50f2faf8f42b55d3c091afffe61e2369f)。
+经过这次的折腾，感觉对于 Hugo 的 [Custom Output Formats](https://gohugo.io/templates/output-formats/) 功能有了更深入的认识，再感受这个功能灵活的同时，也感觉它目前有局限的地方，比如对于 Hugo 的 Page 来说，虽然它提供了 `AlternativeOutputFormats` 和 `OutputFormats` 两个属性，却没有一个方式知道当前的 Page 到底是哪种，只能通过两者去掉交集的方式来变通一下。不过也因此知道了 `partial` 不仅可以作为复用模板的工具，也可以用来[返回自定义的变量](https://github.com/yuanji-dev/futu/commit/736e65d28b8c0fedb0717074d233b83a500a6b0b#diff-0a85521ce8cea9a94875c70b75fee6d50f2faf8f42b55d3c091afffe61e2369f)。
 
 另一方面对于 SEO 有了更多的认识，总的来说就是如何更好地把网站数据更为结构化地让搜索引擎能够读懂。很多新闻网站都是很好的例子，比如 NHK 的新闻就有很好的文档结构，也支持 AMP，从学习这些网站的构造还了解到不少 `head` 里标签的作用。
 

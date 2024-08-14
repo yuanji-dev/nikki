@@ -14,7 +14,7 @@ slug: "creating-a-hugo-theme"
 - [桌面端](preview_web.png)
 - [移动端](preview_mobile.png)
 
-{{< github repo="masakichi/futu" >}}
+{{< github repo="yuanji-dev/futu" >}}
 
 ---
 
@@ -24,7 +24,7 @@ slug: "creating-a-hugo-theme"
 
 于是，借着 Hugo 完善的文档以及上一套主题的代码，正式走上了一条缝合的道路。这篇文章就来介绍一下如何写一个适用于 Hugo 的博客主题。
 
-只想看代码的可以直接移步： https://github.com/masakichi/futu/tree/v1.0.0
+只想看代码的可以直接移步： https://github.com/yuanji-dev/futu/tree/v1.0.0
 
 <!--more-->
 
@@ -330,7 +330,7 @@ body {
 1. 统一使用 `slug` 来定义 URL，之前在 [Front Matter](https://gohugo.io/content-management/front-matter) 里混用了 `url` 和 `slug` 两个字段
 2. 把目录 `post` 改成 `posts`，这样就导致原来博客的所有文章页的地址从 `/post/xxx` 变成了 `/posts/xxx` 了，这么做的主要原因是为了和分类页的 `/tags` `/tags/xxx` 结构保持一致。
 
-1 没有啥好办法，写了句 `sed` 批量处理一下，2 的话有两种方法，我都用上了，首先使用 Hugo 内置的 [Alias 功能](https://gohugo.io/content-management/urls/#aliases)，给所有文章的 Front Matter 里加上 `alias`（写了段 py 脚本简单处理下）。这可以理解为一种软重定向，实现的原理可以看 Hugo 的文档，这种方法的好处是不依赖部署的平台都能实现跳转，坏处是对搜索引擎不太友好似乎。另一种是用我的部署平台 Cloudflare 提供的跳转功能，只需定义一个新旧链接的 Map，放在静态文件目录的 [\_redirects](https://github.com/masakichi/nikki/blob/master/static/_redirects) 文件里。文件内容如下（部分）
+1 没有啥好办法，写了句 `sed` 批量处理一下，2 的话有两种方法，我都用上了，首先使用 Hugo 内置的 [Alias 功能](https://gohugo.io/content-management/urls/#aliases)，给所有文章的 Front Matter 里加上 `alias`（写了段 py 脚本简单处理下）。这可以理解为一种软重定向，实现的原理可以看 Hugo 的文档，这种方法的好处是不依赖部署的平台都能实现跳转，坏处是对搜索引擎不太友好似乎。另一种是用我的部署平台 Cloudflare 提供的跳转功能，只需定义一个新旧链接的 Map，放在静态文件目录的 [\_redirects](https://github.com/yuanji-dev/nikki/blob/master/static/_redirects) 文件里。文件内容如下（部分）
 
 ```txt
 /post/ /posts/ 301

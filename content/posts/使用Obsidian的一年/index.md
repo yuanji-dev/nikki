@@ -64,4 +64,4 @@ icon: 📓
 
 总而言之，保持记录的习惯就是不要考虑太多，不要想着某个想法有没有价值，不要想太多自己的记录方法高不高效，只管记下来再说。对我而言可能经常就是写下几个词语，甚至直接上传一张照片。而通过上述配置后，Obsidian 能帮我安排好其他一切和记录本身无关的琐事。
 
-最后，如果有读者对我上面这个极简的日记方式感兴趣，我直接做了个 [Obsidian Sample Vault](https://codeload.github.com/masakichi/obsidian-sample-vault/zip/refs/heads/main)，下载到本地,解压缩后用 Obsidian 打开即可使用。
+最后，如果有读者对我上面这个极简的日记方式感兴趣，我直接做了个 [Obsidian Sample Vault](https://codeload.github.com/yuanji-dev/obsidian-sample-vault/zip/refs/heads/main)，下载到本地,解压缩后用 Obsidian 打开即可使用。

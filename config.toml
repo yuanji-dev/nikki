@@ -60,7 +60,7 @@ timeout = "300s"
   url = "https://blog.yuanji.dev"
 
 [params.git]
-  repo = "https://github.com/masakichi/nikki"
+  repo = "https://github.com/yuanji-dev/nikki"
   branch = "main"
 
 # See https://gohugo.io/about/hugo-and-gdpr/

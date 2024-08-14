@@ -12,7 +12,7 @@ icon: 💧
 
 没错，自上次重写主题以来，我的博客差不多有一年半没有太大样式上的变化了。如果有读者有读过我[上次那篇折腾博客主题的文章]({{< relref "动手写一个Hugo博客主题（性能篇）" >}})的话，应该知道我的主题主要基于一套 classless 的 CSS 样式，叫作 awsm.css。
 
-然而最近当我想访问 awsm.css 的网站时，竟然发现原作者已经删库跑路了。虽然我有[自己的 fork](https://github.com/masakichi/awsm.css)，但作为一个契机，差不多是时候再折腾一下主题了，毕竟也临近年末了。
+然而最近当我想访问 awsm.css 的网站时，竟然发现原作者已经删库跑路了。虽然我有[自己的 fork](https://github.com/yuanji-dev/awsm.css)，但作为一个契机，差不多是时候再折腾一下主题了，毕竟也临近年末了。
 
 **从结论上而言，我从 awsm.css 转到了 [water.css](https://github.com/kognise/water.css)**
 
