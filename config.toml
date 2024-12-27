@@ -1,5 +1,5 @@
 baseURL = "https://blog.yuanji.dev"
-defaultContentLanguage = "zh-cn"       # https://github.com/gohugoio/hugo/issues/7344
+defaultContentLanguage = "zh-Hans"
 defaultContentLanguageInSubdir = false
 buildDrafts = true
 buildFuture = true
@@ -109,43 +109,42 @@ timeout = "300s"
 
 
 [languages]
-[languages.zh-CN]
+[languages.zh-Hans]
   title = "Yuanji's Blog"
-  languageCode = 'zh-CN'
+  languageCode = 'zh-Hans'
   languageName = '简体中文'
-[languages.zh-CN.params]
+[languages.zh-Hans.params]
   description = "Yuanji's Blog。分享技术、日语，记录学习、生活。"
   # https://github.com/gohugoio/hugo/blob/2fc2e9c8718db2fe60f03bcf3661f449851cfe5f/tpl/tplimpl/embedded/templates/twitter_cards.html
   images = ["cover.png"]
   mainSections = ["posts"]
 # https://gohugo.io/content-management/menus/
-[languages.zh-CN.menu]
-[[languages.zh-CN.menu.main]]
+[[languages.zh-Hans.menu.main]]
   name = "首页"
   weight = 10
   identifier = "home"
   url = "/"
-[[languages.zh-CN.menu.main]]
+[[languages.zh-Hans.menu.main]]
   name = "文章"
   weight = 20
   identifier = "posts"
   url = "/posts/"
-[[languages.zh-CN.menu.main]]
+[[languages.zh-Hans.menu.main]]
   name = "月历"
   weight = 30
   identifier = "calendar"
   url = "/calendar/"
-[[languages.zh-CN.menu.main]]
+[[languages.zh-Hans.menu.main]]
   name = "标签"
   weight = 40
   identifier = "tags"
   url = "/tags/"
-[[languages.zh-CN.menu.main]]
+[[languages.zh-Hans.menu.main]]
   name = "关于"
   weight = 50
   identifier = "about"
   url = "/about/"
-[[languages.zh-CN.menu.main]]
+[[languages.zh-Hans.menu.main]]
   name = "订阅"
   weight = 60
   identifier = "rss"
