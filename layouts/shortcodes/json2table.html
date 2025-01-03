@@ -60,6 +60,11 @@
           {{ if eq $column $pageLink }}
             {{ $page := (partial "link2page.html" $v) }}
             <td><a href="{{- $page.RelPermalink -}}">{{- $page.Title -}}</a></td>
+          {{ else if eq $column "createDate" }}
+            {{ $url := index $row "url" }}
+            {{ $page := (partial "link2page.html" $url) }}
+            {{ $createDate := $page.Date.Format (site.Params.dateFormatToUse | default "2006-01-02") }}
+            <td>{{- $createDate -}}</td>
           {{ else }}
             <td>{{ $v }}</td>
           {{ end }}

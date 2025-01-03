@@ -1,0 +1,12 @@
+[
+  { "views": "21053", "visitors": 11281, "visits": 13002, "bounces": 10730, "totaltime": "785059", "os": "Windows 10" },
+  { "views": "7908", "visitors": 3980, "visits": 4483, "bounces": 3577, "totaltime": "290733", "os": "Mac OS" },
+  { "views": "6737", "visitors": 4039, "visits": 4466, "bounces": 3679, "totaltime": "210989", "os": "Android OS" },
+  { "views": "3216", "visitors": 1608, "visits": 1914, "bounces": 1565, "totaltime": "159021", "os": "Linux" },
+  { "views": "3078", "visitors": 1954, "visits": 2123, "bounces": 1783, "totaltime": "81927", "os": "iOS" },
+  { "views": "140", "visitors": 95, "visits": 101, "bounces": 88, "totaltime": "4491", "os": "Windows 7" },
+  { "views": "26", "visitors": 17, "visits": 18, "bounces": 15, "totaltime": "1940", "os": "Chrome OS" },
+  { "views": "20", "visitors": 15, "visits": 16, "bounces": 14, "totaltime": "104", "os": "Windows 8.1" },
+  { "views": "12", "visitors": 12, "visits": 12, "bounces": 12, "totaltime": "0", "os": "Windows 8" },
+  { "views": "8", "visitors": 8, "visits": 8, "bounces": 8, "totaltime": "0", "os": "Windows Vista" }
+]

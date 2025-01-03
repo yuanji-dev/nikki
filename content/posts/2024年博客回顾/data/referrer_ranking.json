@@ -1,0 +1,12 @@
+[
+  { "views": "9222", "visitors": 2052, "visits": 2433, "bounces": 977, "totaltime": "363207", "referrer": "blog.gimo.me" },
+  { "views": "7088", "visitors": 6258, "visits": 6641, "bounces": 6245, "totaltime": "175110", "referrer": "cn.bing.com" },
+  { "views": "5867", "visitors": 5052, "visits": 5440, "bounces": 5089, "totaltime": "155348", "referrer": "google.com" },
+  { "views": "5055", "visitors": 1263, "visits": 1538, "bounces": 708, "totaltime": "202550", "referrer": "blog.yuanji.dev" },
+  { "views": "2425", "visitors": 2130, "visits": 2260, "bounces": 2115, "totaltime": "59458", "referrer": "bing.com" },
+  { "views": "1147", "visitors": 988, "visits": 1081, "bounces": 1020, "totaltime": "24498", "referrer": "google.com.hk" },
+  { "views": "556", "visitors": 492, "visits": 517, "bounces": 481, "totaltime": "9293", "referrer": "v2ex.com" },
+  { "views": "372", "visitors": 318, "visits": 338, "bounces": 312, "totaltime": "11764", "referrer": "duckduckgo.com" },
+  { "views": "182", "visitors": 149, "visits": 161, "bounces": 146, "totaltime": "5987", "referrer": "github.com" },
+  { "views": "173", "visitors": 104, "visits": 172, "bounces": 171, "totaltime": "11", "referrer": "baidu.com" }
+]

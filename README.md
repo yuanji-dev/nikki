@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 102 篇
+共计 103 篇
 
 ## 2025
+- 01-03 [2024 年博客回顾](content/posts/2024年博客回顾/index.md)
 - 01-01 [在 GMKtec NucBox G3 Plus 上运行 Debian 12](content/posts/在GMKtec_NucBox_G3_Plus上运行Debian12/index.md)
 ## 2024
 - 10-20 [Gotify 介绍和使用指南](content/posts/Gotify介绍和使用指南/index.md)
