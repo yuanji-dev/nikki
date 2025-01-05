@@ -1,3 +1,6 @@
 [submodule "themes/futu"]
 	path = themes/futu
 	url = https://gitlab.com/yuanji/futu
+[submodule "themes/hugo-notice"]
+	path = themes/hugo-notice
+	url = https://github.com/yuanji-dev/hugo-notice

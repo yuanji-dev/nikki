@@ -1,8 +1,10 @@
 # Yuanji's Blog
 
-共计 103 篇
+共计 105 篇
 
 ## 2025
+- 01-05 [博客更新：增加 hugo-notice 功能](content/posts/博客更新：增加hugo-notice功能/index.md)
+- 01-04 [Arch、Debian 包管理工具常用命令速查表](content/posts/Arch、Debian包管理工具常用命令对照表/index.md)
 - 01-03 [2024 年博客回顾](content/posts/2024年博客回顾/index.md)
 - 01-01 [在 GMKtec NucBox G3 Plus 上运行 Debian 12](content/posts/在GMKtec_NucBox_G3_Plus上运行Debian12/index.md)
 ## 2024
