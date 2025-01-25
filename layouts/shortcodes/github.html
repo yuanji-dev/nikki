@@ -1,9 +1,9 @@
 {{ $repo := .Get "repo" }}
 {{ $repoUrl := (printf "%s%s" "https://api.github.com/repos/" $repo) }}
-{{ with resources.GetRemote $repoUrl }}
+{{ with try (resources.GetRemote $repoUrl) }}
   {{ with .Err }}
     {{ errorf "%s" . }}
-  {{ else }}
+  {{ else with .Value }}
     {{ $data := . | transform.Unmarshal }}
     <div class="sc-card">
       <a href="https://github.com/{{ $repo }}" target="_blank" rel="noopener">
@@ -17,7 +17,7 @@
         </div>
       </a>
     </div>
+  {{ else }}
+    {{ errorf "Unable to get remote resource %q" $repoUrl }}
   {{ end }}
-{{ else }}
-  {{ errorf "Unable to get remote resource %q" $repoUrl }}
 {{ end }}
