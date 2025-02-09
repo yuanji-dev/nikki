@@ -38,6 +38,8 @@ Temporary Items
 
 # End of https://www.gitignore.io/api/hugo,macos
 .obsidian
-tcardgen
+tcardgen/*
+!tcardgen/config.yaml
+!tcardgen/template.png
 .hugo_build.lock
 node_modules
