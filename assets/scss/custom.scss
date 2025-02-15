@@ -32,3 +32,27 @@
     color: crimson;
   }
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+
+  .avatar {
+    position: relative;
+    display: inline-block;
+
+    .avatar-img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  h1,
+  p,
+  a {
+    margin: 0;
+  }
+}
