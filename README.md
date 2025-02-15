@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 106 篇
+共计 107 篇
 
 ## 2025
+- 02-15 [博客更新：头部及分享图显示头像等](content/posts/博客更新：头部及分享图显示头像等/index.md)
 - 02-09 [Arch、Debian 包管理工具常用命令速查表](content/posts/Arch、Debian包管理工具常用命令对照表/index.md)
 - 02-05 [斥资 1283 日元定制了一个新头像](content/posts/斥资1283日元定制了一个新头像/index.md)
 - 01-05 [博客更新：增加 hugo-notice 功能](content/posts/博客更新：增加hugo-notice功能/index.md)
