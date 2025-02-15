@@ -10,7 +10,11 @@
   {{ .Site.Params.Since }}-{{ now.Format "2006" }}
   {{ .Site.Author.name }} All Rights Reserved.
   <br />
-  <a target="_blank" rel="noopener" href="https://html5.validator.nu/?doc={{ .Permalink }}&showoutline=yes"
-    ><img src="{{ "html5-validator-badge.svg" | relURL }}" alt="HTML5 Validator" width="48" height="16"
-  /></a>
+  <a target="_blank" rel="noopener" href="https://html5.validator.nu/?doc={{ .Permalink }}&showoutline=yes">
+    <img
+      loading="lazy"
+      alt="W3C Validation"
+      src="https://img.shields.io/w3c-validation/html?targetUrl={{ .Permalink }}&style=flat-square"
+    />
+  </a>
 </p>
