@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 107 篇
+共计 108 篇
 
 ## 2025
+- 03-20 [在 macOS 上快速搭建 SQL 运行环境（以 MariaDB 和 PostgreSQL 为例）](content/posts/在macOS上快速搭建SQL运行环境（以MariaDB和PostgreSQL为例）/index.md)
 - 02-15 [博客更新：头部及分享图显示头像等](content/posts/博客更新：头部及分享图显示头像等/index.md)
 - 02-09 [Arch、Debian 包管理工具常用命令速查表](content/posts/Arch、Debian包管理工具常用命令对照表/index.md)
 - 02-05 [斥资 1283 日元定制了一个新头像](content/posts/斥资1283日元定制了一个新头像/index.md)
