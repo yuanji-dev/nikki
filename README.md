@@ -1,8 +1,9 @@
 # Yuanji's Blog
 
-共计 109 篇
+共计 110 篇
 
 ## 2025
+- 10-04 [2025 年秋漠河见闻](content/posts/2025年秋漠河见闻/index.md)
 - 08-24 [介绍我最近上线的社区网站「在留.jp」](content/posts/介绍我最近上线的社区网站「在留.jp」/index.md)
 - 03-20 [在 macOS 上快速搭建 SQL 运行环境（以 MariaDB 和 PostgreSQL 为例）](content/posts/在macOS上快速搭建SQL运行环境（以MariaDB和PostgreSQL为例）/index.md)
 - 02-15 [博客更新：头部及分享图显示头像等](content/posts/博客更新：头部及分享图显示头像等/index.md)
